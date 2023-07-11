@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_skjdICIVEeypCa6Yz6OHCw" name="Use Case Scenario">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_srt1ECIVEeypCa6Yz6OHCw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_Qy7T0CIWEeypCa6Yz6OHCw" name="Hiring Support System">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_yAFcQCIWEeypCa6Yz6OHCw" name="submit request for new hire"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_71h3YCIWEeypCa6Yz6OHCw" name="Submit Resume"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Lgq6kCIXEeypCa6Yz6OHCw" name="Identify Applicant">
+      <include xmi:type="uml:Include" xmi:id="_MYI0cCIfEeypCa6Yz6OHCw" addition="_ZKEvgCIXEeypCa6Yz6OHCw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_SDOBkCIXEeypCa6Yz6OHCw" name="Provide Feedback"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_VPr9kCIXEeypCa6Yz6OHCw" name="Make Hiring Decisions"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ZKEvgCIXEeypCa6Yz6OHCw" name="Browse resumes"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_sTaF8CIZEeypCa6Yz6OHCw" name="post for positions"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_viQnkCIZEeypCa6Yz6OHCw" name="Prepare shortlist for HM">
+      <include xmi:type="uml:Include" xmi:id="_RnRy0CIfEeypCa6Yz6OHCw" addition="_Sw3tkCIeEeypCa6Yz6OHCw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_1HvCUCIZEeypCa6Yz6OHCw" name="setup position details"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_EwYOUCIeEeypCa6Yz6OHCw" name="setup interviews"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_I2dS4CIeEeypCa6Yz6OHCw" name="Schedule additional interviews"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_LcMmECIeEeypCa6Yz6OHCw" name="Send offer letters"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_M0ICUCIeEeypCa6Yz6OHCw" name="Send rejection letters"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Sw3tkCIeEeypCa6Yz6OHCw" name="select short list applicants"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_YznMwCIWEeypCa6Yz6OHCw" name="Hiring Manager"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_a4IpQCIWEeypCa6Yz6OHCw" name="Applicant"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_bt07ICIWEeypCa6Yz6OHCw" name="Hiring Manager"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_kJjxUCIWEeypCa6Yz6OHCw" name="Short listed Applicant"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_t8V6ACIWEeypCa6Yz6OHCw" name="other interviewer"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_aDWO8CIZEeypCa6Yz6OHCw" name="Staffing Coordinator"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_bxGKMCIZEeypCa6Yz6OHCw" name="Staffing Assitant"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_yLPCsCIeEeypCa6Yz6OHCw" memberEnd="_yLTUICIeEeypCa6Yz6OHCw _yLTUISIeEeypCa6Yz6OHCw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yLRe8CIeEeypCa6Yz6OHCw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yLSGACIeEeypCa6Yz6OHCw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_yLTUICIeEeypCa6Yz6OHCw" name="submit request for new hire" type="_yAFcQCIWEeypCa6Yz6OHCw" association="_yLPCsCIeEeypCa6Yz6OHCw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_yLTUISIeEeypCa6Yz6OHCw" name="hiring manager" type="_YznMwCIWEeypCa6Yz6OHCw" association="_yLPCsCIeEeypCa6Yz6OHCw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4Wu7oCIeEeypCa6Yz6OHCw" memberEnd="_4Wu7oyIeEeypCa6Yz6OHCw _4WvisCIeEeypCa6Yz6OHCw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4Wu7oSIeEeypCa6Yz6OHCw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4Wu7oiIeEeypCa6Yz6OHCw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4Wu7oyIeEeypCa6Yz6OHCw" name="submit resume" type="_71h3YCIWEeypCa6Yz6OHCw" association="_4Wu7oCIeEeypCa6Yz6OHCw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4WvisCIeEeypCa6Yz6OHCw" name="applicant" type="_a4IpQCIWEeypCa6Yz6OHCw" association="_4Wu7oCIeEeypCa6Yz6OHCw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_BvWQ0CIfEeypCa6Yz6OHCw" memberEnd="_BvW34iIfEeypCa6Yz6OHCw _BvXe8CIfEeypCa6Yz6OHCw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BvW34CIfEeypCa6Yz6OHCw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BvW34SIfEeypCa6Yz6OHCw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_BvW34iIfEeypCa6Yz6OHCw" name="identify applicant" type="_Lgq6kCIXEeypCa6Yz6OHCw" association="_BvWQ0CIfEeypCa6Yz6OHCw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_BvXe8CIfEeypCa6Yz6OHCw" name="hiring manager" type="_bt07ICIWEeypCa6Yz6OHCw" association="_BvWQ0CIfEeypCa6Yz6OHCw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_DRaggCIfEeypCa6Yz6OHCw" memberEnd="_DRbuoCIfEeypCa6Yz6OHCw _DRcVsCIfEeypCa6Yz6OHCw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DRbHkCIfEeypCa6Yz6OHCw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DRbHkSIfEeypCa6Yz6OHCw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_DRbuoCIfEeypCa6Yz6OHCw" name="provide feedback" type="_SDOBkCIXEeypCa6Yz6OHCw" association="_DRaggCIfEeypCa6Yz6OHCw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_DRcVsCIfEeypCa6Yz6OHCw" type="_BvWQ0CIfEeypCa6Yz6OHCw" association="_DRaggCIfEeypCa6Yz6OHCw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_IQPyACIfEeypCa6Yz6OHCw" memberEnd="_IQQZEiIfEeypCa6Yz6OHCw _IQRAICIfEeypCa6Yz6OHCw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IQQZECIfEeypCa6Yz6OHCw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IQQZESIfEeypCa6Yz6OHCw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_IQQZEiIfEeypCa6Yz6OHCw" name="make hiring decisions" type="_VPr9kCIXEeypCa6Yz6OHCw" association="_IQPyACIfEeypCa6Yz6OHCw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_IQRAICIfEeypCa6Yz6OHCw" name="hiring manager" type="_bt07ICIWEeypCa6Yz6OHCw" association="_IQPyACIfEeypCa6Yz6OHCw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_kiK6ECIgEeypCa6Yz6OHCw" memberEnd="_kiLhISIgEeypCa6Yz6OHCw _kiLhIiIgEeypCa6Yz6OHCw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kiK6ESIgEeypCa6Yz6OHCw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kiLhICIgEeypCa6Yz6OHCw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_kiLhISIgEeypCa6Yz6OHCw" name="staffing assitant" type="_bxGKMCIZEeypCa6Yz6OHCw" association="_kiK6ECIgEeypCa6Yz6OHCw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_kiLhIiIgEeypCa6Yz6OHCw" name="send offer letters" type="_LcMmECIeEeypCa6Yz6OHCw" association="_kiK6ECIgEeypCa6Yz6OHCw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_li6lYCIgEeypCa6Yz6OHCw" memberEnd="_li7MciIgEeypCa6Yz6OHCw _li7McyIgEeypCa6Yz6OHCw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_li7McCIgEeypCa6Yz6OHCw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_li7McSIgEeypCa6Yz6OHCw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_li7MciIgEeypCa6Yz6OHCw" type="_kiK6ECIgEeypCa6Yz6OHCw" association="_li6lYCIgEeypCa6Yz6OHCw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_li7McyIgEeypCa6Yz6OHCw" name="send rejection letters" type="_M0ICUCIeEeypCa6Yz6OHCw" association="_li6lYCIgEeypCa6Yz6OHCw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vYMocCIgEeypCa6Yz6OHCw" memberEnd="_vYNPgSIgEeypCa6Yz6OHCw _vYNPgiIgEeypCa6Yz6OHCw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vYMocSIgEeypCa6Yz6OHCw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vYNPgCIgEeypCa6Yz6OHCw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_vYNPgSIgEeypCa6Yz6OHCw" name="schedule additional interviews" type="_I2dS4CIeEeypCa6Yz6OHCw" association="_vYMocCIgEeypCa6Yz6OHCw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_vYNPgiIgEeypCa6Yz6OHCw" name="hiring manager" type="_bt07ICIWEeypCa6Yz6OHCw" association="_vYMocCIgEeypCa6Yz6OHCw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wHohUCIgEeypCa6Yz6OHCw" memberEnd="_wHpvcCIgEeypCa6Yz6OHCw _wHpvcSIgEeypCa6Yz6OHCw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wHpIYCIgEeypCa6Yz6OHCw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wHpIYSIgEeypCa6Yz6OHCw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wHpvcCIgEeypCa6Yz6OHCw" name="schedule additional interviews" type="_I2dS4CIeEeypCa6Yz6OHCw" association="_wHohUCIgEeypCa6Yz6OHCw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wHpvcSIgEeypCa6Yz6OHCw" name="staffing coordinator" type="_aDWO8CIZEeypCa6Yz6OHCw" association="_wHohUCIgEeypCa6Yz6OHCw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_xOgp0CIgEeypCa6Yz6OHCw" memberEnd="_xOhQ4iIgEeypCa6Yz6OHCw _xOhQ4yIgEeypCa6Yz6OHCw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xOhQ4CIgEeypCa6Yz6OHCw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xOhQ4SIgEeypCa6Yz6OHCw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xOhQ4iIgEeypCa6Yz6OHCw" name="schedule additional interviews" type="_I2dS4CIeEeypCa6Yz6OHCw" association="_xOgp0CIgEeypCa6Yz6OHCw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xOhQ4yIgEeypCa6Yz6OHCw" name="short listed applicant" type="_kJjxUCIWEeypCa6Yz6OHCw" association="_xOgp0CIgEeypCa6Yz6OHCw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_x_c-kCIgEeypCa6Yz6OHCw" memberEnd="_x_dloSIgEeypCa6Yz6OHCw _x_dloiIgEeypCa6Yz6OHCw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_x_c-kSIgEeypCa6Yz6OHCw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_x_dloCIgEeypCa6Yz6OHCw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_x_dloSIgEeypCa6Yz6OHCw" name="schedule additional interviews" type="_I2dS4CIeEeypCa6Yz6OHCw" association="_x_c-kCIgEeypCa6Yz6OHCw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_x_dloiIgEeypCa6Yz6OHCw" name="other interviewer" type="_t8V6ACIWEeypCa6Yz6OHCw" association="_x_c-kCIgEeypCa6Yz6OHCw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zXQfACIgEeypCa6Yz6OHCw" memberEnd="_zXRGEiIgEeypCa6Yz6OHCw _zXRGEyIgEeypCa6Yz6OHCw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zXRGECIgEeypCa6Yz6OHCw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zXRGESIgEeypCa6Yz6OHCw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zXRGEiIgEeypCa6Yz6OHCw" type="_kiK6ECIgEeypCa6Yz6OHCw" association="_zXQfACIgEeypCa6Yz6OHCw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zXRGEyIgEeypCa6Yz6OHCw" name="schedule additional interviews" type="_I2dS4CIeEeypCa6Yz6OHCw" association="_zXQfACIgEeypCa6Yz6OHCw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1G-wMCIgEeypCa6Yz6OHCw" memberEnd="_1G_XQCIgEeypCa6Yz6OHCw _1G_XQSIgEeypCa6Yz6OHCw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1G-wMSIgEeypCa6Yz6OHCw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1G-wMiIgEeypCa6Yz6OHCw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1G_XQCIgEeypCa6Yz6OHCw" name="staffing coordinator" type="_aDWO8CIZEeypCa6Yz6OHCw" association="_1G-wMCIgEeypCa6Yz6OHCw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1G_XQSIgEeypCa6Yz6OHCw" name="post for positions" type="_sTaF8CIZEeypCa6Yz6OHCw" association="_1G-wMCIgEeypCa6Yz6OHCw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_2ZeS0CIgEeypCa6Yz6OHCw" memberEnd="_2Ze54iIgEeypCa6Yz6OHCw _2Ze54yIgEeypCa6Yz6OHCw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2Ze54CIgEeypCa6Yz6OHCw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2Ze54SIgEeypCa6Yz6OHCw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2Ze54iIgEeypCa6Yz6OHCw" name="staffing coordinator" type="_aDWO8CIZEeypCa6Yz6OHCw" association="_2ZeS0CIgEeypCa6Yz6OHCw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2Ze54yIgEeypCa6Yz6OHCw" name="prepare shortlist for hm" type="_viQnkCIZEeypCa6Yz6OHCw" association="_2ZeS0CIgEeypCa6Yz6OHCw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3Em6gCIgEeypCa6Yz6OHCw" memberEnd="_3EnhkiIgEeypCa6Yz6OHCw _3EnhkyIgEeypCa6Yz6OHCw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3EnhkCIgEeypCa6Yz6OHCw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3EnhkSIgEeypCa6Yz6OHCw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3EnhkiIgEeypCa6Yz6OHCw" name="staffing coordinator" type="_aDWO8CIZEeypCa6Yz6OHCw" association="_3Em6gCIgEeypCa6Yz6OHCw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3EnhkyIgEeypCa6Yz6OHCw" name="setup position details" type="_1HvCUCIZEeypCa6Yz6OHCw" association="_3Em6gCIgEeypCa6Yz6OHCw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_30GdwCIgEeypCa6Yz6OHCw" memberEnd="_30GdwyIgEeypCa6Yz6OHCw _30HE0CIgEeypCa6Yz6OHCw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_30GdwSIgEeypCa6Yz6OHCw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_30GdwiIgEeypCa6Yz6OHCw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_30GdwyIgEeypCa6Yz6OHCw" name="staffing coordinator" type="_aDWO8CIZEeypCa6Yz6OHCw" association="_30GdwCIgEeypCa6Yz6OHCw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_30HE0CIgEeypCa6Yz6OHCw" name="setup interviews" type="_EwYOUCIeEeypCa6Yz6OHCw" association="_30GdwCIgEeypCa6Yz6OHCw"/>
+  </packagedElement>
+</uml:Model>

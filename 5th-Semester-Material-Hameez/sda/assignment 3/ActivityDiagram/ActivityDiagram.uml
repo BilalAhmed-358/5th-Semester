@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_-LPi0Ea7EeyWLvb6zYkIrg" name="ActivityDiagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_-UuO8Ea7EeyWLvb6zYkIrg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_-OfEEEa7EeyWLvb6zYkIrg" name="Nadra Registeration System" node="_Dmln0EbVEeyWLvb6zYkIrg _EnPMgEbVEeyWLvb6zYkIrg _NEzOsEbVEeyWLvb6zYkIrg _XFxkYEbVEeyWLvb6zYkIrg _t6HpcEbWEeyWLvb6zYkIrg _1Qy8EEbWEeyWLvb6zYkIrg _4n4MoEbWEeyWLvb6zYkIrg _6daK4EbWEeyWLvb6zYkIrg _951ZAEbXEeyWLvb6zYkIrg _HcovgEbZEeyWLvb6zYkIrg" group="_dURY4EbTEeyWLvb6zYkIrg _KojrMEbUEeyWLvb6zYkIrg _MvQ5AEbUEeyWLvb6zYkIrg _QC3-0EbUEeyWLvb6zYkIrg _XFxkYEbVEeyWLvb6zYkIrg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_tG-qYEbYEeyWLvb6zYkIrg" target="_951ZAEbXEeyWLvb6zYkIrg" source="_Cu5qgEbYEeyWLvb6zYkIrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_cXDT8EbZEeyWLvb6zYkIrg" target="_t6HpcEbWEeyWLvb6zYkIrg" source="_bheeMEbWEeyWLvb6zYkIrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_da4IcEbZEeyWLvb6zYkIrg" target="_yHPKIEbWEeyWLvb6zYkIrg" source="_t6HpcEbWEeyWLvb6zYkIrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_l1hZgEbZEeyWLvb6zYkIrg" target="_1Qy8EEbWEeyWLvb6zYkIrg" source="_yHPKIEbWEeyWLvb6zYkIrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_nmMs8EbZEeyWLvb6zYkIrg" name="Send Confirmation" target="_4n4MoEbWEeyWLvb6zYkIrg" source="_1Qy8EEbWEeyWLvb6zYkIrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_vFvAoEbZEeyWLvb6zYkIrg" inPartition="_dURY4EbTEeyWLvb6zYkIrg" target="_EnPMgEbVEeyWLvb6zYkIrg" source="_Dmln0EbVEeyWLvb6zYkIrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_w2Fj8EbZEeyWLvb6zYkIrg" target="_NEzOsEbVEeyWLvb6zYkIrg" source="_EnPMgEbVEeyWLvb6zYkIrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_0BKY0EbZEeyWLvb6zYkIrg" target="_R9L58EbVEeyWLvb6zYkIrg" source="_NEzOsEbVEeyWLvb6zYkIrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_sdCr0Eb0EeyWLvb6zYkIrg" inPartition="_dURY4EbTEeyWLvb6zYkIrg" target="_6daK4EbWEeyWLvb6zYkIrg" source="_4n4MoEbWEeyWLvb6zYkIrg"/>
+    <structuredNode xmi:type="uml:ExpansionRegion" xmi:id="_XFxkYEbVEeyWLvb6zYkIrg" name="ExpansionRegion9" outgoing="_jBFYcEbYEeyWLvb6zYkIrg" inPartition="_MvQ5AEbUEeyWLvb6zYkIrg">
+      <handler xmi:type="uml:ExceptionHandler" xmi:id="_QfAu8EbZEeyWLvb6zYkIrg" exceptionInput="_LzurkEbZEeyWLvb6zYkIrg" handlerBody="_HcovgEbZEeyWLvb6zYkIrg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_jBFYcEbYEeyWLvb6zYkIrg" target="_ajb-EEbVEeyWLvb6zYkIrg" source="_XFxkYEbVEeyWLvb6zYkIrg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_uYcSQEbYEeyWLvb6zYkIrg" name="Matched" target="_mZqlMEbVEeyWLvb6zYkIrg" source="_ajb-EEbVEeyWLvb6zYkIrg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_wCZ5sEbYEeyWLvb6zYkIrg" name="Not Matched" target="_R9L58EbVEeyWLvb6zYkIrg" source="_ajb-EEbVEeyWLvb6zYkIrg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_zdT6UEbYEeyWLvb6zYkIrg" target="_A3pf4EbWEeyWLvb6zYkIrg" source="_mZqlMEbVEeyWLvb6zYkIrg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_5CL4IEbYEeyWLvb6zYkIrg" target="_bheeMEbWEeyWLvb6zYkIrg" source="_LvRJsEbWEeyWLvb6zYkIrg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_MG4boEbaEeyWLvb6zYkIrg" target="_HcvAsEbaEeyWLvb6zYkIrg" source="_A3pf4EbWEeyWLvb6zYkIrg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_NpalYEbaEeyWLvb6zYkIrg" name="No" target="_LvRJsEbWEeyWLvb6zYkIrg" source="_HcvAsEbaEeyWLvb6zYkIrg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_UrN0MEbaEeyWLvb6zYkIrg" target="_Cu5qgEbYEeyWLvb6zYkIrg" source="_HcvAsEbaEeyWLvb6zYkIrg"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_R9L58EbVEeyWLvb6zYkIrg" name="Inputs B-Form Details" incoming="_wCZ5sEbYEeyWLvb6zYkIrg _0BKY0EbZEeyWLvb6zYkIrg"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_ajb-EEbVEeyWLvb6zYkIrg" name="Verify B-Form " incoming="_jBFYcEbYEeyWLvb6zYkIrg" outgoing="_uYcSQEbYEeyWLvb6zYkIrg _wCZ5sEbYEeyWLvb6zYkIrg"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_mZqlMEbVEeyWLvb6zYkIrg" name="Enter Bio Data " incoming="_uYcSQEbYEeyWLvb6zYkIrg" outgoing="_zdT6UEbYEeyWLvb6zYkIrg"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_A3pf4EbWEeyWLvb6zYkIrg" name="Record Digital Fingerprint" incoming="_zdT6UEbYEeyWLvb6zYkIrg" outgoing="_MG4boEbaEeyWLvb6zYkIrg"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_LvRJsEbWEeyWLvb6zYkIrg" name="Capture Digital Signature" incoming="_NpalYEbaEeyWLvb6zYkIrg" outgoing="_5CL4IEbYEeyWLvb6zYkIrg"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_bheeMEbWEeyWLvb6zYkIrg" name="Capture Pictures" incoming="_5CL4IEbYEeyWLvb6zYkIrg" outgoing="_cXDT8EbZEeyWLvb6zYkIrg"/>
+      <node xmi:type="uml:AcceptEventAction" xmi:id="_Cu5qgEbYEeyWLvb6zYkIrg" name="Cancel Registeration" incoming="_UrN0MEbaEeyWLvb6zYkIrg" outgoing="_tG-qYEbYEeyWLvb6zYkIrg">
+        <handler xmi:type="uml:ExceptionHandler" xmi:id="_nJpwUEbYEeyWLvb6zYkIrg"/>
+        <handler xmi:type="uml:ExceptionHandler" xmi:id="_n_pkMEbYEeyWLvb6zYkIrg"/>
+        <handler xmi:type="uml:ExceptionHandler" xmi:id="_ojq3QEbYEeyWLvb6zYkIrg"/>
+        <handler xmi:type="uml:ExceptionHandler" xmi:id="_qcR-sEbYEeyWLvb6zYkIrg"/>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_yHPKIEbWEeyWLvb6zYkIrg" name="Generate Reciept" incoming="_da4IcEbZEeyWLvb6zYkIrg" outgoing="_l1hZgEbZEeyWLvb6zYkIrg"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_HcvAsEbaEeyWLvb6zYkIrg" name="If exists" incoming="_MG4boEbaEeyWLvb6zYkIrg" outgoing="_NpalYEbaEeyWLvb6zYkIrg _UrN0MEbaEeyWLvb6zYkIrg"/>
+    </structuredNode>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_dURY4EbTEeyWLvb6zYkIrg" name="c: Customer" node="_Dmln0EbVEeyWLvb6zYkIrg _EnPMgEbVEeyWLvb6zYkIrg _4n4MoEbWEeyWLvb6zYkIrg _6daK4EbWEeyWLvb6zYkIrg" edge="_vFvAoEbZEeyWLvb6zYkIrg _sdCr0Eb0EeyWLvb6zYkIrg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_KojrMEbUEeyWLvb6zYkIrg" name="k: Kiosk_System" node="_NEzOsEbVEeyWLvb6zYkIrg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_MvQ5AEbUEeyWLvb6zYkIrg" name="n: Nadra_Issuance_System" node="_XFxkYEbVEeyWLvb6zYkIrg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_QC3-0EbUEeyWLvb6zYkIrg" name="o: Nadra_Officers" node="_t6HpcEbWEeyWLvb6zYkIrg _1Qy8EEbWEeyWLvb6zYkIrg _951ZAEbXEeyWLvb6zYkIrg _HcovgEbZEeyWLvb6zYkIrg _LzurkEbZEeyWLvb6zYkIrg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_Dmln0EbVEeyWLvb6zYkIrg" name="Start" outgoing="_vFvAoEbZEeyWLvb6zYkIrg" inPartition="_dURY4EbTEeyWLvb6zYkIrg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_EnPMgEbVEeyWLvb6zYkIrg" name="Enters Nadra Office" incoming="_vFvAoEbZEeyWLvb6zYkIrg" outgoing="_w2Fj8EbZEeyWLvb6zYkIrg" inPartition="_dURY4EbTEeyWLvb6zYkIrg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_NEzOsEbVEeyWLvb6zYkIrg" name="Generates Token for Customer" incoming="_w2Fj8EbZEeyWLvb6zYkIrg" outgoing="_0BKY0EbZEeyWLvb6zYkIrg" inPartition="_KojrMEbUEeyWLvb6zYkIrg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_t6HpcEbWEeyWLvb6zYkIrg" name="Stores picture in system" incoming="_cXDT8EbZEeyWLvb6zYkIrg" outgoing="_da4IcEbZEeyWLvb6zYkIrg" inPartition="_QC3-0EbUEeyWLvb6zYkIrg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_1Qy8EEbWEeyWLvb6zYkIrg" name="Deliver ID Card" incoming="_l1hZgEbZEeyWLvb6zYkIrg" outgoing="_nmMs8EbZEeyWLvb6zYkIrg" inPartition="_QC3-0EbUEeyWLvb6zYkIrg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_4n4MoEbWEeyWLvb6zYkIrg" name="Confirmation" incoming="_nmMs8EbZEeyWLvb6zYkIrg" outgoing="_sdCr0Eb0EeyWLvb6zYkIrg" inPartition="_dURY4EbTEeyWLvb6zYkIrg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_6daK4EbWEeyWLvb6zYkIrg" name="End" incoming="_sdCr0Eb0EeyWLvb6zYkIrg" inPartition="_dURY4EbTEeyWLvb6zYkIrg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_951ZAEbXEeyWLvb6zYkIrg" name="Terminate" incoming="_tG-qYEbYEeyWLvb6zYkIrg" inPartition="_QC3-0EbUEeyWLvb6zYkIrg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_HcovgEbZEeyWLvb6zYkIrg" name="Handle I/O Exception" inPartition="_QC3-0EbUEeyWLvb6zYkIrg">
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_LzurkEbZEeyWLvb6zYkIrg" name=" " inPartition="_QC3-0EbUEeyWLvb6zYkIrg">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_LzurkUbZEeyWLvb6zYkIrg" value="1"/>
+      </outputValue>
+    </node>
+  </packagedElement>
+</uml:Model>
