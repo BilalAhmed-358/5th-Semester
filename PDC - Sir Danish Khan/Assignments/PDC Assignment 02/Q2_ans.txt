@@ -1,0 +1,1 @@
+The global sum  of all the threads is 2012.

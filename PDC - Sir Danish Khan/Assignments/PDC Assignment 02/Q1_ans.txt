@@ -1,0 +1,6 @@
+Words counted by thread 0 are 503.
+Words counted by thread 2 are 503.
+Words counted by thread 3 are 503.
+Words counted by thread 1 are 503.
+The total number of words in the given document when counted serially is  2012.
+The total number of words is counted via parallel threads is 2012.

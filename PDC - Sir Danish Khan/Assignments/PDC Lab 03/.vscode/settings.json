@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "mpi.h": "c",
+        "iostream": "cpp",
+        "ostream": "cpp"
+    }
+}
