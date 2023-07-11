@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_6SX5EEY-Ee2svIUbCUNCEw" name="Task 04">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_6TCAYEY-Ee2svIUbCUNCEw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_iq0OkEZiEe2svIUbCUNCEw" name="Class Friends Application">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_kSTw0EZiEe2svIUbCUNCEw" name="Sign Up"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_m55eIEZiEe2svIUbCUNCEw" name="Log In">
+      <include xmi:type="uml:Include" xmi:id="_85NOEEZiEe2svIUbCUNCEw" addition="_kSTw0EZiEe2svIUbCUNCEw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_oI8EIEZiEe2svIUbCUNCEw" name="Check News Feed"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_qQkfAEZiEe2svIUbCUNCEw" name="Manage Profile"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_rqFPoEZiEe2svIUbCUNCEw" name="Manage Friends"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_tyefgEZiEe2svIUbCUNCEw" name="Add new friends"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_u-auMEZiEe2svIUbCUNCEw" name="See Location of friends"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_wofqYEZiEe2svIUbCUNCEw" name="See number of friends"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_z4A6YEZiEe2svIUbCUNCEw" name="Delete Friends"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_1-oooEZiEe2svIUbCUNCEw" name="View map with friend markers"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_5EtowEZiEe2svIUbCUNCEw" name="Share with friends"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_6bDwoEZiEe2svIUbCUNCEw" name="Log Out"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="___NVsEZiEe2svIUbCUNCEw" name="Connect with facebook"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_BQf-cEZjEe2svIUbCUNCEw" name="Connect with Twitter"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_CkFGMEZjEe2svIUbCUNCEw" name="Connect with Instagram"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_E4s0MEZjEe2svIUbCUNCEw" name="Use credentials by filling a form"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_GxHHUEZjEe2svIUbCUNCEw" name="User"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_IDvM0EZjEe2svIUbCUNCEw" name="Database"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JZrsEEZjEe2svIUbCUNCEw" name="User signs up on the platform" memberEnd="_JZsTIUZjEe2svIUbCUNCEw _JZsTIkZjEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JZrsEUZjEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JZsTIEZjEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JZsTIUZjEe2svIUbCUNCEw" name="sign up" type="_kSTw0EZiEe2svIUbCUNCEw" association="_JZrsEEZjEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JZsTIkZjEe2svIUbCUNCEw" name="user" type="_GxHHUEZjEe2svIUbCUNCEw" association="_JZrsEEZjEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Kzv2UEZjEe2svIUbCUNCEw" name="User logs in to the platfrom" memberEnd="_KzwdYkZjEe2svIUbCUNCEw _KzxEcEZjEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KzwdYEZjEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KzwdYUZjEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KzwdYkZjEe2svIUbCUNCEw" name="log in" type="_m55eIEZiEe2svIUbCUNCEw" association="_Kzv2UEZjEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KzxEcEZjEe2svIUbCUNCEw" name="user" type="_GxHHUEZjEe2svIUbCUNCEw" association="_Kzv2UEZjEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MLhhkEZjEe2svIUbCUNCEw" name="User checks his newsfeed" memberEnd="_MLhhk0ZjEe2svIUbCUNCEw _MLiIoEZjEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MLhhkUZjEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MLhhkkZjEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_MLhhk0ZjEe2svIUbCUNCEw" name="check news feed" type="_oI8EIEZiEe2svIUbCUNCEw" association="_MLhhkEZjEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_MLiIoEZjEe2svIUbCUNCEw" name="user" type="_GxHHUEZjEe2svIUbCUNCEw" association="_MLhhkEZjEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_N3giQEZjEe2svIUbCUNCEw" name="User managers his profile" memberEnd="_N3hJUkZjEe2svIUbCUNCEw _N3hJU0ZjEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N3hJUEZjEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N3hJUUZjEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_N3hJUkZjEe2svIUbCUNCEw" name="manage profile" type="_qQkfAEZiEe2svIUbCUNCEw" association="_N3giQEZjEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_N3hJU0ZjEe2svIUbCUNCEw" name="user" type="_GxHHUEZjEe2svIUbCUNCEw" association="_N3giQEZjEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PMMdQEZjEe2svIUbCUNCEw" name="User manages his friends" memberEnd="_PMNEUUZjEe2svIUbCUNCEw _PMNEUkZjEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PMMdQUZjEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PMNEUEZjEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_PMNEUUZjEe2svIUbCUNCEw" name="manage friends" type="_rqFPoEZiEe2svIUbCUNCEw" association="_PMMdQEZjEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_PMNEUkZjEe2svIUbCUNCEw" name="user" type="_GxHHUEZjEe2svIUbCUNCEw" association="_PMMdQEZjEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_RVd24EZjEe2svIUbCUNCEw" name="User adds new friends" memberEnd="_RVed8kZjEe2svIUbCUNCEw _RVed80ZjEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RVed8EZjEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RVed8UZjEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_RVed8kZjEe2svIUbCUNCEw" name="add new friends" type="_tyefgEZiEe2svIUbCUNCEw" association="_RVd24EZjEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_RVed80ZjEe2svIUbCUNCEw" name="user" type="_GxHHUEZjEe2svIUbCUNCEw" association="_RVd24EZjEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_TR5uYEZjEe2svIUbCUNCEw" name="User sees location of his friends" memberEnd="_TR6VckZjEe2svIUbCUNCEw _TR6Vc0ZjEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TR6VcEZjEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TR6VcUZjEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_TR6VckZjEe2svIUbCUNCEw" name="see location of friends" type="_u-auMEZiEe2svIUbCUNCEw" association="_TR5uYEZjEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_TR6Vc0ZjEe2svIUbCUNCEw" name="user adds new friends" type="_RVd24EZjEe2svIUbCUNCEw" association="_TR5uYEZjEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Uzy-8EZjEe2svIUbCUNCEw" name="User sees the number of his friends" memberEnd="_UzzmAkZjEe2svIUbCUNCEw _UzzmA0ZjEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UzzmAEZjEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UzzmAUZjEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UzzmAkZjEe2svIUbCUNCEw" name="see number of friends" type="_wofqYEZiEe2svIUbCUNCEw" association="_Uzy-8EZjEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UzzmA0ZjEe2svIUbCUNCEw" name="user" type="_GxHHUEZjEe2svIUbCUNCEw" association="_Uzy-8EZjEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Xzr3gEZjEe2svIUbCUNCEw" name="User deletes his friends" memberEnd="_XzsekkZjEe2svIUbCUNCEw _Xzsek0ZjEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XzsekEZjEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XzsekUZjEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XzsekkZjEe2svIUbCUNCEw" name="delete friends" type="_z4A6YEZiEe2svIUbCUNCEw" association="_Xzr3gEZjEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Xzsek0ZjEe2svIUbCUNCEw" name="user" type="_GxHHUEZjEe2svIUbCUNCEw" association="_Xzr3gEZjEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_aDHjgEZjEe2svIUbCUNCEw" name="User views map with his friend markers" memberEnd="_aDIKkkZjEe2svIUbCUNCEw _aDIKk0ZjEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aDIKkEZjEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aDIKkUZjEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aDIKkkZjEe2svIUbCUNCEw" name="view map with friend markers" type="_1-oooEZiEe2svIUbCUNCEw" association="_aDHjgEZjEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aDIKk0ZjEe2svIUbCUNCEw" name="user" type="_GxHHUEZjEe2svIUbCUNCEw" association="_aDHjgEZjEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_cIAzcEZjEe2svIUbCUNCEw" name="User shares something with his friends" memberEnd="_cIBagkZjEe2svIUbCUNCEw _cIBag0ZjEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cIBagEZjEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cIBagUZjEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_cIBagkZjEe2svIUbCUNCEw" name="share with friends" type="_5EtowEZiEe2svIUbCUNCEw" association="_cIAzcEZjEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_cIBag0ZjEe2svIUbCUNCEw" name="user" type="_GxHHUEZjEe2svIUbCUNCEw" association="_cIAzcEZjEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_i4mWcEZjEe2svIUbCUNCEw" name="User logs out of the platfrom" memberEnd="_i4m9gkZjEe2svIUbCUNCEw _i4m9g0ZjEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_i4m9gEZjEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_i4m9gUZjEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_i4m9gkZjEe2svIUbCUNCEw" name="log out" type="_6bDwoEZiEe2svIUbCUNCEw" association="_i4mWcEZjEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_i4m9g0ZjEe2svIUbCUNCEw" name="user" type="_GxHHUEZjEe2svIUbCUNCEw" association="_i4mWcEZjEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lZvdgEZjEe2svIUbCUNCEw" memberEnd="_lZvdg0ZjEe2svIUbCUNCEw _lZvdhEZjEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lZvdgUZjEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lZvdgkZjEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lZvdg0ZjEe2svIUbCUNCEw" name="database" type="_IDvM0EZjEe2svIUbCUNCEw" association="_lZvdgEZjEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lZvdhEZjEe2svIUbCUNCEw" name="sign up" type="_kSTw0EZiEe2svIUbCUNCEw" association="_lZvdgEZjEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_l9Dl8EZjEe2svIUbCUNCEw" memberEnd="_l9ENAkZjEe2svIUbCUNCEw _l9ENA0ZjEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l9ENAEZjEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l9ENAUZjEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_l9ENAkZjEe2svIUbCUNCEw" name="database" type="_IDvM0EZjEe2svIUbCUNCEw" association="_l9Dl8EZjEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_l9ENA0ZjEe2svIUbCUNCEw" name="log in" type="_m55eIEZiEe2svIUbCUNCEw" association="_l9Dl8EZjEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_mgr3cEZjEe2svIUbCUNCEw" memberEnd="_mgr3c0ZjEe2svIUbCUNCEw _mgr3dEZjEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mgr3cUZjEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mgr3ckZjEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mgr3c0ZjEe2svIUbCUNCEw" name="database" type="_IDvM0EZjEe2svIUbCUNCEw" association="_mgr3cEZjEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mgr3dEZjEe2svIUbCUNCEw" name="check news feed" type="_oI8EIEZiEe2svIUbCUNCEw" association="_mgr3cEZjEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_m9fvQEZjEe2svIUbCUNCEw" memberEnd="_m9gWUEZjEe2svIUbCUNCEw _m9gWUUZjEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m9fvQUZjEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m9fvQkZjEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_m9gWUEZjEe2svIUbCUNCEw" name="database" type="_IDvM0EZjEe2svIUbCUNCEw" association="_m9fvQEZjEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_m9gWUUZjEe2svIUbCUNCEw" name="manage profile" type="_qQkfAEZiEe2svIUbCUNCEw" association="_m9fvQEZjEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_nb_pIEZjEe2svIUbCUNCEw" memberEnd="_ncA3QUZjEe2svIUbCUNCEw _ncA3QkZjEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ncAQMEZjEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ncA3QEZjEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ncA3QUZjEe2svIUbCUNCEw" name="database" type="_IDvM0EZjEe2svIUbCUNCEw" association="_nb_pIEZjEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ncA3QkZjEe2svIUbCUNCEw" name="manage friends" type="_rqFPoEZiEe2svIUbCUNCEw" association="_nb_pIEZjEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_n39zcEZjEe2svIUbCUNCEw" memberEnd="_n39zc0ZjEe2svIUbCUNCEw _n39zdEZjEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n39zcUZjEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n39zckZjEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_n39zc0ZjEe2svIUbCUNCEw" name="database" type="_IDvM0EZjEe2svIUbCUNCEw" association="_n39zcEZjEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_n39zdEZjEe2svIUbCUNCEw" name="add new friends" type="_tyefgEZiEe2svIUbCUNCEw" association="_n39zcEZjEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_oY4IIEZjEe2svIUbCUNCEw" memberEnd="_oY4II0ZjEe2svIUbCUNCEw _oY4IJEZjEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oY4IIUZjEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oY4IIkZjEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oY4II0ZjEe2svIUbCUNCEw" name="database" type="_IDvM0EZjEe2svIUbCUNCEw" association="_oY4IIEZjEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oY4IJEZjEe2svIUbCUNCEw" name="see location of friends" type="_u-auMEZiEe2svIUbCUNCEw" association="_oY4IIEZjEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_pVQ34EZjEe2svIUbCUNCEw" memberEnd="_pVQ340ZjEe2svIUbCUNCEw _pVRe8EZjEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pVQ34UZjEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pVQ34kZjEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pVQ340ZjEe2svIUbCUNCEw" type="_oY4IIEZjEe2svIUbCUNCEw" association="_pVQ34EZjEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pVRe8EZjEe2svIUbCUNCEw" name="see number of friends" type="_wofqYEZiEe2svIUbCUNCEw" association="_pVQ34EZjEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_p365AEZjEe2svIUbCUNCEw" memberEnd="_p37gEkZjEe2svIUbCUNCEw _p37gE0ZjEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_p37gEEZjEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_p37gEUZjEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_p37gEkZjEe2svIUbCUNCEw" type="_oY4IIEZjEe2svIUbCUNCEw" association="_p365AEZjEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_p37gE0ZjEe2svIUbCUNCEw" name="delete friends" type="_z4A6YEZiEe2svIUbCUNCEw" association="_p365AEZjEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_sVGtIEZjEe2svIUbCUNCEw" memberEnd="_sVHUMEZjEe2svIUbCUNCEw _sVHUMUZjEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sVGtIUZjEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sVGtIkZjEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sVHUMEZjEe2svIUbCUNCEw" name="database" type="_IDvM0EZjEe2svIUbCUNCEw" association="_sVGtIEZjEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sVHUMUZjEe2svIUbCUNCEw" name="view map with friend markers" type="_1-oooEZiEe2svIUbCUNCEw" association="_sVGtIEZjEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_s4UH4EZjEe2svIUbCUNCEw" memberEnd="_s4Uu8kZjEe2svIUbCUNCEw _s4Uu80ZjEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s4Uu8EZjEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_s4Uu8UZjEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_s4Uu8kZjEe2svIUbCUNCEw" name="database" type="_IDvM0EZjEe2svIUbCUNCEw" association="_s4UH4EZjEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_s4Uu80ZjEe2svIUbCUNCEw" name="share with friends" type="_5EtowEZiEe2svIUbCUNCEw" association="_s4UH4EZjEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_t1sWIEZjEe2svIUbCUNCEw" memberEnd="_t1s9MkZjEe2svIUbCUNCEw _t1s9M0ZjEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_t1s9MEZjEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_t1s9MUZjEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_t1s9MkZjEe2svIUbCUNCEw" name="database" type="_IDvM0EZjEe2svIUbCUNCEw" association="_t1sWIEZjEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_t1s9M0ZjEe2svIUbCUNCEw" name="log out" type="_6bDwoEZiEe2svIUbCUNCEw" association="_t1sWIEZjEe2svIUbCUNCEw"/>
+  </packagedElement>
+</uml:Model>

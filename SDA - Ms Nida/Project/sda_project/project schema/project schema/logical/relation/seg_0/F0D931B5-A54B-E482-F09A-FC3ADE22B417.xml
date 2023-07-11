@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="F0D931B5-A54B-E482-F09A-FC3ADE22B417">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:34:39 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<engineerTo>
+<item key="570FD7AE-FD54-C2CF-EB15-9A35FCED7007" value="true"/>
+</engineerTo>
+<sourcePk>A842D3C5-0383-E857-32B6-46666FF81F33</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3987673A-A482-1175-7458-141A3B9ADF85</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>056A9DB6-C34F-EC51-EE6D-3E2BD5AB32C5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

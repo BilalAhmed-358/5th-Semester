@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_nUHysEW3Ee2WUpnHVXJ9pQ" name="Task 02">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_nUfmIEW3Ee2WUpnHVXJ9pQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_u6Jv8EW3Ee2WUpnHVXJ9pQ" name="HEC Online Attestation Platform">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_3hk4wEW3Ee2WUpnHVXJ9pQ" name="Authentication">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_GK0aEEW4Ee2WUpnHVXJ9pQ" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_G5L78EW4Ee2WUpnHVXJ9pQ" name="ExtensionPoint3"/>
+      <include xmi:type="uml:Include" xmi:id="_FeHsIEW4Ee2WUpnHVXJ9pQ" addition="__AL_YEW3Ee2WUpnHVXJ9pQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__AL_YEW3Ee2WUpnHVXJ9pQ" name="Valid CNIC/Passport"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_BoFOsEW4Ee2WUpnHVXJ9pQ" name="Authentication successful">
+      <extend xmi:type="uml:Extend" xmi:id="_GKzzAEW4Ee2WUpnHVXJ9pQ" extendedCase="_3hk4wEW3Ee2WUpnHVXJ9pQ" extensionLocation="_GK0aEEW4Ee2WUpnHVXJ9pQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_DWlX4EW4Ee2WUpnHVXJ9pQ" name="Authentication successful">
+      <extend xmi:type="uml:Extend" xmi:id="_G5LU4EW4Ee2WUpnHVXJ9pQ" extendedCase="_3hk4wEW3Ee2WUpnHVXJ9pQ" extensionLocation="_G5L78EW4Ee2WUpnHVXJ9pQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_H_D-4EW4Ee2WUpnHVXJ9pQ" name="Submit printed signed application form">
+      <include xmi:type="uml:Include" xmi:id="_x9KYgEW4Ee2WUpnHVXJ9pQ" addition="_v5Fn8EW4Ee2WUpnHVXJ9pQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_N7LYAEW4Ee2WUpnHVXJ9pQ" name="Submit original degree with transcript">
+      <include xmi:type="uml:Include" xmi:id="_yneg0EW4Ee2WUpnHVXJ9pQ" addition="_v5Fn8EW4Ee2WUpnHVXJ9pQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_QVe3QEW4Ee2WUpnHVXJ9pQ" name="Submit copy of CNIC/Passport">
+      <include xmi:type="uml:Include" xmi:id="_zot7YEW4Ee2WUpnHVXJ9pQ" addition="_v5Fn8EW4Ee2WUpnHVXJ9pQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_S80F4EW4Ee2WUpnHVXJ9pQ" name="Submit attestation fee">
+      <include xmi:type="uml:Include" xmi:id="_0Ki2EEW4Ee2WUpnHVXJ9pQ" addition="_v5Fn8EW4Ee2WUpnHVXJ9pQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_U2iAkEW4Ee2WUpnHVXJ9pQ" name="Submit photocopy of all documents">
+      <include xmi:type="uml:Include" xmi:id="_04KKAEW4Ee2WUpnHVXJ9pQ" addition="_v5Fn8EW4Ee2WUpnHVXJ9pQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_XiFn4EW4Ee2WUpnHVXJ9pQ" name="Fills personal details">
+      <include xmi:type="uml:Include" xmi:id="_1d3fIEW4Ee2WUpnHVXJ9pQ" addition="_v5Fn8EW4Ee2WUpnHVXJ9pQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_v5Fn8EW4Ee2WUpnHVXJ9pQ" name="Fill complete application details"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HHTbAEW5Ee2WUpnHVXJ9pQ" name="Send confimation email"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_IXOx0EW5Ee2WUpnHVXJ9pQ" name="Start attestation process">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_uVKhoEW5Ee2WUpnHVXJ9pQ" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_vFiOoEW5Ee2WUpnHVXJ9pQ" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KnoHIEW5Ee2WUpnHVXJ9pQ" name="Email to collect attestation document">
+      <include xmi:type="uml:Include" xmi:id="_x3YrMEW5Ee2WUpnHVXJ9pQ" addition="_kOi28EW5Ee2WUpnHVXJ9pQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_TWD24EW5Ee2WUpnHVXJ9pQ" name="Notify user for entering incorrect data">
+      <include xmi:type="uml:Include" xmi:id="_yo5AoEW5Ee2WUpnHVXJ9pQ" addition="_mC1fEEW5Ee2WUpnHVXJ9pQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_kOi28EW5Ee2WUpnHVXJ9pQ" name="Verification Successful">
+      <extend xmi:type="uml:Extend" xmi:id="_uVJ6kEW5Ee2WUpnHVXJ9pQ" extendedCase="_IXOx0EW5Ee2WUpnHVXJ9pQ" extensionLocation="_uVKhoEW5Ee2WUpnHVXJ9pQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mC1fEEW5Ee2WUpnHVXJ9pQ" name="Verification Unsuccessfull">
+      <extend xmi:type="uml:Extend" xmi:id="_vFhnkEW5Ee2WUpnHVXJ9pQ" extendedCase="_IXOx0EW5Ee2WUpnHVXJ9pQ" extensionLocation="_vFiOoEW5Ee2WUpnHVXJ9pQ"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_xIcMcEW3Ee2WUpnHVXJ9pQ" name="User"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_xxZp4EW3Ee2WUpnHVXJ9pQ" name="Degree Holder">
+    <generalization xmi:type="uml:Generalization" xmi:id="_zo5-EEW3Ee2WUpnHVXJ9pQ" general="_xIcMcEW3Ee2WUpnHVXJ9pQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_2bjr4EW3Ee2WUpnHVXJ9pQ" name="HEC Database"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6G7xcEW3Ee2WUpnHVXJ9pQ" name="User authenticates himself" memberEnd="_6G7xc0W3Ee2WUpnHVXJ9pQ _6G8YgEW3Ee2WUpnHVXJ9pQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6G7xcUW3Ee2WUpnHVXJ9pQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6G7xckW3Ee2WUpnHVXJ9pQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6G7xc0W3Ee2WUpnHVXJ9pQ" name="degree holder" type="_xxZp4EW3Ee2WUpnHVXJ9pQ" association="_6G7xcEW3Ee2WUpnHVXJ9pQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6G8YgEW3Ee2WUpnHVXJ9pQ" name="authentication" type="_3hk4wEW3Ee2WUpnHVXJ9pQ" association="_6G7xcEW3Ee2WUpnHVXJ9pQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_LCeskEW4Ee2WUpnHVXJ9pQ" name="User submits printed signed application form" memberEnd="_LCf6skW4Ee2WUpnHVXJ9pQ _LCf6s0W4Ee2WUpnHVXJ9pQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LCf6sEW4Ee2WUpnHVXJ9pQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LCf6sUW4Ee2WUpnHVXJ9pQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LCf6skW4Ee2WUpnHVXJ9pQ" name="degree holder" type="_xxZp4EW3Ee2WUpnHVXJ9pQ" association="_LCeskEW4Ee2WUpnHVXJ9pQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LCf6s0W4Ee2WUpnHVXJ9pQ" name="submit printed signed application form" type="_H_D-4EW4Ee2WUpnHVXJ9pQ" association="_LCeskEW4Ee2WUpnHVXJ9pQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ZOp3YEW4Ee2WUpnHVXJ9pQ" name="User submits original degree with transcript" memberEnd="_ZOp3Y0W4Ee2WUpnHVXJ9pQ _ZOp3ZEW4Ee2WUpnHVXJ9pQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZOp3YUW4Ee2WUpnHVXJ9pQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZOp3YkW4Ee2WUpnHVXJ9pQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZOp3Y0W4Ee2WUpnHVXJ9pQ" name="degree holder" type="_xxZp4EW3Ee2WUpnHVXJ9pQ" association="_ZOp3YEW4Ee2WUpnHVXJ9pQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZOp3ZEW4Ee2WUpnHVXJ9pQ" name="submit original degree with transcript" type="_N7LYAEW4Ee2WUpnHVXJ9pQ" association="_ZOp3YEW4Ee2WUpnHVXJ9pQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_gHeJUEW4Ee2WUpnHVXJ9pQ" name="User submits copy of CNIC/Passport" memberEnd="_gHewYkW4Ee2WUpnHVXJ9pQ _gHfXcEW4Ee2WUpnHVXJ9pQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gHewYEW4Ee2WUpnHVXJ9pQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gHewYUW4Ee2WUpnHVXJ9pQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gHewYkW4Ee2WUpnHVXJ9pQ" name="degree holder" type="_xxZp4EW3Ee2WUpnHVXJ9pQ" association="_gHeJUEW4Ee2WUpnHVXJ9pQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gHfXcEW4Ee2WUpnHVXJ9pQ" name="submit copy of cnic/passport" type="_QVe3QEW4Ee2WUpnHVXJ9pQ" association="_gHeJUEW4Ee2WUpnHVXJ9pQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lJzawEW4Ee2WUpnHVXJ9pQ" name="User submits attestation fee" memberEnd="_lJ0B0kW4Ee2WUpnHVXJ9pQ _lJ0o4EW4Ee2WUpnHVXJ9pQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lJ0B0EW4Ee2WUpnHVXJ9pQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lJ0B0UW4Ee2WUpnHVXJ9pQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lJ0B0kW4Ee2WUpnHVXJ9pQ" name="degree holder" type="_xxZp4EW3Ee2WUpnHVXJ9pQ" association="_lJzawEW4Ee2WUpnHVXJ9pQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lJ0o4EW4Ee2WUpnHVXJ9pQ" name="submit attestation fee" type="_S80F4EW4Ee2WUpnHVXJ9pQ" association="_lJzawEW4Ee2WUpnHVXJ9pQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_nrc4IEW4Ee2WUpnHVXJ9pQ" name="user submits photocopy of all documents" memberEnd="_nrdfMkW4Ee2WUpnHVXJ9pQ _nreGQEW4Ee2WUpnHVXJ9pQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nrdfMEW4Ee2WUpnHVXJ9pQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nrdfMUW4Ee2WUpnHVXJ9pQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nrdfMkW4Ee2WUpnHVXJ9pQ" name="degree holder" type="_xxZp4EW3Ee2WUpnHVXJ9pQ" association="_nrc4IEW4Ee2WUpnHVXJ9pQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nreGQEW4Ee2WUpnHVXJ9pQ" name="submit photocopy of all documents" type="_U2iAkEW4Ee2WUpnHVXJ9pQ" association="_nrc4IEW4Ee2WUpnHVXJ9pQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_rBEwIEW4Ee2WUpnHVXJ9pQ" name="User fills out his personal details" memberEnd="_rBEwI0W4Ee2WUpnHVXJ9pQ _rBEwJEW4Ee2WUpnHVXJ9pQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rBEwIUW4Ee2WUpnHVXJ9pQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rBEwIkW4Ee2WUpnHVXJ9pQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rBEwI0W4Ee2WUpnHVXJ9pQ" name="degree holder" type="_xxZp4EW3Ee2WUpnHVXJ9pQ" association="_rBEwIEW4Ee2WUpnHVXJ9pQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rBEwJEW4Ee2WUpnHVXJ9pQ" name="fills personal details" type="_XiFn4EW4Ee2WUpnHVXJ9pQ" association="_rBEwIEW4Ee2WUpnHVXJ9pQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_2xd1AEW4Ee2WUpnHVXJ9pQ" memberEnd="_2xfDIEW4Ee2WUpnHVXJ9pQ _2xfDIUW4Ee2WUpnHVXJ9pQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2xecEEW4Ee2WUpnHVXJ9pQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2xecEUW4Ee2WUpnHVXJ9pQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2xfDIEW4Ee2WUpnHVXJ9pQ" name="hec database" type="_2bjr4EW3Ee2WUpnHVXJ9pQ" association="_2xd1AEW4Ee2WUpnHVXJ9pQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2xfDIUW4Ee2WUpnHVXJ9pQ" name="submit printed signed application form" type="_H_D-4EW4Ee2WUpnHVXJ9pQ" association="_2xd1AEW4Ee2WUpnHVXJ9pQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3h2JEEW4Ee2WUpnHVXJ9pQ" memberEnd="_3h2wIkW4Ee2WUpnHVXJ9pQ _3h2wI0W4Ee2WUpnHVXJ9pQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3h2wIEW4Ee2WUpnHVXJ9pQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3h2wIUW4Ee2WUpnHVXJ9pQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3h2wIkW4Ee2WUpnHVXJ9pQ" name="hec database" type="_2bjr4EW3Ee2WUpnHVXJ9pQ" association="_3h2JEEW4Ee2WUpnHVXJ9pQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3h2wI0W4Ee2WUpnHVXJ9pQ" name="submit original degree with transcript" type="_N7LYAEW4Ee2WUpnHVXJ9pQ" association="_3h2JEEW4Ee2WUpnHVXJ9pQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4qYecEW4Ee2WUpnHVXJ9pQ" memberEnd="_4qZFgEW4Ee2WUpnHVXJ9pQ _4qZFgUW4Ee2WUpnHVXJ9pQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4qYecUW4Ee2WUpnHVXJ9pQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4qYeckW4Ee2WUpnHVXJ9pQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4qZFgEW4Ee2WUpnHVXJ9pQ" name="hec database" type="_2bjr4EW3Ee2WUpnHVXJ9pQ" association="_4qYecEW4Ee2WUpnHVXJ9pQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4qZFgUW4Ee2WUpnHVXJ9pQ" name="submit copy of cnic/passport" type="_QVe3QEW4Ee2WUpnHVXJ9pQ" association="_4qYecEW4Ee2WUpnHVXJ9pQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7IlmQEW4Ee2WUpnHVXJ9pQ" memberEnd="_7ImNUkW4Ee2WUpnHVXJ9pQ _7ImNU0W4Ee2WUpnHVXJ9pQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7ImNUEW4Ee2WUpnHVXJ9pQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7ImNUUW4Ee2WUpnHVXJ9pQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7ImNUkW4Ee2WUpnHVXJ9pQ" name="hec database" type="_2bjr4EW3Ee2WUpnHVXJ9pQ" association="_7IlmQEW4Ee2WUpnHVXJ9pQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7ImNU0W4Ee2WUpnHVXJ9pQ" name="submit attestation fee" type="_S80F4EW4Ee2WUpnHVXJ9pQ" association="_7IlmQEW4Ee2WUpnHVXJ9pQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7xgncEW4Ee2WUpnHVXJ9pQ" memberEnd="_7xgnc0W4Ee2WUpnHVXJ9pQ _7xhOgEW4Ee2WUpnHVXJ9pQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7xgncUW4Ee2WUpnHVXJ9pQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7xgnckW4Ee2WUpnHVXJ9pQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7xgnc0W4Ee2WUpnHVXJ9pQ" name="hec database" type="_2bjr4EW3Ee2WUpnHVXJ9pQ" association="_7xgncEW4Ee2WUpnHVXJ9pQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7xhOgEW4Ee2WUpnHVXJ9pQ" name="submit photocopy of all documents" type="_U2iAkEW4Ee2WUpnHVXJ9pQ" association="_7xgncEW4Ee2WUpnHVXJ9pQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8nIA0EW4Ee2WUpnHVXJ9pQ" memberEnd="_8nIn4kW4Ee2WUpnHVXJ9pQ _8nIn40W4Ee2WUpnHVXJ9pQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8nIn4EW4Ee2WUpnHVXJ9pQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8nIn4UW4Ee2WUpnHVXJ9pQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8nIn4kW4Ee2WUpnHVXJ9pQ" name="hec database" type="_2bjr4EW3Ee2WUpnHVXJ9pQ" association="_8nIA0EW4Ee2WUpnHVXJ9pQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8nIn40W4Ee2WUpnHVXJ9pQ" name="fills personal details" type="_XiFn4EW4Ee2WUpnHVXJ9pQ" association="_8nIA0EW4Ee2WUpnHVXJ9pQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="__iZfIEW4Ee2WUpnHVXJ9pQ" name="HEC Representative">
+    <generalization xmi:type="uml:Generalization" xmi:id="_EjwgMEW5Ee2WUpnHVXJ9pQ" general="_xIcMcEW3Ee2WUpnHVXJ9pQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_W82-cEW5Ee2WUpnHVXJ9pQ" name="HEC Rep sends confirmation email" memberEnd="_W83lgkW5Ee2WUpnHVXJ9pQ _W83lg0W5Ee2WUpnHVXJ9pQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_W83lgEW5Ee2WUpnHVXJ9pQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_W83lgUW5Ee2WUpnHVXJ9pQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_W83lgkW5Ee2WUpnHVXJ9pQ" name="hec representative" type="__iZfIEW4Ee2WUpnHVXJ9pQ" association="_W82-cEW5Ee2WUpnHVXJ9pQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_W83lg0W5Ee2WUpnHVXJ9pQ" name="send confimation email" type="_HHTbAEW5Ee2WUpnHVXJ9pQ" association="_W82-cEW5Ee2WUpnHVXJ9pQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_XrXqQEW5Ee2WUpnHVXJ9pQ" name="HEC Rep starts attestation process" memberEnd="_XrYRUkW5Ee2WUpnHVXJ9pQ _XrYRU0W5Ee2WUpnHVXJ9pQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XrYRUEW5Ee2WUpnHVXJ9pQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XrYRUUW5Ee2WUpnHVXJ9pQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XrYRUkW5Ee2WUpnHVXJ9pQ" type="_W82-cEW5Ee2WUpnHVXJ9pQ" association="_XrXqQEW5Ee2WUpnHVXJ9pQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XrYRU0W5Ee2WUpnHVXJ9pQ" name="start attestation process" type="_IXOx0EW5Ee2WUpnHVXJ9pQ" association="_XrXqQEW5Ee2WUpnHVXJ9pQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_cHmlAEW5Ee2WUpnHVXJ9pQ" name="HEC Rep emails to collect attested document" memberEnd="_cHmlA0W5Ee2WUpnHVXJ9pQ _cHnMEEW5Ee2WUpnHVXJ9pQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cHmlAUW5Ee2WUpnHVXJ9pQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cHmlAkW5Ee2WUpnHVXJ9pQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_cHmlA0W5Ee2WUpnHVXJ9pQ" name="hec rep sends confirmation email" type="_W82-cEW5Ee2WUpnHVXJ9pQ" association="_cHmlAEW5Ee2WUpnHVXJ9pQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_cHnMEEW5Ee2WUpnHVXJ9pQ" name="email to collect attestation document" type="_KnoHIEW5Ee2WUpnHVXJ9pQ" association="_cHmlAEW5Ee2WUpnHVXJ9pQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_fezxYEW5Ee2WUpnHVXJ9pQ" name="HEC Rep notifies applicant about incorrect information" memberEnd="_fe0YckW5Ee2WUpnHVXJ9pQ _fe0Yc0W5Ee2WUpnHVXJ9pQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fe0YcEW5Ee2WUpnHVXJ9pQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fe0YcUW5Ee2WUpnHVXJ9pQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fe0YckW5Ee2WUpnHVXJ9pQ" name="hec rep sends confirmation email" type="_W82-cEW5Ee2WUpnHVXJ9pQ" association="_fezxYEW5Ee2WUpnHVXJ9pQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fe0Yc0W5Ee2WUpnHVXJ9pQ" name="notify user for entering incorrect data" type="_TWD24EW5Ee2WUpnHVXJ9pQ" association="_fezxYEW5Ee2WUpnHVXJ9pQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_2cLFAEW5Ee2WUpnHVXJ9pQ" memberEnd="_2cLsEkW5Ee2WUpnHVXJ9pQ _2cLsE0W5Ee2WUpnHVXJ9pQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2cLsEEW5Ee2WUpnHVXJ9pQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2cLsEUW5Ee2WUpnHVXJ9pQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2cLsEkW5Ee2WUpnHVXJ9pQ" name="hec database" type="_2bjr4EW3Ee2WUpnHVXJ9pQ" association="_2cLFAEW5Ee2WUpnHVXJ9pQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2cLsE0W5Ee2WUpnHVXJ9pQ" name="start attestation process" type="_IXOx0EW5Ee2WUpnHVXJ9pQ" association="_2cLFAEW5Ee2WUpnHVXJ9pQ"/>
+  </packagedElement>
+</uml:Model>

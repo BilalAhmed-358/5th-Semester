@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="486A8793-29CD-415B-DFA1-E9D31E9EFF84" name="Ships">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 15:44:20 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ShipID" id="0BB75636-9375-B1A3-AFAE-36E61F0C0780">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:25:22 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="route" id="85B14363-2A91-6B1D-84D8-9F6E6E3F9196">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:25:34 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Location" id="D05CC29F-E6FA-9529-F347-5E45E7C86A9F">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:25:42 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dockTime" id="394FE346-3EFE-4961-F7B4-91E9E05C260A">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:26:00 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NoOfContainer" id="51C38C98-9DCF-848F-A0BD-19B126DC9EC1">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:27:26 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="weight" id="6E9CAD57-42D9-3971-A937-56B7EA4EEA0D">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:27:50 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="refuelDuration" id="24DDC5FB-444A-2A0A-2EC3-FCC297E33BBD">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:28:00 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="price_per_hour" id="7AD70F8A-A1ED-840F-2923-3847CF3F91CA">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:28:26 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dateArrival" id="55746291-FD17-EA80-54F0-5FA344B5EC82">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:28:55 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PortID" id="91233C1B-9CB1-E156-B3D1-21245B24256E">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:35:08 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PortID1" id="AFAFE7E2-D217-8DCA-6A46-B79934B47036">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:35:24 UTC</createdTime>
+<generatorID>48C32D10-5080-D65A-4E36-BC7FE3756BFF</generatorID>
+<ownerDesignName>project schema </ownerDesignName>
+<referedAttribute>BFB33827-5C6A-7BEA-7E22-7DEB86E1BEE1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AdminID" id="2DB14D4A-4F01-1D6A-D924-C65C4FDA3A9A">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:35:24 UTC</createdTime>
+<generatorID>48C32D10-5080-D65A-4E36-BC7FE3756BFF</generatorID>
+<ownerDesignName>project schema </ownerDesignName>
+<referedAttribute>7FF31FD9-4DA4-B441-D7BC-DEB00C544757</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A56735BE-320A-F088-B8B1-86293DAB2992" name="Ships PK">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:25:29 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0BB75636-9375-B1A3-AFAE-36E61F0C0780</attributeRef>
+<attributeRef>AFAFE7E2-D217-8DCA-6A46-B79934B47036</attributeRef>
+<attributeRef>2DB14D4A-4F01-1D6A-D924-C65C4FDA3A9A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

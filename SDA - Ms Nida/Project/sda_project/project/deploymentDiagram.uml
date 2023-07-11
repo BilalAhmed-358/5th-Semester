@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:component="http:///schemas/component/_M40-YXc1Ee28K58gH1gFBQ/0" xmlns:database="http:///schemas/database/_iDoPkHcyEe28K58gH1gFBQ/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:manifest="http:///schemas/manifest/_S3G6sHc1Ee28K58gH1gFBQ/0" xmlns:protocal="http:///schemas/protocal/_jHvtEHc0Ee28K58gH1gFBQ/0" xmlns:schema="http:///schemas/schema/_Rmgq8Hc0Ee28K58gH1gFBQ/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/component/_M40-YXc1Ee28K58gH1gFBQ/0 component.profile.uml#_M40-Y3c1Ee28K58gH1gFBQ http:///schemas/database/_iDoPkHcyEe28K58gH1gFBQ/0 database.profile.uml#_iDpdsXcyEe28K58gH1gFBQ http:///schemas/manifest/_S3G6sHc1Ee28K58gH1gFBQ/0 manifest.profile.uml#_S3G6snc1Ee28K58gH1gFBQ http:///schemas/protocal/_jHvtEHc0Ee28K58gH1gFBQ/0 protocal.profile.uml#_jHwUIHc0Ee28K58gH1gFBQ http:///schemas/schema/_Rmgq8Hc0Ee28K58gH1gFBQ/1 schema.profile.uml#_RmkVUHc0Ee28K58gH1gFBQ">
+  <uml:Model xmi:id="_KgiFkHSpEe21Af0Auk3ZlA" name="deploymentDiagram">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_KiyIUHSpEe21Af0Auk3ZlA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Device" xmi:id="_TN048HcyEe28K58gH1gFBQ" name="Server">
+      <nestedClassifier xmi:type="uml:Node" xmi:id="_MdRgQHc0Ee28K58gH1gFBQ" name="Port Data"/>
+      <nestedNode xmi:type="uml:Node" xmi:id="_aHKIQHcyEe28K58gH1gFBQ" name="MySql server"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Device" xmi:id="_iFbw8HczEe28K58gH1gFBQ" name="User PC">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_stFPoHc0Ee28K58gH1gFBQ" name="homepage.php" fileName=""/>
+      <nestedNode xmi:type="uml:Device" xmi:id="_j4UD0HczEe28K58gH1gFBQ" name="Keyboard"/>
+      <nestedNode xmi:type="uml:Device" xmi:id="_nN9J8HczEe28K58gH1gFBQ" name="Mouse"/>
+      <nestedNode xmi:type="uml:Device" xmi:id="_oaEXwHczEe28K58gH1gFBQ" name="Monitor"/>
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_nedOoHc0Ee28K58gH1gFBQ" name="Web App">
+        <deployment xmi:type="uml:Deployment" xmi:id="_0HRwUHc0Ee28K58gH1gFBQ" client="_nedOoHc0Ee28K58gH1gFBQ" supplier="_stFPoHc0Ee28K58gH1gFBQ" deployedArtifact="_stFPoHc0Ee28K58gH1gFBQ"/>
+      </nestedNode>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_eYFgAHc0Ee28K58gH1gFBQ" name="SRTP Protocol" memberEnd="_eYUwkHc0Ee28K58gH1gFBQ _eYYa8Hc0Ee28K58gH1gFBQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eYOp8Hc0Ee28K58gH1gFBQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eYP4EHc0Ee28K58gH1gFBQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_eYUwkHc0Ee28K58gH1gFBQ" name="server" type="_TN048HcyEe28K58gH1gFBQ" association="_eYFgAHc0Ee28K58gH1gFBQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_eYYa8Hc0Ee28K58gH1gFBQ" name="user pc" type="_iFbw8HczEe28K58gH1gFBQ" association="_eYFgAHc0Ee28K58gH1gFBQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_26mzkHc0Ee28K58gH1gFBQ" name="index.php"/>
+    <packagedElement xmi:type="uml:Node" xmi:id="_I85UUHc1Ee28K58gH1gFBQ" name="User interface"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_PMEzYHc1Ee28K58gH1gFBQ" client="_26mzkHc0Ee28K58gH1gFBQ" supplier="_I85UUHc1Ee28K58gH1gFBQ"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_iDuWMHcyEe28K58gH1gFBQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iDwycHcyEe28K58gH1gFBQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="database.profile.uml#_iDpdsXcyEe28K58gH1gFBQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="database.profile.uml#_iDMxwHcyEe28K58gH1gFBQ"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_50LToHcyEe28K58gH1gFBQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_50L6sHcyEe28K58gH1gFBQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="schema.profile.uml#_RmkVUHc0Ee28K58gH1gFBQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="schema.profile.uml#_50FNAHcyEe28K58gH1gFBQ"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_jHwULHc0Ee28K58gH1gFBQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jHw7MHc0Ee28K58gH1gFBQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="protocal.profile.uml#_jHwUIHc0Ee28K58gH1gFBQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="protocal.profile.uml#_jHpmcHc0Ee28K58gH1gFBQ"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Hy_tDHc1Ee28K58gH1gFBQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HzAUEHc1Ee28K58gH1gFBQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="components.profile.uml#_Hy_tAHc1Ee28K58gH1gFBQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="components.profile.uml#_Hy6NcHc1Ee28K58gH1gFBQ"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_M41ldnc1Ee28K58gH1gFBQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_M41ld3c1Ee28K58gH1gFBQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="component.profile.uml#_M40-Y3c1Ee28K58gH1gFBQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="component.profile.uml#_M4ws8Hc1Ee28K58gH1gFBQ"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_S3HhwHc1Ee28K58gH1gFBQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_S3HhwXc1Ee28K58gH1gFBQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="manifest.profile.uml#_S3G6snc1Ee28K58gH1gFBQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="manifest.profile.uml#_S3BbIHc1Ee28K58gH1gFBQ"/>
+    </profileApplication>
+  </uml:Model>
+  <database:database xmi:id="_iDz1wHcyEe28K58gH1gFBQ" base_Node="_aHKIQHcyEe28K58gH1gFBQ"/>
+  <schema:schema xmi:id="_Rmqb8Hc0Ee28K58gH1gFBQ" base_Node="_MdRgQHc0Ee28K58gH1gFBQ"/>
+  <protocal:protocol xmi:id="_jHxiQHc0Ee28K58gH1gFBQ" base_CommunicationPath="_eYFgAHc0Ee28K58gH1gFBQ"/>
+  <component:component xmi:id="_M42MgHc1Ee28K58gH1gFBQ" base_Node="_I85UUHc1Ee28K58gH1gFBQ"/>
+  <manifest:manifest xmi:id="_S3II0Hc1Ee28K58gH1gFBQ" base_Dependency="_PMEzYHc1Ee28K58gH1gFBQ"/>
+</xmi:XMI>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="02A465F3-44C1-CDAA-D5F2-ECA3D523F22A" name="Ports" seqName="seg_0"/>
+   <object objectType="Entity" objectID="056A9DB6-C34F-EC51-EE6D-3E2BD5AB32C5" name="Customers" seqName="seg_0"/>
+   <object objectType="Entity" objectID="0F1C6D66-73CE-5080-7BF4-139373ED13FD" name="" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3558B173-9052-E6F3-FAFB-8DA40918EB97" name="Containers" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3987673A-A482-1175-7458-141A3B9ADF85" name="Admins" seqName="seg_0"/>
+   <object objectType="Entity" objectID="486A8793-29CD-415B-DFA1-E9D31E9EFF84" name="Ships" seqName="seg_0"/>
+   <object objectType="Entity" objectID="BD74732C-6E23-8CA5-2B0A-D97C2ABDCE20" name="Payments" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F1147E53-3420-8E98-92A5-F7FF45D2728B" name="Credits" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F217D63F-73A5-18B8-BAC4-E784DC3CBA42" name="Orders" seqName="seg_0"/>
+   <object objectType="Relation" objectID="12F447F8-9E7D-A27A-D61A-33AED77C482F" name="Relation_3" seqName="seg_0"/>
+   <object objectType="Relation" objectID="13B5EA54-48A8-F6C9-6747-6D85CF9F62D6" name="Relation_2" seqName="seg_0"/>
+   <object objectType="Relation" objectID="1EAA3747-A7E1-04F7-397B-ABB4636A3A14" name="Relation_5" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3D3C60B5-A2CC-82C0-333F-9C38B19A2068" name="Relation_12" seqName="seg_0"/>
+   <object objectType="Relation" objectID="48C32D10-5080-D65A-4E36-BC7FE3756BFF" name="Relation_6" seqName="seg_0"/>
+   <object objectType="Relation" objectID="AFB55B2F-E90A-E6AF-3902-B2D5E5668AF7" name="" seqName="seg_0"/>
+   <object objectType="Relation" objectID="EE342A5A-FA83-3966-853F-1F19531106FD" name="Relation_1" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F0D931B5-A54B-E482-F09A-FC3ADE22B417" name="Relation_4" seqName="seg_0"/>
+   <object objectType="Relation" objectID="FFCA80E5-163C-38C1-B5B8-F62D6EA36CE8" name="" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

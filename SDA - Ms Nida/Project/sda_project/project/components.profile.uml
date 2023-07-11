@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Hy6NcHc1Ee28K58gH1gFBQ" name="components" metaclassReference="_Hy930Hc1Ee28K58gH1gFBQ">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Hy_F8nc1Ee28K58gH1gFBQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_Hy_tAHc1Ee28K58gH1gFBQ" name="components" nsURI="http:///schemas/components/_Hy_F8Xc1Ee28K58gH1gFBQ/0" nsPrefix="components">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Hy_tBnc1Ee28K58gH1gFBQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Hy_tB3c1Ee28K58gH1gFBQ" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Hy_tCHc1Ee28K58gH1gFBQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Hy_tCXc1Ee28K58gH1gFBQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Hy_tCnc1Ee28K58gH1gFBQ" key="Date" value="12/9/22, 1:15 AM"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Hy_tC3c1Ee28K58gH1gFBQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Hy_tAXc1Ee28K58gH1gFBQ" name="components">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Hy_tAnc1Ee28K58gH1gFBQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Hy9QwHc1Ee28K58gH1gFBQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Hy_tA3c1Ee28K58gH1gFBQ" name="base_Device" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Device"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_Hy930Hc1Ee28K58gH1gFBQ">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Device"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_Hy9QwHc1Ee28K58gH1gFBQ" name="components">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Hy_F8Hc1Ee28K58gH1gFBQ" name="base_Device" association="_Hy-e4Hc1Ee28K58gH1gFBQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Device"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_Hy-e4Hc1Ee28K58gH1gFBQ" name="Device_components" memberEnd="_Hy-e4Xc1Ee28K58gH1gFBQ _Hy_F8Hc1Ee28K58gH1gFBQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_Hy-e4Xc1Ee28K58gH1gFBQ" name="extension_components" type="_Hy9QwHc1Ee28K58gH1gFBQ" aggregation="composite" association="_Hy-e4Hc1Ee28K58gH1gFBQ"/>
+  </packagedElement>
+</uml:Profile>

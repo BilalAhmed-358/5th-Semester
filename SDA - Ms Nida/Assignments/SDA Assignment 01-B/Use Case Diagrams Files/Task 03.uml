@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_1XukAEY-Ee2svIUbCUNCEw" name="Task 03">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_1auNoEY-Ee2svIUbCUNCEw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_uRYT8EZgEe2svIUbCUNCEw" name="Online Education System">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_1Qmv4EZgEe2svIUbCUNCEw" name="Fill Online Registration"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_2qhwMEZgEe2svIUbCUNCEw" name="Log In">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_EsufoEZhEe2svIUbCUNCEw" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_FWeAMEZhEe2svIUbCUNCEw" name="ExtensionPoint2"/>
+      <include xmi:type="uml:Include" xmi:id="_GTu5sEZhEe2svIUbCUNCEw" addition="_1Qmv4EZgEe2svIUbCUNCEw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_31fugEZgEe2svIUbCUNCEw" name="Select desired subject">
+      <include xmi:type="uml:Include" xmi:id="_HjTrMEZhEe2svIUbCUNCEw" addition="_2qhwMEZgEe2svIUbCUNCEw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_57mfYEZgEe2svIUbCUNCEw" name="Pay fees for subject">
+      <include xmi:type="uml:Include" xmi:id="_IWUcgEZhEe2svIUbCUNCEw" addition="_31fugEZgEe2svIUbCUNCEw"/>
+      <include xmi:type="uml:Include" xmi:id="_J9G0IEZhEe2svIUbCUNCEw" addition="_2qhwMEZgEe2svIUbCUNCEw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_7P6m8EZgEe2svIUbCUNCEw" name="Answer exam questions">
+      <include xmi:type="uml:Include" xmi:id="_W2JjIEZhEe2svIUbCUNCEw" addition="_2qhwMEZgEe2svIUbCUNCEw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_9HxgcEZgEe2svIUbCUNCEw" name="submit exam questions">
+      <include xmi:type="uml:Include" xmi:id="_NdWAsEZhEe2svIUbCUNCEw" addition="_7P6m8EZgEe2svIUbCUNCEw"/>
+      <include xmi:type="uml:Include" xmi:id="_UnCAMEZhEe2svIUbCUNCEw" addition="_2qhwMEZgEe2svIUbCUNCEw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-il4oEZgEe2svIUbCUNCEw" name="View exam results">
+      <include xmi:type="uml:Include" xmi:id="_bKP1kEZhEe2svIUbCUNCEw" addition="_2qhwMEZgEe2svIUbCUNCEw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_AemSUEZhEe2svIUbCUNCEw" name="Login successful">
+      <extend xmi:type="uml:Extend" xmi:id="_EstRgEZhEe2svIUbCUNCEw" extendedCase="_2qhwMEZgEe2svIUbCUNCEw" extensionLocation="_EsufoEZhEe2svIUbCUNCEw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Cw3P4EZhEe2svIUbCUNCEw" name="Login Failed">
+      <extend xmi:type="uml:Extend" xmi:id="_FWdZIEZhEe2svIUbCUNCEw" extendedCase="_2qhwMEZgEe2svIUbCUNCEw" extensionLocation="_FWeAMEZhEe2svIUbCUNCEw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-YLi8EZhEe2svIUbCUNCEw" name="Log in"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_BFT3kEZiEe2svIUbCUNCEw" name="Set Question paper for exams"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_DEZacEZiEe2svIUbCUNCEw" name="Declare results"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Eww1oEZiEe2svIUbCUNCEw" name="Send emails to students"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_v9B9cEZgEe2svIUbCUNCEw" name="User"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_xiMkcEZgEe2svIUbCUNCEw" name="Student">
+    <generalization xmi:type="uml:Generalization" xmi:id="_zLyYcEZgEe2svIUbCUNCEw" general="_v9B9cEZgEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_pgSuEEZhEe2svIUbCUNCEw" name="Student fills online registration form" memberEnd="_pgVxYEZhEe2svIUbCUNCEw _pgVxYUZhEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pgUjQEZhEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pgVKUEZhEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pgVxYEZhEe2svIUbCUNCEw" name="fill online registration" type="_1Qmv4EZgEe2svIUbCUNCEw" association="_pgSuEEZhEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pgVxYUZhEe2svIUbCUNCEw" name="student" type="_xiMkcEZgEe2svIUbCUNCEw" association="_pgSuEEZhEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_rRNSEEZhEe2svIUbCUNCEw" name="Student logs in to the system" memberEnd="_rRN5IkZhEe2svIUbCUNCEw _rRN5I0ZhEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rRN5IEZhEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rRN5IUZhEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rRN5IkZhEe2svIUbCUNCEw" name="log in" type="_2qhwMEZgEe2svIUbCUNCEw" association="_rRNSEEZhEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rRN5I0ZhEe2svIUbCUNCEw" name="student" type="_xiMkcEZgEe2svIUbCUNCEw" association="_rRNSEEZhEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_s7V4oEZhEe2svIUbCUNCEw" name="Student selects his desired subjects" memberEnd="_s7XGwUZhEe2svIUbCUNCEw _s7XGwkZhEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s7WfsEZhEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_s7XGwEZhEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_s7XGwUZhEe2svIUbCUNCEw" name="select desired subject" type="_31fugEZgEe2svIUbCUNCEw" association="_s7V4oEZhEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_s7XGwkZhEe2svIUbCUNCEw" name="student" type="_xiMkcEZgEe2svIUbCUNCEw" association="_s7V4oEZhEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_xfeyMEZhEe2svIUbCUNCEw" name="Student pays his fee for the subject" memberEnd="_xffZQUZhEe2svIUbCUNCEw _xffZQkZhEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xfeyMUZhEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xffZQEZhEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xffZQUZhEe2svIUbCUNCEw" name="pay fees for subject" type="_57mfYEZgEe2svIUbCUNCEw" association="_xfeyMEZhEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xffZQkZhEe2svIUbCUNCEw" name="student" type="_xiMkcEZgEe2svIUbCUNCEw" association="_xfeyMEZhEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zT9AgEZhEe2svIUbCUNCEw" name="Student answers the exam questions" memberEnd="_zT9Ag0ZhEe2svIUbCUNCEw _zT9nkEZhEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zT9AgUZhEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zT9AgkZhEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zT9Ag0ZhEe2svIUbCUNCEw" name="answer exam questions" type="_7P6m8EZgEe2svIUbCUNCEw" association="_zT9AgEZhEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zT9nkEZhEe2svIUbCUNCEw" name="student" type="_xiMkcEZgEe2svIUbCUNCEw" association="_zT9AgEZhEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1v43cEZhEe2svIUbCUNCEw" name="Student submits the exam questions" memberEnd="_1v43c0ZhEe2svIUbCUNCEw _1v43dEZhEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1v43cUZhEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1v43ckZhEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1v43c0ZhEe2svIUbCUNCEw" name="submit exam questions" type="_9HxgcEZgEe2svIUbCUNCEw" association="_1v43cEZhEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1v43dEZhEe2svIUbCUNCEw" name="student" type="_xiMkcEZgEe2svIUbCUNCEw" association="_1v43cEZhEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3mdXgEZhEe2svIUbCUNCEw" name="Student views exam results" memberEnd="_3md-kEZhEe2svIUbCUNCEw _3md-kUZhEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3mdXgUZhEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3mdXgkZhEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3md-kEZhEe2svIUbCUNCEw" name="view exam results" type="_-il4oEZgEe2svIUbCUNCEw" association="_3mdXgEZhEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3md-kUZhEe2svIUbCUNCEw" name="student" type="_xiMkcEZgEe2svIUbCUNCEw" association="_3mdXgEZhEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_6AZqYEZhEe2svIUbCUNCEw" name="Teacher">
+    <generalization xmi:type="uml:Generalization" xmi:id="_74vFAEZhEe2svIUbCUNCEw" general="_v9B9cEZgEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GOdisEZiEe2svIUbCUNCEw" name="Teacher logs in to the system" memberEnd="_GOeJwUZiEe2svIUbCUNCEw _GOeJwkZiEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GOdisUZiEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GOeJwEZiEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GOeJwUZiEe2svIUbCUNCEw" name="log in" type="_-YLi8EZhEe2svIUbCUNCEw" association="_GOdisEZiEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GOeJwkZiEe2svIUbCUNCEw" name="teacher" type="_6AZqYEZhEe2svIUbCUNCEw" association="_GOdisEZiEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_H3eu8EZiEe2svIUbCUNCEw" name="Teacher sets question paper" memberEnd="_H3eu80ZiEe2svIUbCUNCEw _H3eu9EZiEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_H3eu8UZiEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_H3eu8kZiEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_H3eu80ZiEe2svIUbCUNCEw" name="set question paper for exams" type="_BFT3kEZiEe2svIUbCUNCEw" association="_H3eu8EZiEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_H3eu9EZiEe2svIUbCUNCEw" name="teacher" type="_6AZqYEZhEe2svIUbCUNCEw" association="_H3eu8EZiEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_KENsQEZiEe2svIUbCUNCEw" name="Teacher declare results" memberEnd="_KEOTUkZiEe2svIUbCUNCEw _KEOTU0ZiEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KEOTUEZiEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KEOTUUZiEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KEOTUkZiEe2svIUbCUNCEw" name="declare results" type="_DEZacEZiEe2svIUbCUNCEw" association="_KENsQEZiEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KEOTU0ZiEe2svIUbCUNCEw" name="teacher" type="_6AZqYEZhEe2svIUbCUNCEw" association="_KENsQEZiEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Ma5PwEZiEe2svIUbCUNCEw" name="Teacher sends results email to students" memberEnd="_Ma5Pw0ZiEe2svIUbCUNCEw _Ma5PxEZiEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ma5PwUZiEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ma5PwkZiEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ma5Pw0ZiEe2svIUbCUNCEw" name="send emails to students" type="_Eww1oEZiEe2svIUbCUNCEw" association="_Ma5PwEZiEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ma5PxEZiEe2svIUbCUNCEw" name="teacher" type="_6AZqYEZhEe2svIUbCUNCEw" association="_Ma5PwEZiEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_PRg3kEZiEe2svIUbCUNCEw" name="Examination system Database"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_RtWn4EZiEe2svIUbCUNCEw" memberEnd="_RtXO8kZiEe2svIUbCUNCEw _RtXO80ZiEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RtXO8EZiEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RtXO8UZiEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_RtXO8kZiEe2svIUbCUNCEw" name="examination system database" type="_PRg3kEZiEe2svIUbCUNCEw" association="_RtWn4EZiEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_RtXO80ZiEe2svIUbCUNCEw" name="select desired subject" type="_31fugEZgEe2svIUbCUNCEw" association="_RtWn4EZiEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_SWxYUEZiEe2svIUbCUNCEw" memberEnd="_SWx_YEZiEe2svIUbCUNCEw _SWx_YUZiEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SWxYUUZiEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SWxYUkZiEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SWx_YEZiEe2svIUbCUNCEw" name="examination system database" type="_PRg3kEZiEe2svIUbCUNCEw" association="_SWxYUEZiEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SWx_YUZiEe2svIUbCUNCEw" name="pay fees for subject" type="_57mfYEZgEe2svIUbCUNCEw" association="_SWxYUEZiEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UYG98EZiEe2svIUbCUNCEw" memberEnd="_UYHlAkZiEe2svIUbCUNCEw _UYHlA0ZiEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UYHlAEZiEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UYHlAUZiEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UYHlAkZiEe2svIUbCUNCEw" name="examination system database" type="_PRg3kEZiEe2svIUbCUNCEw" association="_UYG98EZiEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UYHlA0ZiEe2svIUbCUNCEw" name="answer exam questions" type="_7P6m8EZgEe2svIUbCUNCEw" association="_UYG98EZiEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_VP_BIEZiEe2svIUbCUNCEw" memberEnd="_VQAPQEZiEe2svIUbCUNCEw _VQAPQUZiEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VP_oMEZiEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VP_oMUZiEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VQAPQEZiEe2svIUbCUNCEw" name="examination system database" type="_PRg3kEZiEe2svIUbCUNCEw" association="_VP_BIEZiEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VQAPQUZiEe2svIUbCUNCEw" name="submit exam questions" type="_9HxgcEZgEe2svIUbCUNCEw" association="_VP_BIEZiEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_V6nSgEZiEe2svIUbCUNCEw" memberEnd="_V6n5kkZiEe2svIUbCUNCEw _V6n5k0ZiEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_V6n5kEZiEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_V6n5kUZiEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_V6n5kkZiEe2svIUbCUNCEw" name="examination system database" type="_PRg3kEZiEe2svIUbCUNCEw" association="_V6nSgEZiEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_V6n5k0ZiEe2svIUbCUNCEw" name="view exam results" type="_-il4oEZgEe2svIUbCUNCEw" association="_V6nSgEZiEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YfVSAEZiEe2svIUbCUNCEw" memberEnd="_YfV5EkZiEe2svIUbCUNCEw _YfV5E0ZiEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YfV5EEZiEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YfV5EUZiEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YfV5EkZiEe2svIUbCUNCEw" name="examination system database" type="_PRg3kEZiEe2svIUbCUNCEw" association="_YfVSAEZiEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YfV5E0ZiEe2svIUbCUNCEw" name="log in" type="_2qhwMEZgEe2svIUbCUNCEw" association="_YfVSAEZiEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ZU4Z8EZiEe2svIUbCUNCEw" memberEnd="_ZU5BAUZiEe2svIUbCUNCEw _ZU5BAkZiEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZU4Z8UZiEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZU5BAEZiEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZU5BAUZiEe2svIUbCUNCEw" name="examination system database" type="_PRg3kEZiEe2svIUbCUNCEw" association="_ZU4Z8EZiEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZU5BAkZiEe2svIUbCUNCEw" name="log in" type="_-YLi8EZhEe2svIUbCUNCEw" association="_ZU4Z8EZiEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Z_xKAEZiEe2svIUbCUNCEw" memberEnd="_Z_xKA0ZiEe2svIUbCUNCEw _Z_xKBEZiEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Z_xKAUZiEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Z_xKAkZiEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Z_xKA0ZiEe2svIUbCUNCEw" name="examination system database" type="_PRg3kEZiEe2svIUbCUNCEw" association="_Z_xKAEZiEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Z_xKBEZiEe2svIUbCUNCEw" name="set question paper for exams" type="_BFT3kEZiEe2svIUbCUNCEw" association="_Z_xKAEZiEe2svIUbCUNCEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_awuF0EZiEe2svIUbCUNCEw" memberEnd="_awus4kZiEe2svIUbCUNCEw _awus40ZiEe2svIUbCUNCEw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_awus4EZiEe2svIUbCUNCEw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_awus4UZiEe2svIUbCUNCEw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_awus4kZiEe2svIUbCUNCEw" name="examination system database" type="_PRg3kEZiEe2svIUbCUNCEw" association="_awuF0EZiEe2svIUbCUNCEw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_awus40ZiEe2svIUbCUNCEw" name="declare results" type="_DEZacEZiEe2svIUbCUNCEw" association="_awuF0EZiEe2svIUbCUNCEw"/>
+  </packagedElement>
+</uml:Model>

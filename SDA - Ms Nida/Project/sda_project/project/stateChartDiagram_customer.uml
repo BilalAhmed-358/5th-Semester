@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_t_klsHdJEe20Eu7J6R45GQ" name="stateChartDiagram_customer">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_uC_tIHdJEe20Eu7J6R45GQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_uBEagHdJEe20Eu7J6R45GQ" name="Customer State Diagram">
+    <region xmi:type="uml:Region" xmi:id="_uBi7oHdJEe20Eu7J6R45GQ" name="Region1">
+      <transition xmi:type="uml:Transition" xmi:id="_dw3tAHdKEe20Eu7J6R45GQ" source="_0quPEHdJEe20Eu7J6R45GQ" target="_Thyp4HdKEe20Eu7J6R45GQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_hfodwHdKEe20Eu7J6R45GQ" source="_Thyp4HdKEe20Eu7J6R45GQ" target="_fpdmUHdKEe20Eu7J6R45GQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_j4CfkHdKEe20Eu7J6R45GQ" name="No" source="_fpdmUHdKEe20Eu7J6R45GQ" target="_Thyp4HdKEe20Eu7J6R45GQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_pT2A8HdKEe20Eu7J6R45GQ" name="Yes" source="_fpdmUHdKEe20Eu7J6R45GQ" target="_mtg34HdKEe20Eu7J6R45GQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_C8sqcHdLEe20Eu7J6R45GQ" source="_mtg34HdKEe20Eu7J6R45GQ" target="_q5WmMHdKEe20Eu7J6R45GQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_Dq07wHdLEe20Eu7J6R45GQ" source="_mtg34HdKEe20Eu7J6R45GQ" target="_2U-U8HdKEe20Eu7J6R45GQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_IJLWYHdLEe20Eu7J6R45GQ" source="_q5WmMHdKEe20Eu7J6R45GQ" target="_FWDugHdLEe20Eu7J6R45GQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_I0GisHdLEe20Eu7J6R45GQ" source="_2U-U8HdKEe20Eu7J6R45GQ" target="_FWDugHdLEe20Eu7J6R45GQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_Lw3OwHdLEe20Eu7J6R45GQ" name="No" source="_FWDugHdLEe20Eu7J6R45GQ" target="_JlCQYHdLEe20Eu7J6R45GQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_RI0x8HdLEe20Eu7J6R45GQ" name="Yes" source="_FWDugHdLEe20Eu7J6R45GQ" target="_mtg34HdKEe20Eu7J6R45GQ"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_0quPEHdJEe20Eu7J6R45GQ" name="Start"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Thyp4HdKEe20Eu7J6R45GQ" name="Signing Un/Logging In">
+        <doActivity xmi:type="uml:Activity" xmi:id="_cJXjsHdKEe20Eu7J6R45GQ" name="Create Account/Sign In"/>
+        <entry xmi:type="uml:Activity" xmi:id="_YvOYEHdKEe20Eu7J6R45GQ" name="Not signed In"/>
+        <exit xmi:type="uml:Activity" xmi:id="_aTVPIHdKEe20Eu7J6R45GQ" name="Signed In / Signed Up"/>
+      </subvertex>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_fpdmUHdKEe20Eu7J6R45GQ" name="Valid credentials" kind="choice"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_mtg34HdKEe20Eu7J6R45GQ" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_q5WmMHdKEe20Eu7J6R45GQ" name="Adding/Updating /deleting payments">
+        <doActivity xmi:type="uml:Activity" xmi:id="_1EVMcHdKEe20Eu7J6R45GQ" name="Updating Payments Database of the table"/>
+        <entry xmi:type="uml:Activity" xmi:id="_xJqGoHdKEe20Eu7J6R45GQ" name="Payments table of the database to be modified"/>
+        <exit xmi:type="uml:Activity" xmi:id="_yso8UHdKEe20Eu7J6R45GQ" name="Payments table of the database modified"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_2U-U8HdKEe20Eu7J6R45GQ" name="Adding/Updating/Deleting Orders">
+        <doActivity xmi:type="uml:Activity" xmi:id="_CCtHYHdLEe20Eu7J6R45GQ" name="Updating orders table of the database"/>
+        <entry xmi:type="uml:Activity" xmi:id="_6bhTkHdKEe20Eu7J6R45GQ" name="Orders table of the database to be updates"/>
+        <exit xmi:type="uml:Activity" xmi:id="__rgmgHdKEe20Eu7J6R45GQ" name="Orders table of the database updated"/>
+      </subvertex>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_FWDugHdLEe20Eu7J6R45GQ" name="Perform more actions?" kind="choice"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_JlCQYHdLEe20Eu7J6R45GQ" name="FinalState16"/>
+    </region>
+  </packagedElement>
+</uml:Model>

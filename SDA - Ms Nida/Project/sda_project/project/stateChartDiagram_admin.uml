@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_PEEiMHSpEe21Af0Auk3ZlA" name="stateChartDiagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_PF0OoHSpEe21Af0Auk3ZlA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_S2bBYHc5Ee28K58gH1gFBQ" name="Admin State Diagram">
+    <region xmi:type="uml:Region" xmi:id="_THPEkHc5Ee28K58gH1gFBQ" name="No">
+      <transition xmi:type="uml:Transition" xmi:id="_3NLYAHc5Ee28K58gH1gFBQ" source="_mj7t0Hc5Ee28K58gH1gFBQ" target="_uxkdoHc5Ee28K58gH1gFBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_tlgx0HdHEe2IRMCSIydKyQ" source="_uxkdoHc5Ee28K58gH1gFBQ" target="_qZI8cHdHEe2IRMCSIydKyQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_zmFNIHdHEe2IRMCSIydKyQ" source="_qZI8cHdHEe2IRMCSIydKyQ" target="_xvh7MHdHEe2IRMCSIydKyQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_-311QHdHEe2IRMCSIydKyQ" name="No" source="_qZI8cHdHEe2IRMCSIydKyQ" target="_uxkdoHc5Ee28K58gH1gFBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_pz5r8HdIEe2IRMCSIydKyQ" source="_xvh7MHdHEe2IRMCSIydKyQ" target="_X4EYgHdIEe2IRMCSIydKyQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_qpkIoHdIEe2IRMCSIydKyQ" source="_xvh7MHdHEe2IRMCSIydKyQ" target="_ed4O4HdIEe2IRMCSIydKyQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_rV97oHdIEe2IRMCSIydKyQ" source="_xvh7MHdHEe2IRMCSIydKyQ" target="_mAazQHdIEe2IRMCSIydKyQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_y-RJwHdIEe2IRMCSIydKyQ" source="_X4EYgHdIEe2IRMCSIydKyQ" target="_uM9W4HdIEe2IRMCSIydKyQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_0mLiwHdIEe2IRMCSIydKyQ" source="_ed4O4HdIEe2IRMCSIydKyQ" target="_uM9W4HdIEe2IRMCSIydKyQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_2lZBcHdIEe2IRMCSIydKyQ" source="_mAazQHdIEe2IRMCSIydKyQ" target="_uM9W4HdIEe2IRMCSIydKyQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="__fMTsHdIEe2IRMCSIydKyQ" name="Yes" source="_uM9W4HdIEe2IRMCSIydKyQ" target="_xvh7MHdHEe2IRMCSIydKyQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_GeqAMHdJEe2IRMCSIydKyQ" name="No" source="_uM9W4HdIEe2IRMCSIydKyQ" target="_DqczMHdJEe2IRMCSIydKyQ"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_mj7t0Hc5Ee28K58gH1gFBQ" name="Start"/>
+      <subvertex xmi:type="uml:State" xmi:id="_uxkdoHc5Ee28K58gH1gFBQ" name="Logging In/Sign Up">
+        <entry xmi:type="uml:Activity" xmi:id="_f2O-YHdHEe2IRMCSIydKyQ" name="Not Logged In"/>
+        <exit xmi:type="uml:Activity" xmi:id="_hHxewHdHEe2IRMCSIydKyQ" name="Logged In"/>
+      </subvertex>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_qZI8cHdHEe2IRMCSIydKyQ" name="Valid credentials" kind="choice"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_xvh7MHdHEe2IRMCSIydKyQ" name="Yes" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_X4EYgHdIEe2IRMCSIydKyQ" name="Adding/Updating/Deleting/Ports">
+        <doActivity xmi:type="uml:Activity" xmi:id="__CJ88HdJEe20Eu7J6R45GQ" name="Modifying ports data in the table"/>
+        <entry xmi:type="uml:Activity" xmi:id="_5NWFsHdJEe20Eu7J6R45GQ" name="New changes to be made in the database elements"/>
+        <exit xmi:type="uml:Activity" xmi:id="_7ZkssHdJEe20Eu7J6R45GQ" name="Changes made and saved in database elements"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_ed4O4HdIEe2IRMCSIydKyQ" name="Adding/Updating/Deleting Ships">
+        <doActivity xmi:type="uml:Activity" xmi:id="_H6JRUHdKEe20Eu7J6R45GQ" name="Modifying Data of ships table"/>
+        <entry xmi:type="uml:Activity" xmi:id="_CjXZ4HdKEe20Eu7J6R45GQ" name="New changes to be made in ships table of the database"/>
+        <exit xmi:type="uml:Activity" xmi:id="_Dt6hcHdKEe20Eu7J6R45GQ" name="New changes to made in ships table of the database"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_mAazQHdIEe2IRMCSIydKyQ" name="Adding/Updating/Deleting Containrs">
+        <entry xmi:type="uml:Activity" xmi:id="_M0tt4HdKEe20Eu7J6R45GQ" name="New changes to be made in containers table of the database"/>
+        <exit xmi:type="uml:Activity" xmi:id="_OI0aEHdKEe20Eu7J6R45GQ" name="New changes to made in containers table of the database"/>
+      </subvertex>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_uM9W4HdIEe2IRMCSIydKyQ" name="Perform more functions?" kind="choice"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_DqczMHdJEe2IRMCSIydKyQ" name="FinalState20"/>
+    </region>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xwdQoHc5Ee28K58gH1gFBQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xwd3sHc5Ee28K58gH1gFBQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>

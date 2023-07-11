@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="02A465F3-44C1-CDAA-D5F2-ECA3D523F22A" name="Ports">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 15:43:44 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<engineerTo>
+<item key="570FD7AE-FD54-C2CF-EB15-9A35FCED7007" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PortID" id="BFB33827-5C6A-7BEA-7E22-7DEB86E1BEE1">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:24:30 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<engineerTo>
+<item key="570FD7AE-FD54-C2CF-EB15-9A35FCED7007" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PortName" id="4C6CE111-683E-6A31-0A93-33E5A7D0096C">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:24:38 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<engineerTo>
+<item key="570FD7AE-FD54-C2CF-EB15-9A35FCED7007" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AdminID" id="7FF31FD9-4DA4-B441-D7BC-DEB00C544757">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:34:54 UTC</createdTime>
+<generatorID>1EAA3747-A7E1-04F7-397B-ABB4636A3A14</generatorID>
+<ownerDesignName>project schema </ownerDesignName>
+<engineerTo>
+<item key="570FD7AE-FD54-C2CF-EB15-9A35FCED7007" value="true"/>
+</engineerTo>
+<referedAttribute>5ED522D0-6708-F04E-415E-B5B0186D80DF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="41934FCE-4BE6-B1FC-4198-5F7CCC067872" name="Ports PK">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:24:34 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<engineerTo>
+<item key="570FD7AE-FD54-C2CF-EB15-9A35FCED7007" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BFB33827-5C6A-7BEA-7E22-7DEB86E1BEE1</attributeRef>
+<attributeRef>7FF31FD9-4DA4-B441-D7BC-DEB00C544757</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_7BxiMHLfEe242dua8nNVKg" name="Admin" metaclassReference="_7B0lgHLfEe242dua8nNVKg">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7B2asnLfEe242dua8nNVKg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_7B2as3LfEe242dua8nNVKg" name="Admin" nsURI="http:///schemas/Admin/_7B2asXLfEe242dua8nNVKg/0" nsPrefix="Admin">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7B428XLfEe242dua8nNVKg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7B428nLfEe242dua8nNVKg" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7B4283LfEe242dua8nNVKg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7B429HLfEe242dua8nNVKg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7B429XLfEe242dua8nNVKg" key="Date" value="12/3/22, 12:55 PM"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7B429nLfEe242dua8nNVKg" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_7B2atHLfEe242dua8nNVKg" name="actor">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7B2atXLfEe242dua8nNVKg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_7Bz-cHLfEe242dua8nNVKg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_7B2atnLfEe242dua8nNVKg" name="base_Lifeline" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_7B0lgHLfEe242dua8nNVKg">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Lifeline"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_7Bz-cHLfEe242dua8nNVKg" name="actor">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7B2asHLfEe242dua8nNVKg" name="base_Lifeline" association="_7B1zoHLfEe242dua8nNVKg">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Lifeline"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_7B1zoHLfEe242dua8nNVKg" name="Lifeline_actor" memberEnd="_7B1zoXLfEe242dua8nNVKg _7B2asHLfEe242dua8nNVKg">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_7B1zoXLfEe242dua8nNVKg" name="extension_actor" type="_7Bz-cHLfEe242dua8nNVKg" aggregation="composite" association="_7B1zoHLfEe242dua8nNVKg"/>
+  </packagedElement>
+</uml:Profile>

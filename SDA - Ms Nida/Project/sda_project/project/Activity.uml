@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_xxpp8HDXEe2Zecd3QwkCWA" name="Activity">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_x26kcHDXEe2Zecd3QwkCWA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_x0N1wHDXEe2Zecd3QwkCWA" name="FreightManagement" node="_L3fjEHEoEe2Zecd3QwkCWA _-y0EcHEqEe2Zecd3QwkCWA _EtfTIHErEe2Zecd3QwkCWA _KkAakHErEe2Zecd3QwkCWA _f8sPYHErEe2Zecd3QwkCWA _oJQBIHErEe2Zecd3QwkCWA _rPh1kHErEe2Zecd3QwkCWA _OP-gkHEsEe2Zecd3QwkCWA _XaAtkHE0Ee2s6e2wF-Dvhg _gW5JAHE0Ee2s6e2wF-Dvhg _uEEqsHE0Ee2s6e2wF-Dvhg _0oKp0HE0Ee2s6e2wF-Dvhg _BwbgkHE1Ee2s6e2wF-Dvhg _QX1i8HFCEe28UoZQFTxTfw _UBo7MHFCEe28UoZQFTxTfw _aXlJkHFCEe28UoZQFTxTfw">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_CNmwUHErEe2Zecd3QwkCWA" target="_-y0EcHEqEe2Zecd3QwkCWA" source="_L3fjEHEoEe2Zecd3QwkCWA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_G0NIAHErEe2Zecd3QwkCWA" target="_EtfTIHErEe2Zecd3QwkCWA" source="_-y0EcHEqEe2Zecd3QwkCWA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_QbmgEHErEe2Zecd3QwkCWA" target="_KkAakHErEe2Zecd3QwkCWA" source="_EtfTIHErEe2Zecd3QwkCWA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ZSb94HErEe2Zecd3QwkCWA" name="Password/username wrong" target="_-y0EcHEqEe2Zecd3QwkCWA" source="_KkAakHErEe2Zecd3QwkCWA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ixmnAHErEe2Zecd3QwkCWA" name="Valid username and password" target="_f8sPYHErEe2Zecd3QwkCWA" source="_KkAakHErEe2Zecd3QwkCWA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_oKO4kHErEe2Zecd3QwkCWA" name="Admin user" target="_oJQBIHErEe2Zecd3QwkCWA" source="_f8sPYHErEe2Zecd3QwkCWA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_rQiiMHErEe2Zecd3QwkCWA" name="Customer" target="_rPh1kHErEe2Zecd3QwkCWA" source="_f8sPYHErEe2Zecd3QwkCWA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Q3D3kHEsEe2Zecd3QwkCWA" name="Available actions" target="_OP-gkHEsEe2Zecd3QwkCWA" source="_oJQBIHErEe2Zecd3QwkCWA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_XgBO8HE0Ee2s6e2wF-Dvhg" name="Add ships" target="_XaAtkHE0Ee2s6e2wF-Dvhg" source="_OP-gkHEsEe2Zecd3QwkCWA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ga_l4HE0Ee2s6e2wF-Dvhg" name="Add more ships" target="_gW5JAHE0Ee2s6e2wF-Dvhg" source="_XaAtkHE0Ee2s6e2wF-Dvhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_lqJyYHE0Ee2s6e2wF-Dvhg" name="Yes" target="_XaAtkHE0Ee2s6e2wF-Dvhg" source="_gW5JAHE0Ee2s6e2wF-Dvhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_xA3L8HE0Ee2s6e2wF-Dvhg" name="No" target="_uEEqsHE0Ee2s6e2wF-Dvhg" source="_gW5JAHE0Ee2s6e2wF-Dvhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_0rWgsHE0Ee2s6e2wF-Dvhg" target="_0oKp0HE0Ee2s6e2wF-Dvhg" source="_OP-gkHEsEe2Zecd3QwkCWA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_R6LyYHE1Ee2s6e2wF-Dvhg" target="_BwbgkHE1Ee2s6e2wF-Dvhg" source="_0oKp0HE0Ee2s6e2wF-Dvhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_EEjMYHFCEe28UoZQFTxTfw" name="Yes" target="_0oKp0HE0Ee2s6e2wF-Dvhg" source="_BwbgkHE1Ee2s6e2wF-Dvhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_F1RjIHFCEe28UoZQFTxTfw" name="No" target="_uEEqsHE0Ee2s6e2wF-Dvhg" source="_BwbgkHE1Ee2s6e2wF-Dvhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_QaUPMHFCEe28UoZQFTxTfw" target="_QX1i8HFCEe28UoZQFTxTfw" source="_rPh1kHErEe2Zecd3QwkCWA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_UDptYHFCEe28UoZQFTxTfw" target="_UBo7MHFCEe28UoZQFTxTfw" source="_QX1i8HFCEe28UoZQFTxTfw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_b9leEHFCEe28UoZQFTxTfw" target="_aXlJkHFCEe28UoZQFTxTfw" source="_UBo7MHFCEe28UoZQFTxTfw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_dxmZYHFCEe28UoZQFTxTfw" name="Yes" target="_QX1i8HFCEe28UoZQFTxTfw" source="_aXlJkHFCEe28UoZQFTxTfw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_gfNPIHFCEe28UoZQFTxTfw" name="No" target="_uEEqsHE0Ee2s6e2wF-Dvhg" source="_aXlJkHFCEe28UoZQFTxTfw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_L3fjEHEoEe2Zecd3QwkCWA" name="Start" outgoing="_CNmwUHErEe2Zecd3QwkCWA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_-y0EcHEqEe2Zecd3QwkCWA" name="Login/Signup" incoming="_CNmwUHErEe2Zecd3QwkCWA _ZSb94HErEe2Zecd3QwkCWA" outgoing="_G0NIAHErEe2Zecd3QwkCWA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_EtfTIHErEe2Zecd3QwkCWA" name="Enter password and username" incoming="_G0NIAHErEe2Zecd3QwkCWA" outgoing="_QbmgEHErEe2Zecd3QwkCWA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_KkAakHErEe2Zecd3QwkCWA" name="Passsword/username check" incoming="_QbmgEHErEe2Zecd3QwkCWA" outgoing="_ZSb94HErEe2Zecd3QwkCWA _ixmnAHErEe2Zecd3QwkCWA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_f8sPYHErEe2Zecd3QwkCWA" name="User Type" incoming="_ixmnAHErEe2Zecd3QwkCWA" outgoing="_oKO4kHErEe2Zecd3QwkCWA _rQiiMHErEe2Zecd3QwkCWA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_oJQBIHErEe2Zecd3QwkCWA" name="Admin homepage" incoming="_oKO4kHErEe2Zecd3QwkCWA" outgoing="_Q3D3kHEsEe2Zecd3QwkCWA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_rPh1kHErEe2Zecd3QwkCWA" name="Custsomer" incoming="_rQiiMHErEe2Zecd3QwkCWA" outgoing="_QaUPMHFCEe28UoZQFTxTfw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_OP-gkHEsEe2Zecd3QwkCWA" incoming="_Q3D3kHEsEe2Zecd3QwkCWA" outgoing="_XgBO8HE0Ee2s6e2wF-Dvhg _0rWgsHE0Ee2s6e2wF-Dvhg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_XaAtkHE0Ee2s6e2wF-Dvhg" name="Add ships" incoming="_XgBO8HE0Ee2s6e2wF-Dvhg _lqJyYHE0Ee2s6e2wF-Dvhg" outgoing="_ga_l4HE0Ee2s6e2wF-Dvhg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_gW5JAHE0Ee2s6e2wF-Dvhg" incoming="_ga_l4HE0Ee2s6e2wF-Dvhg" outgoing="_lqJyYHE0Ee2s6e2wF-Dvhg _xA3L8HE0Ee2s6e2wF-Dvhg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_uEEqsHE0Ee2s6e2wF-Dvhg" name="End of program" incoming="_xA3L8HE0Ee2s6e2wF-Dvhg _F1RjIHFCEe28UoZQFTxTfw _gfNPIHFCEe28UoZQFTxTfw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_0oKp0HE0Ee2s6e2wF-Dvhg" name="Add ports" incoming="_0rWgsHE0Ee2s6e2wF-Dvhg _EEjMYHFCEe28UoZQFTxTfw" outgoing="_R6LyYHE1Ee2s6e2wF-Dvhg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_BwbgkHE1Ee2s6e2wF-Dvhg" name="Add more ports" incoming="_R6LyYHE1Ee2s6e2wF-Dvhg" outgoing="_EEjMYHFCEe28UoZQFTxTfw _F1RjIHFCEe28UoZQFTxTfw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_QX1i8HFCEe28UoZQFTxTfw" name="Make orders" incoming="_QaUPMHFCEe28UoZQFTxTfw _dxmZYHFCEe28UoZQFTxTfw" outgoing="_UDptYHFCEe28UoZQFTxTfw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_UBo7MHFCEe28UoZQFTxTfw" name="Make payments for orders" incoming="_UDptYHFCEe28UoZQFTxTfw" outgoing="_b9leEHFCEe28UoZQFTxTfw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_aXlJkHFCEe28UoZQFTxTfw" name="Add more orders" incoming="_b9leEHFCEe28UoZQFTxTfw" outgoing="_dxmZYHFCEe28UoZQFTxTfw _gfNPIHFCEe28UoZQFTxTfw"/>
+  </packagedElement>
+</uml:Model>

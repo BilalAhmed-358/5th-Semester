@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_S3BbIHc1Ee28K58gH1gFBQ" name="manifest" metaclassReference="_S3FskHc1Ee28K58gH1gFBQ">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_S3G6sXc1Ee28K58gH1gFBQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_S3G6snc1Ee28K58gH1gFBQ" name="manifest" nsURI="http:///schemas/manifest/_S3G6sHc1Ee28K58gH1gFBQ/0" nsPrefix="manifest">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_S3G6uHc1Ee28K58gH1gFBQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_S3G6uXc1Ee28K58gH1gFBQ" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_S3G6unc1Ee28K58gH1gFBQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_S3G6u3c1Ee28K58gH1gFBQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_S3G6vHc1Ee28K58gH1gFBQ" key="Date" value="12/9/22, 1:17 AM"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_S3G6vXc1Ee28K58gH1gFBQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_S3G6s3c1Ee28K58gH1gFBQ" name="manifest">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_S3G6tHc1Ee28K58gH1gFBQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_S3FFgHc1Ee28K58gH1gFBQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_S3G6tXc1Ee28K58gH1gFBQ" name="base_Dependency" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_S3FskHc1Ee28K58gH1gFBQ">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Dependency"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_S3FFgHc1Ee28K58gH1gFBQ" name="manifest">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_S3GTonc1Ee28K58gH1gFBQ" name="base_Dependency" association="_S3GToHc1Ee28K58gH1gFBQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Dependency"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_S3GToHc1Ee28K58gH1gFBQ" name="Dependency_manifest" memberEnd="_S3GToXc1Ee28K58gH1gFBQ _S3GTonc1Ee28K58gH1gFBQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_S3GToXc1Ee28K58gH1gFBQ" name="extension_manifest" type="_S3FFgHc1Ee28K58gH1gFBQ" aggregation="composite" association="_S3GToHc1Ee28K58gH1gFBQ"/>
+  </packagedElement>
+</uml:Profile>

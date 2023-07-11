@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_L3XAYHFNEe2W_8ME7sz95g" name="ComponentDiagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_L5wNEHFNEe2W_8ME7sz95g">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="_uHFKcHStEe21Af0Auk3ZlA" name="Accounting Depart">
+    <packagedElement xmi:type="uml:Component" xmi:id="_vY1GMHStEe21Af0Auk3ZlA" name="Payments">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_pnYaEHSvEe21Af0Auk3ZlA" client="_vY1GMHStEe21Af0Auk3ZlA" supplier="_kB1G0HSvEe21Af0Auk3ZlA" contract="_kB1G0HSvEe21Af0Auk3ZlA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_w6WjUHStEe21Af0Auk3ZlA" name="Orders">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_0LjjcHSvEe21Af0Auk3ZlA" client="_w6WjUHStEe21Af0Auk3ZlA" supplier="_wXgDAHSvEe21Af0Auk3ZlA" contract="_wXgDAHSvEe21Af0Auk3ZlA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_0WfTAHStEe21Af0Auk3ZlA" name="Web Interface">
+    <packagedElement xmi:type="uml:Component" xmi:id="_HSH2kHSuEe21Af0Auk3ZlA" name="Web App">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ids3EHSuEe21Af0Auk3ZlA" client="_HSH2kHSuEe21Af0Auk3ZlA" supplier="_VZahYHSuEe21Af0Auk3ZlA" contract="_VZahYHSuEe21Af0Auk3ZlA"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_7_WFUHSuEe21Af0Auk3ZlA" client="_HSH2kHSuEe21Af0Auk3ZlA" supplier="_2uDx4HSuEe21Af0Auk3ZlA" contract="_2uDx4HSuEe21Af0Auk3ZlA"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_J43Z4HSvEe21Af0Auk3ZlA" client="_HSH2kHSuEe21Af0Auk3ZlA" supplier="_G-ONsHSvEe21Af0Auk3ZlA" contract="_G-ONsHSvEe21Af0Auk3ZlA"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_RnWvkHSvEe21Af0Auk3ZlA" client="_HSH2kHSuEe21Af0Auk3ZlA" supplier="_NSBHAHSvEe21Af0Auk3ZlA" contract="_NSBHAHSvEe21Af0Auk3ZlA"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_uwWfAHSvEe21Af0Auk3ZlA" client="_HSH2kHSuEe21Af0Auk3ZlA" supplier="_ruU4cHSvEe21Af0Auk3ZlA" contract="_ruU4cHSvEe21Af0Auk3ZlA"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_4bP3AHSvEe21Af0Auk3ZlA" client="_HSH2kHSuEe21Af0Auk3ZlA" supplier="_19NuUHSvEe21Af0Auk3ZlA" contract="_19NuUHSvEe21Af0Auk3ZlA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_0rSB0HSuEe21Af0Auk3ZlA" client="_HSH2kHSuEe21Af0Auk3ZlA" supplier="_vCZtwHSuEe21Af0Auk3ZlA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_DiftsHSvEe21Af0Auk3ZlA" client="_HSH2kHSuEe21Af0Auk3ZlA" supplier="_9Ooi8HSuEe21Af0Auk3ZlA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_YeaG8HSvEe21Af0Auk3ZlA" client="_HSH2kHSuEe21Af0Auk3ZlA" supplier="_VYSqkHSvEe21Af0Auk3ZlA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_qOrDkHSvEe21Af0Auk3ZlA" client="_HSH2kHSuEe21Af0Auk3ZlA" supplier="_kB1G0HSvEe21Af0Auk3ZlA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_1AIbAHSvEe21Af0Auk3ZlA" client="_HSH2kHSuEe21Af0Auk3ZlA" supplier="_wXgDAHSvEe21Af0Auk3ZlA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_35_O8HStEe21Af0Auk3ZlA" name="Warehouses">
+    <packagedElement xmi:type="uml:Component" xmi:id="_5J9CAHStEe21Af0Auk3ZlA" name="Ports">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_yrqTcHSuEe21Af0Auk3ZlA" client="_5J9CAHStEe21Af0Auk3ZlA" supplier="_vCZtwHSuEe21Af0Auk3ZlA" contract="_vCZtwHSuEe21Af0Auk3ZlA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_6TW6EHStEe21Af0Auk3ZlA" name="Ships">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Ac7D4HSvEe21Af0Auk3ZlA" client="_6TW6EHStEe21Af0Auk3ZlA" supplier="_9Ooi8HSuEe21Af0Auk3ZlA" contract="_9Ooi8HSuEe21Af0Auk3ZlA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_-SKR8HStEe21Af0Auk3ZlA" name="Containers">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Xz5KUHSvEe21Af0Auk3ZlA" client="_-SKR8HStEe21Af0Auk3ZlA" supplier="_VYSqkHSvEe21Af0Auk3ZlA" contract="_VYSqkHSvEe21Af0Auk3ZlA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_LXJLMHSuEe21Af0Auk3ZlA" name="Actors">
+    <packagedElement xmi:type="uml:Component" xmi:id="_or10UHSuEe21Af0Auk3ZlA" name="Admin">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_rh1xEHSuEe21Af0Auk3ZlA" client="_or10UHSuEe21Af0Auk3ZlA" supplier="_VZahYHSuEe21Af0Auk3ZlA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_5RNEEHSuEe21Af0Auk3ZlA" client="_or10UHSuEe21Af0Auk3ZlA" supplier="_2uDx4HSuEe21Af0Auk3ZlA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_KvuwcHSvEe21Af0Auk3ZlA" client="_or10UHSuEe21Af0Auk3ZlA" supplier="_G-ONsHSvEe21Af0Auk3ZlA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_TgSAEHSvEe21Af0Auk3ZlA" client="_or10UHSuEe21Af0Auk3ZlA" supplier="_NSBHAHSvEe21Af0Auk3ZlA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_VZahYHSuEe21Af0Auk3ZlA" name="Log In functionality"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_lTZR0HSuEe21Af0Auk3ZlA" name="Customer">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_sEGJkHSuEe21Af0Auk3ZlA" client="_lTZR0HSuEe21Af0Auk3ZlA" supplier="_VZahYHSuEe21Af0Auk3ZlA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_vW_oQHSvEe21Af0Auk3ZlA" client="_lTZR0HSuEe21Af0Auk3ZlA" supplier="_ruU4cHSvEe21Af0Auk3ZlA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_3-j7AHSvEe21Af0Auk3ZlA" client="_lTZR0HSuEe21Af0Auk3ZlA" supplier="_19NuUHSvEe21Af0Auk3ZlA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_vCZtwHSuEe21Af0Auk3ZlA" name="Connect ports"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_2uDx4HSuEe21Af0Auk3ZlA" name="Connect to ports"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_9Ooi8HSuEe21Af0Auk3ZlA" name="Dock ships"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_G-ONsHSvEe21Af0Auk3ZlA" name="Docking ships"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_NSBHAHSvEe21Af0Auk3ZlA" name="Offload containers"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_VYSqkHSvEe21Af0Auk3ZlA" name="Container offloading"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_kB1G0HSvEe21Af0Auk3ZlA" name="Make, update, delete payments"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_ruU4cHSvEe21Af0Auk3ZlA" name="Payment functionality"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_wXgDAHSvEe21Af0Auk3ZlA" name="Make, update, delete orders"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_19NuUHSvEe21Af0Auk3ZlA" name="Order functionality"/>
+</uml:Model>

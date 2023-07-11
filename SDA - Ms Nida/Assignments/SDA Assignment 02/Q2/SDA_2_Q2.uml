@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_y1s1kGKtEe2l-qQbJRyqew" name="SDA_2_Q2">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_y9kYIGKtEe2l-qQbJRyqew">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_dFXD0GKvEe2P_IJkX25ZQQ" name="Readers_choice_book_house">
+    <generalization xmi:type="uml:Generalization" xmi:id="_oc9YwGKwEe26LOHf8Za3Cg" general="_viyocGKvEe2P_IJkX25ZQQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mb4HQGKvEe2P_IJkX25ZQQ" name="website">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_q1hoEGKvEe2P_IJkX25ZQQ" name="Address">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_viyocGKvEe2P_IJkX25ZQQ" name="Karams_Publications">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qYZxwGKwEe26LOHf8Za3Cg" name="book" type="_yLBO8GKvEe2P_IJkX25ZQQ" aggregation="shared" association="_qYR18GKwEe26LOHf8Za3Cg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qYfRUGKwEe26LOHf8Za3Cg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qYfRUWKwEe26LOHf8Za3Cg" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Q444MGK1Ee26jrv03f0pLA" name="Location">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_UqIVMGK1Ee26jrv03f0pLA" name="BookType">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_yLBO8GKvEe2P_IJkX25ZQQ" name="Book">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_zVOYQGKvEe2P_IJkX25ZQQ" name="Unique_id">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_3-vhEGKvEe2P_IJkX25ZQQ" name="PageCount">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-o1agGKvEe2P_IJkX25ZQQ" name="Author">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_B_4O0GKwEe2P_IJkX25ZQQ" name="BookCategory">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_VZo40GKwEe26LOHf8Za3Cg" name="GetPrice"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ZLvRcGKwEe26LOHf8Za3Cg" name="SetPrice" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_eMkHAGKwEe26LOHf8Za3Cg" name="Price">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qYR18GKwEe26LOHf8Za3Cg" visibility="public" memberEnd="_qYZxwGKwEe26LOHf8Za3Cg _qYf4YGKwEe26LOHf8Za3Cg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qYXVgGKwEe26LOHf8Za3Cg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qYX8kGKwEe26LOHf8Za3Cg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qYf4YGKwEe26LOHf8Za3Cg" name="karam's publications" type="_viyocGKvEe2P_IJkX25ZQQ" association="_qYR18GKwEe26LOHf8Za3Cg"/>
+  </packagedElement>
+</uml:Model>

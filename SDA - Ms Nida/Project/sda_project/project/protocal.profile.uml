@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_jHpmcHc0Ee28K58gH1gFBQ" name="protocal" metaclassReference="_jHsCsHc0Ee28K58gH1gFBQ">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jHvtEXc0Ee28K58gH1gFBQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_jHwUIHc0Ee28K58gH1gFBQ" name="protocal" nsURI="http:///schemas/protocal/_jHvtEHc0Ee28K58gH1gFBQ/0" nsPrefix="protocal">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jHwUJnc0Ee28K58gH1gFBQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jHwUJ3c0Ee28K58gH1gFBQ" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jHwUKHc0Ee28K58gH1gFBQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jHwUKXc0Ee28K58gH1gFBQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jHwUKnc0Ee28K58gH1gFBQ" key="Date" value="12/9/22, 1:11 AM"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jHwUK3c0Ee28K58gH1gFBQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_jHwUIXc0Ee28K58gH1gFBQ" name="protocol">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jHwUInc0Ee28K58gH1gFBQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jHrboHc0Ee28K58gH1gFBQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_jHwUI3c0Ee28K58gH1gFBQ" name="base_CommunicationPath" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//CommunicationPath"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_jHsCsHc0Ee28K58gH1gFBQ">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#CommunicationPath"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_jHrboHc0Ee28K58gH1gFBQ" name="protocol">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_jHt34Hc0Ee28K58gH1gFBQ" name="base_CommunicationPath" association="_jHspwHc0Ee28K58gH1gFBQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#CommunicationPath"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_jHspwHc0Ee28K58gH1gFBQ" name="CommunicationPath_protocol" memberEnd="_jHtQ0Hc0Ee28K58gH1gFBQ _jHt34Hc0Ee28K58gH1gFBQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_jHtQ0Hc0Ee28K58gH1gFBQ" name="extension_protocol" type="_jHrboHc0Ee28K58gH1gFBQ" aggregation="composite" association="_jHspwHc0Ee28K58gH1gFBQ"/>
+  </packagedElement>
+</uml:Profile>
