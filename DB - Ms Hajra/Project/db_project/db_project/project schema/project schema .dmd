@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="project schema " id="E603AAC7-C1B1-0908-40CA-70606E75C2D4" version="3.5">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 15:34:35 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E603AAC7-C1B1-0908-40CA-70606E75C2D4</designId>
+</OSDM_Design>

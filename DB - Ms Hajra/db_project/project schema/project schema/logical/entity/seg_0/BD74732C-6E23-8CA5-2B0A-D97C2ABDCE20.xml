@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BD74732C-6E23-8CA5-2B0A-D97C2ABDCE20" name="Payments">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 15:43:04 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PaymentID" id="4E91FF91-5A61-67DB-04BF-DC10170D63D8">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 15:48:09 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Amount" id="42F14D9A-3667-E46D-8047-2AF7753921EC">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 15:48:18 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="paymentType" id="A3E6E343-C856-C5A2-334C-A6CC3C67B91C">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 15:51:50 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tax" id="D768F64D-5126-7A8C-4EA9-C808C5479B94">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 15:52:11 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderID" id="AE265876-43CE-F4D5-DE15-1F5726EEB1C9">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:34:05 UTC</createdTime>
+<generatorID>13B5EA54-48A8-F6C9-6747-6D85CF9F62D6</generatorID>
+<ownerDesignName>project schema </ownerDesignName>
+<referedAttribute>02C352EE-C5B4-FAA4-42F6-7BFDD967664A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORDERID_2" id="2FFE162A-BE85-E249-C700-1D3C54A2FE75">
+<createdBy>Dell</createdBy>
+<createdTime>2022-12-07 20:13:54 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="83ADA6C8-4A15-8898-D219-C562F1F0ABED" name="Payments PK">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 15:48:16 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4E91FF91-5A61-67DB-04BF-DC10170D63D8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

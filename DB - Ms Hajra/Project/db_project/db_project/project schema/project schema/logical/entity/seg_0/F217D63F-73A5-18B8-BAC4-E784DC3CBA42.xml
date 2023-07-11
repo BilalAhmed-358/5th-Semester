@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F217D63F-73A5-18B8-BAC4-E784DC3CBA42" name="Orders">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 15:42:32 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OrderID" id="02C352EE-C5B4-FAA4-42F6-7BFDD967664A">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 15:46:22 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderName" id="0EFF7F3C-2EEE-61A7-0586-FC0EB692F24D">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 15:46:40 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderDate" id="6F69B0FD-3CAC-CBBC-9EB7-4DDAB64F6F55">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 15:47:12 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qty" id="BF859812-4200-1CF9-E959-C49AB1F92336">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 15:47:28 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="customerid" id="25D152B4-AA66-7A40-951D-5AA707C664FF">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 15:47:47 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CustID" id="04D3DA47-9961-2480-E9D8-812BE6DB73EC">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:33:21 UTC</createdTime>
+<generatorID>EE342A5A-FA83-3966-853F-1F19531106FD</generatorID>
+<ownerDesignName>project schema </ownerDesignName>
+<referedAttribute>6EC181BC-B83B-3685-D817-2E2507E13A0B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3513720E-15CC-4B6C-D648-739DE166D29B" name="Orders PK">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 15:46:37 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>02C352EE-C5B4-FAA4-42F6-7BFDD967664A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

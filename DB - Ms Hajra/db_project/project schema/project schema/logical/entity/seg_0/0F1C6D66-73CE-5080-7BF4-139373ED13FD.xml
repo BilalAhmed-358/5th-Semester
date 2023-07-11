@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0F1C6D66-73CE-5080-7BF4-139373ED13FD" name="Stock">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 15:44:35 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<engineerTo>
+<item key="570FD7AE-FD54-C2CF-EB15-9A35FCED7007" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ShipID" id="F693363E-6C5C-5E54-F896-1D36E96672C5">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:30:17 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<engineerTo>
+<item key="570FD7AE-FD54-C2CF-EB15-9A35FCED7007" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ContainerID" id="4B2FCEC3-20FF-C765-C23A-192FF86AE371">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:29:58 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<engineerTo>
+<item key="570FD7AE-FD54-C2CF-EB15-9A35FCED7007" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rates" id="96734027-C1DC-C8E5-97B9-D402F65D52CC">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:30:47 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<engineerTo>
+<item key="570FD7AE-FD54-C2CF-EB15-9A35FCED7007" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="priecPerUnit" id="376BCDE2-DB6F-7116-2B73-9B027B751009">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:31:02 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<engineerTo>
+<item key="570FD7AE-FD54-C2CF-EB15-9A35FCED7007" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qty" id="F5594027-999B-23E7-90F3-D9AD7432749D">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:31:17 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<engineerTo>
+<item key="570FD7AE-FD54-C2CF-EB15-9A35FCED7007" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7055C0F9-F7B1-A710-D200-746FD84E44DC" name="Stock PK">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:30:32 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<engineerTo>
+<item key="570FD7AE-FD54-C2CF-EB15-9A35FCED7007" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F693363E-6C5C-5E54-F896-1D36E96672C5</attributeRef>
+<attributeRef>4B2FCEC3-20FF-C765-C23A-192FF86AE371</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

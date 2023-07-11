@@ -1,0 +1,47 @@
+-- Question 01
+
+Design an ER schema for keeping track of information about votes taken in 
+the U.S. House of Representatives during the current two-year congress 
+ional session. The database needs to keep track of each U.S. STATE's Name 
+(e.g., 'Texas', 'New York', 'California') and include the Region of the state 
+(whose domain is {'Northeast', 'Midwest', 'Southeast', 'Southwest', 'West'}). 
+Each CONGRESS PERSON in the House of Representatives is described by 
+his or her Name, plus the District represented, the Start_date when the con- 
+gressperson was first elected, and the political Party to which he or she 
+belongs (whose domain is {'Republican', 'Democrat', 'Independent', 
+'Other'}). The database keeps track of each BILL (i.e., proposed law), 
+including the Bill_name, the Date_of_vote on the bill, whether the bill 
+Passed_or_failed (whose domain is {'Yes', and the Sponsor (the 
+congressperson(s) who sponsored—that is, proposed—the bill). The data- 
+base also keeps track of how each congressperson voted on each bill (domain 
+of Vote attribute is {'Yes', 'No', 'Abstain', 'Absent'}). Draw an ER schema 
+diagram for this application. State clearly any assumptions you make. 
+
+-- Question 02
+
+A database is being constructed to keep track of the teams and games of a sports league.
+ A team has a number of players, not all of whom participate in each game.
+It is desired to keep track of the players participating in each game for each team, 
+the positions they played in that game, and the result of the game. 
+Try to design an ER schema diagram for this application, stating any assumptions
+you make. Choose your favorite sport (soccer, football, baseball ...).
+
+-- Question 03
+
+Consider the ER diagram shown below 
+for part of a BANK database. 
+Each bank can have multiple branches, and each branch can have multiple 
+accounts and loans. 
+a. List the strong (nonweak) entity types in the ER diagram. 
+b. Is there a weak entity type? If so, give its name, partial key, and identify- 
+ing relationship. 
+c. What constraints do the partial key and the identifying relationship ofthe 
+weak entity type specify in this diagram? 
+d. List the names of all relationship types, and specify the (min, max) 
+constraint on each participation of an entity type in a relationship type. 
+Justify your choices. 
+e. List concisely the user requirements that led to this ER schema design. 
+f. Suppose that every customer must have at least one account but is 
+restricted to at most two loans at a time, and that a bank branch cannot 
+have more than 1,000 loans. How does this show up on the (min, max) 
+constraints? 

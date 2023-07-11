@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3987673A-A482-1175-7458-141A3B9ADF85" name="Admins">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 15:43:28 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="AdminID" id="5ED522D0-6708-F04E-415E-B5B0186D80DF">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:21:08 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AdminName" id="EB4BC027-F8B0-B154-A272-DFFB9E46FC2C">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:21:49 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="reg_date" id="9E1103EE-2124-BD14-68D8-A160AD3B672D">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:22:04 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="login_status" id="4239FB8D-D664-CDD2-96F1-52DB85D696CB">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:23:31 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CustID" id="69842F21-7BE6-65A7-77D7-68473EF7AA6F">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:24:03 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A842D3C5-0383-E857-32B6-46666FF81F33" name="Admin PK">
+<createdBy>Dell</createdBy>
+<createdTime>2022-11-26 16:21:16 UTC</createdTime>
+<ownerDesignName>project schema </ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5ED522D0-6708-F04E-415E-B5B0186D80DF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
