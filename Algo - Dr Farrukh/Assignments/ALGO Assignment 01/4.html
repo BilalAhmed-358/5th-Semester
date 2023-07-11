@@ -1,0 +1,115 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> <meta charset="gbk">  
+<title> Question: Q2. Suppose you're consulting for a bank that's concerned about fraud detection, and they come to...</title> 
+<style>  
+  *{margin: 0;padding: 0;}   
+  .main{width: 900px;margin: auto;}   
+  .topic{margin: 20px 0;box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);border-radius: 6px;}    
+  .t1 {padding: 10px;}    
+  .topic img{   
+       max-width: 100%;  
+    }  
+  .pbImageToTextHint{display: none;}  
+  .t2 li{list-style: none;border: 1px solid #ccc;}  
+   .answer-given-body p img{  
+            width: auto !important;height: auto!important;max-width: 100% !important;  
+    }  
+    .hidden {visibility:hidden; }    
+  </style>  
+</head>  
+<body>  
+<div class="main">    <h2> Question:<span class="title">Question: Q2. Suppose you're consulting for a bank that's concerned about fraud detection, and they come to...</span></h2>    <div class="topic t1">        <div class="pbImages"><img src="https://media.cheggcdn.com/media%2F55c%2F55cfdfe0-714b-4efd-99e2-25a78343f7c7%2Fphphw3wT8.png" />        </div>    </div>    <div class="topic t2"><div class="answer-given-body ugc-base">
+                    <p><strong>ALGORITHM:</strong></p>
+<p><strong>//Define the function to test the equivalent
+card.</strong></p>
+<p><strong>TestingEquivalence(Set of the cards
+s_cards)</strong></p>
+<p>
+<strong>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+m = |s_cards|</strong></p>
+<p>
+<strong>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+//Check the value of m to be 1.</strong></p>
+<p>
+<strong>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+if m == 1</strong></p>
+<p>
+<strong>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+//Return only one of the card.</strong></p>
+<p>
+<strong>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+return one card.</strong></p>
+<p>
+<strong>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+//Check the value of m to be 2.</strong></p>
+<p>
+<strong>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+if m == 2</strong></p>
+<p>
+<strong>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+//Since, the first and the second card are same.</strong></p>
+<p><strong>//Hence, return a card.</strong></p>
+<p>
+<strong>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+one_card and second_card is equal</strong></p>
+<p>
+<strong>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+return one_card</strong></p>
+<p>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
+<p>
+<strong>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+//Consider set1 to be the set of the first half cards.</strong></p>
+<p>
+<strong>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+//Consider set2 to be the set of the second half
+cards.</strong></p>
+<p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+<strong>//Check whether the cards of the set1 are
+equivalent.</strong></p>
+<p>
+<strong>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+if TestingEquivalence(set1)</strong></p>
+<p>
+<strong>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+//If the cards are equal in set1 then return a card.</strong></p>
+<p><strong>&#160;&#160;&#160; return a card of set1.</strong></p>
+<p>
+<strong>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+//Compare the returned card with the set of the
+s_cards.</strong></p>
+<p><strong>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; //Check
+whether the cards of the set2 are equivalent.</strong></p>
+<p>
+<strong>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+if TestingEquivalence(set2)</strong></p>
+<p>
+<strong>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+//If the cards are equal in set2 then return a card.</strong></p>
+<p>
+<strong>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+return a card of set2.</strong></p>
+<p>
+<strong>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+//Compare again the returned card with the set of the cards
+s_cards.</strong></p>
+<p><strong>//Return that card, if found for which the count of the
+equivalent card is more than half of //the cards in set
+s_card</strong></p>
+<p><strong>&gt;&gt;&gt;</strong> The algorithm
+is&#160;&#160;correct a result of&#160;&#160;if at-least half of
+the cards are equal. After the set is being divided into 2 sets,
+among them at-least one set has most of the equivalent cards that
+will result to the total set of majority equivalent cards., the
+result of the two recursive calls will give the card which has most
+of the equivalence. Then the algorithm will compare all the
+returned cards with the largest set of the card and found the
+largest equivalence card.that the algorithm equivalent cards
+are&#160;&#160;found.</p>
+<p>therefore recurrence relation for the algorithm is <img alt="T(n) 2T(n/2)+2n O(n log n)." src="https://media.cheggcdn.com/media%2F62c%2F62c81b7c-fa50-42b4-b0f1-16e4e5a8ba85%2FphpTDscqV.png" style="height:23px;width:275px;" aria-describedby="f2l"/></p>
+<div id="f2l" class="hidden">T(n) 2T(n/2)+2n O(n log n). </div>
+                    
+                </div>
+                
+                </div></div></html>

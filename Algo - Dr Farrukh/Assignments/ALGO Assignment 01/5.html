@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> <meta charset="gbk">  
+<title> </title> 
+<style>  
+  *{margin: 0;padding: 0;}   
+  .main{width: 900px;margin: auto;}   
+  .topic{margin: 20px 0;box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);border-radius: 6px;}    
+  .t1 {padding: 10px;}    
+  .topic img{   
+       max-width: 100%;  
+    }  
+  .pbImageToTextHint{display: none;}  
+  .t2 li{list-style: none;border: 1px solid #ccc;}  
+   .answer-given-body p img{  
+            width: auto !important;height: auto!important;max-width: 100% !important;  
+    }  
+    .hidden {visibility:hidden; }    
+  </style>  
+</head>  
+<body>  
+<div class="main">    <h2> Question:<span class="title"></span></h2>    <div class="topic t1">        <div class="pbImages"><img src="" />        </div>    </div>    <div class="topic t2"><p><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp;-: Design an O(n log n) algorithm
+:-</strong></p>
+<p><strong>Given the input array :</strong></p>
+<p>x0 x1 x2 x3 x4 x5....x2n</p>
+<p>use merge sort to it in O(n log n) time to produce a sorted
+list</p>
+<p>xa0 xa1 ...xa2n</p>
+<p>where the indicate the permutation that you have performed on
+the intial list to obtain the second list.</p>
+<p>I claim then that the pairing that produces the minimum maximum
+sum over all pairingnis the following pairing:</p>
+<p>(xai, xa2n-i) for i = 0, 1, 2 , 3, 4, 5 .....That is, you group
+the highest lavued number with the lowest valued number
+available.</p>
+<p><strong>Proof-</strong></p>
+<p>Proceed by&nbsp; induction, for the case 2n = 2 this is
+obvious.</p>
+<p>Without loss of generality consider that the input is a list of
+sortd numbers (since if it is not then sort them)</p>
+<p>x0&nbsp; x1 x2&nbsp; x3&nbsp; x4&nbsp; x5 .....x2n.</p>
+<p>Condider the pairing of&nbsp; x2n with any number, then clearly
+the minmum sum of this pairing is achieved with (x2n, x0).</p>
+<p>Now consider the pairing of x2n-1, either (x2n, x0),(x2n-1, x1)
+is the pairings that produce the minumin max sum, or (x2n,
+x1),(x2n-1, x0) is, or both are.</p>
+<p>In the latter case our choice dosen't matter. In the seconds to
+last case, this is impossible (think about it).</p>
+<p>In the general case if we proceed inductively by this process,
+when we are looking for a pair for x2n-k, xk is the lowest unused
+value that we can pair up with, however; suppose insread we pair up
+xk with some other x2n-j&nbsp; for j&lt;k, to try to get a lower
+minum sum.</p>
+<p>This is impossible as, x2n-j + xk &gt;= x2n-k + xk, so at most
+we can only acieve the same minimum sum.</p>
+<p>This&nbsp; means that choosing (x2n-k, xk) gives us the minimum
+pairings.</p>
+<p>Some guess examples is that the solution looks like this:</p>
+<p># in pseudo ruby code</p>
+<p>a = [1, 3, 5, 9]</p>
+<p>pairs = [ ]</p>
+<p>while !a.empty?</p>
+<p>&nbsp; &nbsp; &nbsp; pairs &lt;&lt; [a.shift, a.pop] #[a.first,
+a.last]</p>
+<p>end</p>
+<p>pairs</p>
+<p>&nbsp; &nbsp; Thank you.....</p>
+</div></div></html>
