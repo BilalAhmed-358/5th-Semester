@@ -1,0 +1,96 @@
+Task 01 - Create a new user using SQL command Line and grant privileges. We are using this user to create our own database with related tables, which we are working on in lab#03.
+
+create user bilal identified by bilal;
+alter user bilal identified by bilal;
+grant all privileges to bilal;
+alter user bilal account unlock;
+
+
+Task 02 - Create table Jobs and job_History (ignore foreign keys relations) same fields as given in HR Schema in which job_ID is considered as primary key in jobs table.
+
+create table jobs01 as select * from hr.jobs where 1=2;
+create table jobs_history01 as select * from hr.JOB_HISTORY where 1=2;
+alter table jobs01 add constraint JOB_ID primary key (JOB_ID);
+
+
+Task 03 - Change the data type of ‘job_ID’ from character to numeric in Jobs table.(Like IT_Prog->101).
+
+alter table jobs01 modify JOB_ID numeric;
+
+
+Task 04 - Write a SQL statement to add job_id column in job_history table as foreign key referencing to the primary key job_id of jobs table.
+
+alter table JOBS_HISTORY01 add CONSTRAINT "job id" FOREIGN key (JOB_ID) REFERENCES jobs01 (JOB_ID);
+
+
+Task 05 - Insert a new row in jobs table having all the attributes and the job_ID should update in job_History table as well.
+
+INSERT into JOBS01 values ('001','Junior SDE','70000','100000');
+insert into JOBS_HISTORY01 values ('059','2-Jan-2021','2-Jan-2022','001',002);
+
+
+Task 06 - Add Column Job_Nature in Jobs table.
+
+alter table JOBS01 add (Job_Nature varchar2(30));
+
+
+Task 07 - Create replica of employee table.
+
+create table MY_EMPLOYEES as select * from HR.EMPLOYEES where 1=0;
+alter table MY_EMPLOYEES ADD CONSTRAINT "EMPLOYEE_ID" PRIMARY KEY(EMPLOYEE_ID); 
+
+
+Task 08 - Write a SQL statement to add employee_id column in job_history table as foreign key referencing to the primary key employee_id of employees table.
+
+ALTER TABLE JOBS_HISTORY01 
+ADD CONSTRAINT Emp_ID FOREIGN KEY (EMPLOYEE_ID) 
+references MY_EMPLOYEES(EMPLOYEE_ID);
+
+
+Task 09 - Drop column Job_Nature.
+
+ALTER TABLE JOBS01 
+DROP COLUMN JOB_NATURE;
+
+
+Task 10 - ALTER table EMPLOYEE created in question 5 and apply the constraint CHECK on First_Name attribute such that ENAME should always be inserted in capital letters.
+
+ALTER TABLE MY_EMPLOYEES ADD CONSTRAINT "Ename only in uppercase" CHECK(upper(FIRST_NAME)=FIRST_NAME);
+
+
+Task 11 - ALTER table EMPLOYEE created in question 5 and apply the constraint on SALary attribute such that no two salaries of the employees should be similar.(Hint Unique)
+
+ALTER TABLE MY_EMPLOYEES ADD CONSTRAINT "SALARY MUST NOT BE SAME" UNIQUE(SALARY);
+
+
+Task 12 - ALTER table Employee created in question 5 and apply constraint on Phone_No such that Phone_No should not be entered empty (Hint modify).
+
+ALTER TABLE MY_EMPLOYEES MODIFY PHONE_NUMBER VARCHAR (20) NOT NULL; 
+
+
+Task 13 - Write a SQL statement to insert one row into the table employees.
+
+INSERT INTO MY_EMPLOYEES VALUES (59,'BILAL','AHMED','YADA@GMAIL.COM','1234','21-JAN-2019',001,70000,0.2,456,002);
+
+
+Task 14 - Write a SQL statement to change the salary of employee to 2000 who’s ID is 105, if the existing salary is less than 1000.
+
+UPDATE MY_EMPLOYEES SET SALARY=2000 WHERE EMPLOYEE_ID=105 AND SALARY<1000;
+
+
+Task 15 - Write a SQL statement to add a primary key for a combination of columns employee_id and job_id in employees table, give the reason why this command is showing error.
+
+ALTER TABLE MY_EMPLOYEES ADD CONSTRAINT "JOBSid+EMPid as PK" PRIMARY KEY (EMPLOYEE_ID, JOB_ID);
+
+
+Reason: One table can have ONLY ONE primary key at a given moment. The table "MY_EMPLOYEES" already as EMPLOYEE_ID set as the primary key, thus we can't make another primary key in the same table. To make a new primary key, we'll have to drop the current primary key.
+
+Task 16 - Write a SQL statement to add an index named indx_job_id on job_id column in the table job_history.
+
+CREATE INDEX INDX_JOB_ID ON JOBS_HISTORY01(JOB_ID);
+
+
+Task 17 - Write a SQL statement to remove all the data in employee.
+
+alter table jobs_history01 DROP COLUMN EMPLOYEE_ID;
+TRUNCATE TABLE MY_EMPLOYEES;

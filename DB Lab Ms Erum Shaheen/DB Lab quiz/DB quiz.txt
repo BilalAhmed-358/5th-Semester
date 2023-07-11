@@ -1,0 +1,41 @@
+--TASK 01
+select SUBSTR(last_name,-2)  as last2letters from employees;
+-- TASK 02
+SELECT first_name, last_name, hire_date 
+FROM employees 
+WHERE EXTRACT(YEAR FROM hire_date)>=2009;
+-- TASK 03
+SELECT first_name "Name",
+LENGTH(first_name) "Length",
+JOB_ID
+FROM employees
+WHERE first_name LIKE 'J%'
+OR first_name LIKE 'M%'
+OR first_name LIKE 'A%'
+ORDER BY first_name ;
+
+-- TASK 04
+SELECT INITCAP(FIRST_NAME), UPPER(JOB_ID) 
+   FROM employees;
+   
+-- TASK 05
+
+-- TASK 06
+SELECT department_name AS 'Department Name', 
+COUNT(*) AS 'No of Employees' 
+FROM departments 
+INNER JOIN employees 
+ON employees.department_id = departments.department_id 
+GROUP BY departments.department_id, department_name 
+ORDER BY department_name;
+-- Task 08
+SELECT country_name,city, COUNT(department_id)
+	FROM countries 
+		JOIN locations USING (country_id) 
+		JOIN departments USING (location_id) 
+WHERE department_id IN 
+    (SELECT department_id 
+		FROM employees 
+	 GROUP BY department_id 
+	 HAVING COUNT(department_id)>=5)
+GROUP BY country_name,city;

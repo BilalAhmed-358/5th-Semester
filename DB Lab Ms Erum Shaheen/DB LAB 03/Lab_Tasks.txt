@@ -1,0 +1,9 @@
+Task 02
+create table jobs01 as select * from hr.jobs where 1=2;
+create table jobs_history as select * from HR.JOB_HISTORY where 1=2;
+select * from jobs01;
+select * from JOBS_HISTORY;
+Task 03
+desc jobs01;
+alter table jobs01 modify JOB_ID number;
+Task 04

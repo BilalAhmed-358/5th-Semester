@@ -1,0 +1,135 @@
+Task 01 - Display any two columns from employees table.
+select employee_id from EMPLOYEES;
+SELECT FIRST_NAME FROM EMPLOYEES;
+
+
+Task 02 - Display Hire_date from employees table, name it as Joining Date.
+
+SELECT HIRE_DATE AS JOINING_DATE FROM EMPLOYEES;
+
+
+TASK 03 - Display the first_name, last_name of Employees together in one column named
+“FULL NAME”.
+
+SELECT FIRST_NAME||' '||LAST_NAME AS FULL_NAME FROM EMPLOYEES;
+
+
+TASK 04 - List all Employees having annual salary greater 20, 000 and lesser than 30,000.
+
+SELECT * FROM EMPLOYEES WHERE SALARY>20000 AND SALARY<30000;
+
+
+TASK 05 - List employee_id and first_name of employees from department # 60 to department #100.
+
+SELECT EMPLOYEE_ID, FIRST_NAME FROM EMPLOYEES WHERE DEPARTMENT_ID>=60 AND DEPARTMENT_ID<=100;
+
+
+TASK 06 - List all the Employees belonging to cities like Toronto, Hiroshima and Sydney.
+
+SELECT * FROM LOCATIONS WHERE CITY='Toronto' OR CITY='Hiroshima' OR CITY='Sydney'; 
+
+
+TASK 07 - List all the Employees having an ‘ll’ in their first_names.
+
+SELECT * FROM EMPLOYEES WHERE FIRST_NAME LIKE '%ll%'
+
+
+TASK 08 - List all the employees with no commission.
+
+SELECT * FROM EMPLOYEES WHERE COMMISSION_PCT=NULL;
+
+
+TASK 09 - List all employees in order of their decreasing salaries.
+
+SELECT * FROM EMPLOYEES ORDER BY SALARY desc;
+
+
+TASK 10 - Print an employee name (first letter capital) and job title 
+(lower Case)
+
+SELECT INITCAP(FIRST_NAME)||' '||INITCAP(LAST_NAME) AS "Name" ,LOWER(JOB_ID) AS "Job Title"  FROM EMPLOYEES;
+
+
+TASK 11 - Display employee name and job title together, length of employee name and the numeric position of letter A in employee name, for all employees who are in sales.
+
+SELECT FIRST_NAME||' '||LAST_NAME||' '||JOB_ID AS "Name and Job Title", LENGTH(FIRST_NAME)+LENGTH(LAST_NAME)+1 AS "Length of Employee Name", INSTR(FIRST_NAME,'A') AS "Position of letter A" FROM EMPLOYEES WHERE DEPARTMENT_ID=80;
+
+
+TASK 12 - Comparing the hire dates for all employees who started in 2003, display the employee number, hire date, and month started using the conversion and date functions.
+
+SELECT EMPLOYEE_ID AS "Employee ID", HIRE_DATE AS "Hire Date", EXTRACT(MONTH FROM HIRE_DATE) AS "Month Started" FROM EMPLOYEES WHERE EXTRACT(YEAR FROM HIRE_DATE)>=2003;
+
+TASK 13 - To display the employee number, the month number and year of hiring.
+
+SELECT EMPLOYEE_ID AS "EMPLOYEE NUMBER", EXTRACT(MONTH FROM HIRE_DATE) AS "MONTH NUMBER", EXTRACT(YEAR FROM HIRE_DATE) AS "YEAR OF HIRING" FROM EMPLOYEES;
+
+
+TASK 14  - To display the employee’s name and hire date for all employees. The hire date appears as 16 September, 2021.
+
+SELECT first_name||' '||last_name AS "EMPLOYEE NAME", TO_CHAR(HIRE_DATE,'DD MONTH, YYYY') AS "HIRE DATE" FROM EMPLOYEES;
+
+
+TASK 15 - Display the salary of employee Neena with $ sign preceded.
+
+SELECT first_name||' '||last_name AS "EMPLOYEE NAME", TO_CHAR(SALARY, '$99999') FROM EMPLOYEES WHERE FIRST_NAME='Neena';
+
+
+TASK 16 - Find the next ‘Monday’ considering today’s date as date.
+
+SELECT NEXT_DAY(sysdate, 'Friday') FROM EMPLOYEES;
+
+
+TASK 17 - List all Employees who have an ‘A’ in their last names.
+
+SELECT * FROM EMPLOYEES WHERE INSTR(LAST_NAME,'A')>0;
+
+
+TASK 18 - Show all employees’ last three letters of first name.
+
+SELECT FIRST_NAME AS "First Name", SUBSTR(FIRST_NAME,LENGTH(FIRST_NAME)-2,LENGTH(FIRST_NAME)) AS "LAST 3 LETTERS FROM FIRST NAME" FROM EMPLOYEES;
+
+
+TASK 19 - For all employees employed for more than 100 months, display the employee number, hire date, number of months employed, first Friday after hire date and last day of the month hired.
+
+SELECT * FROM EMPLOYEES WHERE MONTHS_BETWEEN(sysdate,HIRE_DATE)>100;
+
+
+TASK 20 - To display the employee number, name, salary of employee before and after 15% increment in the yearly salary. Name the calculated new salary as “Incremented Salary”. Do calculate the difference between before and after salaries & name this amount as “Incremented Amount”.
+
+SELECT EMPLOYEE_ID AS "EMPLOYEE ID", FIRST_NAME|| ' '||LAST_NAME AS "EMPLOYEE NAME", SALARY AS "SALARY BEFORE INCREMENT", SALARY+SALARY*(.15) AS "SALARY AFTER INCREMENT", (SALARY+SALARY*(.15))-SALARY AS "INCREMENT AMOUNT"  FROM EMPLOYEES;
+
+
+TASK 21 - List the name, hire date, and day of the week (labeled DAY) on which job was started. Order the result by day of week starting with Monday.
+
+SELECT FIRST_NAME|| ' '||LAST_NAME AS "EMPLOYEE NAME", HIRE_DATE AS "HIRE DATE", TO_CHAR(HIRE_DATE,'DAY') AS "DAY OF HIRE" FROM EMPLOYEES ORDER BY TO_CHAR(HIRE_DATE-1,'D');
+
+
+TASK 22 - Display the department and manager id for all employees and round the commission up to 1 decimal.
+
+ELECT DEPARTMENT_ID AS "DEPARTMENT ID", MANAGER_ID AS "MANAGER ID", ROUND(COMMISSION_PCT,1) AS COMMISSION FROM EMPLOYEES ORDER BY COMMISSION ASC;
+
+
+TASK 23 - Write a query to find the list of employees whose 
+COMMISSION_PCT>0 and they do not belong to DEPARTMENT_ID 90 or 100 from Employees table
+
+SELECT * FROM EMPLOYEES WHERE COMMISSION_PCT>0 AND (DEPARTMENT_ID!=90 OR DEPARTMENT_ID!=100);
+
+
+TASK 24 - Write a query to find the employees who are hired in year 2010 from Employees table.
+
+SELECT * FROM EMPLOYEES WHERE EXTRACT(YEAR FROM HIRE_DATE)=2010;
+
+
+TASK 25 - Write a query to find the list of jobs whose min salary is greater than 8000 and less than 15,000 and commission = 0 from job table.
+
+SELECT * FROM JOBS WHERE MIN_SALARY>8000 AND MAX_SALARY<15000 ;
+
+
+TASK 26 - Write a query to find employee whose ID are greater than 100 and less than 150 and their department_id is greater than 90 and less than 100 along with their first_name, Last_name & Job ID.
+
+SELECT FIRST_NAME AS "FIRST NAME", LAST_NAME AS "LAST NAME", JOB_ID AS "JOB ID" FROM EMPLOYEES WHERE (EMPLOYEE_ID BETWEEN 100 AND 150) AND (DEPARTMENT_ID BETWEEN 90 AND 100);
+
+
+TASK 27 - Write a query to find total salary (Total salary formula = salary + (commission_pct* salary)) as “Total Salary”, commission_pct where commission_pct is not equal to null.
+
+SELECT FIRST_NAME|| ' '||LAST_NAME AS "EMPLOYEE NAME", SALARY AS "SALARY", COMMISSION_PCT AS "COMMISSION", SALARY+(SALARY*COMMISSION_PCT) AS "TOTAL SALARY" FROM EMPLOYEES WHERE COMMISSION_PCT IS NOT NULL ;

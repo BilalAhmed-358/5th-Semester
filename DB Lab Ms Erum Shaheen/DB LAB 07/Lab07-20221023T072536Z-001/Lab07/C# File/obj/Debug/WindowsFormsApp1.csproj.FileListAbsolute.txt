@@ -1,0 +1,4 @@
+C:\Users\fizza.aqeel\Downloads\C# File\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\fizza.aqeel\Downloads\C# File\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+C:\Users\fizza.aqeel\Downloads\C# File\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\fizza.aqeel\Downloads\C# File\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache

@@ -1,0 +1,29 @@
+Create table emp20 (id number, name varchar(20), age number, address varchar(20), salary number);
+ Insert into emp20(id, name, age, address, salary)
+Select 1, 'Adams', 25, 'South Wales', 2400 from dual union all
+Select 2, 'James', 23, 'Orlando', 2100 from dual union all
+Select 3, 'Leena', 27, 'Vatican City', 2900 from dual union all
+Select 4, 'John', 29, 'North Hampshire', 3100 from dual union all
+Select 5, 'Nancy', 24, 'Dublin', 2500 from dual union all
+Select 6, 'Sarah', 22, 'Dublin', 2700 from dual;
+
+/Create a trigger on insert of emp20
+
+//Create a trigger on insert of emp20 create or replace trigger emp20_trigger
+create or replace trigger emp20_trigger
+before delete or insert or update on emp20
+for each row 
+declare
+new_sal number;
+begin
+new_sal:= :new.SALARY - :old.SALARY;
+dbms_output.put_line(''); 
+dbms_output.put_line('Old Salary' || :old.SALARY); 
+dbms_output.put_line('New Salary '|| :new.SALARY);
+dbms_output.put_line('Difference '|| new_sal);
+dbms_output.put_line('');
+end;
+
+
+SELECT NAME, COUNT(*) FROM EMPLOYEE
+GROUP BY NAME;

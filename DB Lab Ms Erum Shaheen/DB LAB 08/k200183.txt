@@ -1,0 +1,242 @@
+<---------- TASK 01 ---------->
+
+-- Task 1
+/*
+DECLARE
+    e_id employees.EMPLOYEE_ID%type := '&e_id';
+    e_sal employees.SALARY%type;
+BEGIN
+    SELECT salary INTO e_sal FROM employees WHERE EMPLOYEE_ID = e_id;
+    IF (e_sal < 1000 ) THEN
+        UPDATE employees SET salary = salary+(salary*0.10);
+        dbms_output.put_line ('Salary updated with 10% increament');    
+    elsif (e_sal between 1000 and 1500 ) THEN
+        UPDATE employees SET salary = salary+(salary*0.15);
+        dbms_output.put_line ('Salary updated with 15% increament');    
+    elsif (e_sal > 1500 ) THEN
+        UPDATE employees SET salary = salary+2000;
+        dbms_output.put_line ('Salary updated with 20% increament');    
+    elsif(e_sal=NULL) THEN
+        dbms_output.put_line ('0 bonus');
+    END IF;
+END;
+*/
+
+<---------- TASK 02 ---------->
+
+/*
+SET serveroutput on
+DECLARE
+    e_id EMPLOYEES.EMPLOYEE_ID%type := '&e_id';
+    e_comm EMPLOYEES.COMMISSION_PCT%type;
+BEGIN
+    SELECT COMMISSION_PCT INTO e_comm FROM employees WHERE EMPLOYEE_ID = e_id;
+    IF(e_comm is NULL) THEN
+        UPDATE employees SET salary =salary+e_comm;
+        dbms_output.put_line('Salary Updated!');
+    END IF;
+END;
+*/
+
+<---------- TASK 03 ---------->
+
+/*
+DECLARE
+    e_deptno DEPARTMENTS.DEPARTMENT_ID%type := 20;
+    e_dname DEPARTMENTS.DEPARTMENT_NAME%type;
+BEGIN
+    SELECT DEPARTMENT_NAME INTO e_dname FROM DEPARTMENTS WHERE DEPARTMENT_ID = e_deptno;
+    dbms_output.put_line(e_dname);
+END;
+*/
+
+<---------- TASK 04 ---------->
+
+SET SERVEROUTPUT ON;
+DECLARE 
+emp_Dno hr.departments.department_id%type;
+emp_Dname hr.departments.department_name%type;
+
+BEGIN
+emp_Dno := &emp_Dno;
+select department_name into emp_Dname from hr.departments where hr.departments.department_id = emp_Dno;
+dbms_output.put_line('Nature of job is: '||emp_Dname);
+END;
+
+<---------- TASK 05 ---------->
+
+SET SERVEROUTPUT ON;
+DECLARE
+emp_salary hr.employees.salary%type;
+emp_Dno hr.employees.department_id%type;
+BEGIN
+emp_Dno := &emp_Dno;
+select salary into emp_salary from hr.employees where hr.employees.department_id = emp_Dno;
+dbms_output.put_line('salary is:' ||emp_salary);
+END;
+
+<---------- TASK 06 ---------->
+
+SET SERVEROUTPUT ON;
+DECLARE
+emp_salary hr.employees.salary%type;
+emp_id hr.employees.employee_id%type;
+
+BEGIN
+emp_id := &emp_id;
+select salary into emp_salary from hr.employees where hr.employees.employee_id =emp_id;
+update hr.employees set salary = (emp_salary * 0.1) + emp_salary;
+dbms_output.put_line('Updated salary of '|| emp_id || ' is: '||emp_salary);
+END;
+
+<---------- TASK 07 ---------->
+
+SET SERVEROUTPUT ON;
+DECLARE
+emp_salary hr.employees.salary%type;
+emp_Dno hr.employees.department_id%type;
+
+BEGIN
+emp_Dno := &emp_Dno;
+select salary into emp_salary from hr.employees where hr.employees.department_id =emp_Dno;
+if(emp_salary > 5000) then 
+update hr.employees set salary = 1000 + emp_salary;
+dbms_output.put_line('updated salary is: '||emp_salary);
+else
+dbms_output.put_line('Salary not updated');
+end if;
+END;
+
+<---------- TASK 08 ---------->
+
+create or replace view jobs_table as 
+select distinct count(*) as total_employees ,job_id as positions from hr.employees
+group by job_id;
+select * from jobs_table;
+select * from hr.employees;
+
+create or replace view new2_table as 
+select e.employee_id ,e.first_name ,e.department_id ,d.department_name from hr.employees e ,hr.departments d 
+where e.department_id = d.department_id and e.last_name != 'king';
+select * from new2_table;
+
+create or replace view new1_table as 
+select e.employee_id ,e.first_name ,e.department_id ,d.department_name from hr.employees e ,hr.departments d 
+where e.department_id = d.department_id;
+select * from new1_table;
+
+<---------- TASK 09 ---------->
+
+SET serveroutput on
+Declare
+Var1 INTEGER;
+Var2 INTEGER;
+Var3 INTEGER;
+Begin
+    Var1 := &Var1;
+    Var2 := &Var2;
+    Var3 := Var1+Var2;
+Dbms_output.put_line(var3);
+End;
+
+<---------- TASK 10 ---------->
+
+SET SERVEROUTPUT ON;
+DECLARE 
+a number(2);
+lower_boundary number(2);
+upper_boundary number(2);
+sum number(3) ;
+BEGIN
+lower_boundary := &lower_boundary;
+upper_boundary := &upper_boundary;
+for a in lower_boundary .. upper_boundary LOOP
+sum := sum + a;
+END LOOP;
+dbms_output.put_lines('sum is: '||sum);
+END;
+
+<---------- TASK 11 ---------->
+
+SET SERVEROUTPUT ON;
+DECLARE 
+emp_Fname hr.employees.first_name%type;
+emp_hire hr.employees.hire_date%type;
+emp_Dname hr.departments.department_name%type;
+emp_id hr.employees.employee_id%type;
+
+BEGIN
+emp_id := &emp_id;
+select e.first_name,e.hire_date,d.department_id into emp_Fname,emp_hire,emp_Dname from hr.employees e, hr.departments d where e.department_id = d.department_id and hr.employees.employee_id = emp_id;
+dbms_output.put_line('values are: '||emp_Fname||' '||emp_hire||' '||emp_Dname);
+END;
+
+<---------- TASK 12 ---------->
+
+SET SERVEROUTPUT ON;
+DECLARE
+   n number;
+   m number;
+   temp number:=0;
+   rem number;
+BEGIN
+   n :=12321;
+   m :=n;
+   while n>0
+   loop
+      rem := mod(n,10);
+      temp := (temp*10)+rem;
+      n := trunc(n/10);
+   end loop;
+   if m = temp
+   then
+      dbms_output.put_line('Palindrome');
+   else
+      dbms_output.put_line('Not Palindrome');
+   end if;
+END;
+
+<---------- TASK 13 ---------->
+
+SET SERVEROUTPUT ON;
+DECLARE
+BEGIN
+insert into hr.employees values(209,'shayan','hassan','Shassan','650.501.8889','29-DEC-22','SDE',33000,0.99,145,80);
+END;
+
+<---------- TASK 14 ---------->
+
+DECLARE
+   salary         emp.sal%TYPE := 0;
+   mgr_num        emp.mgr%TYPE;
+   last_name      emp.ename%TYPE;
+   starting_empno emp.empno%TYPE := 7499;
+BEGIN
+   SELECT mgr INTO mgr_num FROM emp 
+      WHERE empno = starting_empno;
+   WHILE salary <= 2500 LOOP
+      SELECT sal, mgr, ename INTO salary, mgr_num, last_name
+         FROM emp WHERE empno = mgr_num;
+   END LOOP;
+   INSERT INTO temp VALUES (NULL, salary, last_name);
+   COMMIT;
+EXCEPTION
+   WHEN NO_DATA_FOUND THEN
+      INSERT INTO temp VALUES (NULL, NULL, 'Not found');
+      COMMIT;
+END;
+
+<---------- TASK 15 ---------->
+declare
+i number(10);
+n number(10);
+begin
+n:=0;
+i:=1;
+while i<100
+loop
+n:=n+i;
+i:=i+1;
+end loop;
+dbms_output.put_line('Sum is:'||n);
+End;
