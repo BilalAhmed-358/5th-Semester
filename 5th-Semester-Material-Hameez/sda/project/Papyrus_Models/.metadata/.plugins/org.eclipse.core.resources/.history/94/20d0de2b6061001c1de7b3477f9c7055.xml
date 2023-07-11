@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_M7CvAGFeEeyxCrUUT7JOuw" type="PapyrusUMLSequenceDiagram" name="Sequence Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_M7CvAWFeEeyxCrUUT7JOuw" type="Interaction_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_M7CvAmFeEeyxCrUUT7JOuw" type="Interaction_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_M7CvA2FeEeyxCrUUT7JOuw" type="Interaction_SubfragmentCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_pW8H4GFeEeyxCrUUT7JOuw" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_pW8u8GFeEeyxCrUUT7JOuw" type="Lifeline_NameLabel"/>
+        <element xmi:type="uml:Lifeline" href="OrderManagment-SequenceDiagram.uml#_pW0zIGFeEeyxCrUUT7JOuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pW8H4WFeEeyxCrUUT7JOuw" x="14" y="10" width="141" height="681"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_rukGkGFeEeyxCrUUT7JOuw" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_rukGkmFeEeyxCrUUT7JOuw" type="Lifeline_NameLabel"/>
+        <element xmi:type="uml:Lifeline" href="OrderManagment-SequenceDiagram.uml#_rugcMGFeEeyxCrUUT7JOuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rukGkWFeEeyxCrUUT7JOuw" x="194" y="10" width="141" height="681"/>
+      </children>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M7CvBGFeEeyxCrUUT7JOuw"/>
+    </children>
+    <element xmi:type="uml:Interaction" href="OrderManagment-SequenceDiagram.uml#_M66MIGFeEeyxCrUUT7JOuw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M7CvBWFeEeyxCrUUT7JOuw"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_M7CvBmFeEeyxCrUUT7JOuw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_M7CvB2FeEeyxCrUUT7JOuw"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_M7CvCGFeEeyxCrUUT7JOuw" diagramKindId="org.eclipse.papyrus.uml.diagram.sequence">
+    <owner xmi:type="uml:Model" href="OrderManagment-SequenceDiagram.uml#_M3lLUGFeEeyxCrUUT7JOuw"/>
+  </styles>
+  <element xmi:type="uml:Interaction" href="OrderManagment-SequenceDiagram.uml#_M66MIGFeEeyxCrUUT7JOuw"/>
+</notation:Diagram>

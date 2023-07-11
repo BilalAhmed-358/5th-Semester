@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_UbYHoGDUEeyQEq_dTLm08Q" name="BillingManagement-SequenceDiagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_UdXEoGDUEeyQEq_dTLm08Q">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_UcXmIGDUEeyQEq_dTLm08Q" name="BillingManagement-SequenceDiagram">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_fqn8YGDWEeyQEq_dTLm08Q" name="Customer" coveredBy="_NadiQWDXEeyQEq_dTLm08Q _p2mywWDXEeyQEq_dTLm08Q _v28kkGDXEeyQEq_dTLm08Q _09F_AGDXEeyQEq_dTLm08Q _6A53IGDXEeyQEq_dTLm08Q _767T0GDXEeyQEq_dTLm08Q _A_s1QGDYEeyQEq_dTLm08Q _EIfLIGDYEeyQEq_dTLm08Q _H3mhMGDYEeyQEq_dTLm08Q _Gfq6YGDXEeyQEq_dTLm08Q"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_hY6qMGDWEeyQEq_dTLm08Q" name="WebServer" coveredBy="_MLw6gGDXEeyQEq_dTLm08Q _MLvsYGDXEeyQEq_dTLm08Q _NaeJUGDXEeyQEq_dTLm08Q _fb68kGDXEeyQEq_dTLm08Q _fb7joGDXEeyQEq_dTLm08Q _p2mywGDXEeyQEq_dTLm08Q _v29LoGDXEeyQEq_dTLm08Q _09FX8GDXEeyQEq_dTLm08Q _6A53IWDXEeyQEq_dTLm08Q _768h8GDXEeyQEq_dTLm08Q _A_tcUGDYEeyQEq_dTLm08Q _EIfyMGDYEeyQEq_dTLm08Q _H3nIQGDYEeyQEq_dTLm08Q _MLxhkGDXEeyQEq_dTLm08Q"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_jJFAQGDWEeyQEq_dTLm08Q" name="System"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_kdNhoGDWEeyQEq_dTLm08Q" name="Bank"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NadiQWDXEeyQEq_dTLm08Q" name="Message11SendEvent" covered="_fqn8YGDWEeyQEq_dTLm08Q" message="_NadiQGDXEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_Gfq6YGDXEeyQEq_dTLm08Q" name="ActionExecutionSpecification5" covered="_fqn8YGDWEeyQEq_dTLm08Q" finish="_6A53IWDXEeyQEq_dTLm08Q" start="_NadiQWDXEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_MLw6gGDXEeyQEq_dTLm08Q" name="ActionExecutionSpecification8Start" covered="_hY6qMGDWEeyQEq_dTLm08Q" execution="_MLvsYGDXEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_MLvsYGDXEeyQEq_dTLm08Q" name="ActionExecutionSpecification8" covered="_hY6qMGDWEeyQEq_dTLm08Q" finish="_MLxhkGDXEeyQEq_dTLm08Q" start="_MLw6gGDXEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NaeJUGDXEeyQEq_dTLm08Q" name="Message11ReceiveEvent" covered="_hY6qMGDWEeyQEq_dTLm08Q" message="_NadiQGDXEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_fb68kGDXEeyQEq_dTLm08Q" name="Message13SendEvent" covered="_hY6qMGDWEeyQEq_dTLm08Q" message="_fb6VgGDXEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_fb7joGDXEeyQEq_dTLm08Q" name="Message13ReceiveEvent" covered="_hY6qMGDWEeyQEq_dTLm08Q" message="_fb6VgGDXEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_p2mywGDXEeyQEq_dTLm08Q" name="Message16SendEvent" covered="_hY6qMGDWEeyQEq_dTLm08Q" message="_p2k9kGDXEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_p2mywWDXEeyQEq_dTLm08Q" name="Message16ReceiveEvent" covered="_fqn8YGDWEeyQEq_dTLm08Q" message="_p2k9kGDXEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_v28kkGDXEeyQEq_dTLm08Q" name="Message19SendEvent" covered="_fqn8YGDWEeyQEq_dTLm08Q" message="_v279gGDXEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_v29LoGDXEeyQEq_dTLm08Q" name="Message19ReceiveEvent" covered="_hY6qMGDWEeyQEq_dTLm08Q" message="_v279gGDXEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_09FX8GDXEeyQEq_dTLm08Q" name="Message22SendEvent" covered="_hY6qMGDWEeyQEq_dTLm08Q" message="_09EJ0GDXEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_09F_AGDXEeyQEq_dTLm08Q" name="Message22ReceiveEvent" covered="_fqn8YGDWEeyQEq_dTLm08Q" message="_09EJ0GDXEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_6A53IGDXEeyQEq_dTLm08Q" name="Message25SendEvent" covered="_fqn8YGDWEeyQEq_dTLm08Q" message="_6A4pAGDXEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_6A53IWDXEeyQEq_dTLm08Q" name="Message25ReceiveEvent" covered="_hY6qMGDWEeyQEq_dTLm08Q" message="_6A4pAGDXEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_767T0GDXEeyQEq_dTLm08Q" name="Message27SendEvent" covered="_fqn8YGDWEeyQEq_dTLm08Q" message="_766swGDXEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_768h8GDXEeyQEq_dTLm08Q" name="Message27ReceiveEvent" covered="_hY6qMGDWEeyQEq_dTLm08Q" message="_766swGDXEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_A_s1QGDYEeyQEq_dTLm08Q" name="Message30SendEvent" covered="_fqn8YGDWEeyQEq_dTLm08Q" message="_A_sOMGDYEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_A_tcUGDYEeyQEq_dTLm08Q" name="Message30ReceiveEvent" covered="_hY6qMGDWEeyQEq_dTLm08Q" message="_A_sOMGDYEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_EIfLIGDYEeyQEq_dTLm08Q" name="Message33SendEvent" covered="_fqn8YGDWEeyQEq_dTLm08Q" message="_EIekEGDYEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_EIfyMGDYEeyQEq_dTLm08Q" name="Message33ReceiveEvent" covered="_hY6qMGDWEeyQEq_dTLm08Q" message="_EIekEGDYEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_H3mhMGDYEeyQEq_dTLm08Q" name="Message36SendEvent" covered="_fqn8YGDWEeyQEq_dTLm08Q" message="_H3l6IGDYEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_H3nIQGDYEeyQEq_dTLm08Q" name="Message36ReceiveEvent" covered="_hY6qMGDWEeyQEq_dTLm08Q" message="_H3l6IGDYEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_MLxhkGDXEeyQEq_dTLm08Q" name="ActionExecutionSpecification8Finish" covered="_hY6qMGDWEeyQEq_dTLm08Q" execution="_MLvsYGDXEeyQEq_dTLm08Q"/>
+    <message xmi:type="uml:Message" xmi:id="_NadiQGDXEeyQEq_dTLm08Q" name="ChoosePaymentMethod()" messageSort="asynchCall" receiveEvent="_NaeJUGDXEeyQEq_dTLm08Q" sendEvent="_NadiQWDXEeyQEq_dTLm08Q"/>
+    <message xmi:type="uml:Message" xmi:id="_fb6VgGDXEeyQEq_dTLm08Q" name="If_PayByCard()" messageSort="asynchCall" receiveEvent="_fb7joGDXEeyQEq_dTLm08Q" sendEvent="_fb68kGDXEeyQEq_dTLm08Q"/>
+    <message xmi:type="uml:Message" xmi:id="_p2k9kGDXEeyQEq_dTLm08Q" name="PromptCard()" messageSort="asynchCall" receiveEvent="_p2mywWDXEeyQEq_dTLm08Q" sendEvent="_p2mywGDXEeyQEq_dTLm08Q"/>
+    <message xmi:type="uml:Message" xmi:id="_v279gGDXEeyQEq_dTLm08Q" name="SelectCard()" messageSort="asynchCall" receiveEvent="_v29LoGDXEeyQEq_dTLm08Q" sendEvent="_v28kkGDXEeyQEq_dTLm08Q"/>
+    <message xmi:type="uml:Message" xmi:id="_09EJ0GDXEeyQEq_dTLm08Q" name="PromptCardDetails()" messageSort="asynchCall" receiveEvent="_09F_AGDXEeyQEq_dTLm08Q" sendEvent="_09FX8GDXEeyQEq_dTLm08Q"/>
+    <message xmi:type="uml:Message" xmi:id="_6A4pAGDXEeyQEq_dTLm08Q" name="EnterName()" messageSort="reply" receiveEvent="_6A53IWDXEeyQEq_dTLm08Q" sendEvent="_6A53IGDXEeyQEq_dTLm08Q"/>
+    <message xmi:type="uml:Message" xmi:id="_766swGDXEeyQEq_dTLm08Q" name="EnterCardNo()" messageSort="asynchCall" receiveEvent="_768h8GDXEeyQEq_dTLm08Q" sendEvent="_767T0GDXEeyQEq_dTLm08Q"/>
+    <message xmi:type="uml:Message" xmi:id="_A_sOMGDYEeyQEq_dTLm08Q" name="EnterExpirationDate()" messageSort="asynchCall" receiveEvent="_A_tcUGDYEeyQEq_dTLm08Q" sendEvent="_A_s1QGDYEeyQEq_dTLm08Q"/>
+    <message xmi:type="uml:Message" xmi:id="_EIekEGDYEeyQEq_dTLm08Q" name="Enter_CVV()" messageSort="asynchCall" receiveEvent="_EIfyMGDYEeyQEq_dTLm08Q" sendEvent="_EIfLIGDYEeyQEq_dTLm08Q"/>
+    <message xmi:type="uml:Message" xmi:id="_H3l6IGDYEeyQEq_dTLm08Q" name="Submit_Info()" messageSort="asynchCall" receiveEvent="_H3nIQGDYEeyQEq_dTLm08Q" sendEvent="_H3mhMGDYEeyQEq_dTLm08Q"/>
+  </packagedElement>
+</uml:Model>

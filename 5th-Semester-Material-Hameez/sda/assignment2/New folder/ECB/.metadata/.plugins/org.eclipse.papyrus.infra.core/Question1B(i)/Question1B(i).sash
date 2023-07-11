@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:architecture="http://www.eclipse.org/papyrus/infra/core/architecture" xmlns:di="http://www.eclipse.org/papyrus/0.7.0/sashdi">
+  <di:SashWindowsMngr>
+    <sashModel currentSelection="/0/@sashModel/@windows.0/@children.0" restoreActivePage="true">
+      <windows>
+        <children xsi:type="di:TabFolder" currentSelection="/0/@sashModel/@windows.0/@children.0/@children.9">
+          <children>
+            <emfPageIdentifier href="platform:/resource/Question1B(i)/Question1B(i).notation#_KixikEIOEeyLTpPguwCCeQ"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/Question1B(i)/Question1B(i).notation#_Kj_qkEIOEeyLTpPguwCCeQ"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/Question1B(i)/Question1B(i).notation#_KkGYQEIOEeyLTpPguwCCeQ"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/Question1B(i)/Question1B(i).notation#_KkYsIEIOEeyLTpPguwCCeQ"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/Question1B(i)/Question1B(i).notation#_Kkh2EEIOEeyLTpPguwCCeQ"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/Question1B(i)/Question1B(i).notation#_KlGd0EIOEeyLTpPguwCCeQ"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/Question1B(i)/Question1B(i).notation#_KlQ14EIOEeyLTpPguwCCeQ"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/Question1B(i)/Question1B(i).notation#_KlW8gEIOEeyLTpPguwCCeQ"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/Question1B(i)/Question1B(i).notation#_Klb1AEIOEeyLTpPguwCCeQ"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/Question1B(i)/Question1B(i).notation#_KldqMEIOEeyLTpPguwCCeQ"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/Question1B(i)/Question1B(i).notation#_Klth0EIOEeyLTpPguwCCeQ"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/Question1B(i)/Question1B(i).notation#_KlwlIEIOEeyLTpPguwCCeQ"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/Question1B(i)/Question1B(i).notation#_KmEHIEIOEeyLTpPguwCCeQ"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/Question1B(i)/Question1B(i).notation#_KmJmsEIOEeyLTpPguwCCeQ"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/Question1B(i)/Question1B(i).notation#_KmOfMEIOEeyLTpPguwCCeQ"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/Question1B(i)/Question1B(i).notation#_KmdIsEIOEeyLTpPguwCCeQ"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/Question1B(i)/Question1B(i).notation#_KmgMAEIOEeyLTpPguwCCeQ"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/Question1B(i)/Question1B(i).notation#_KmiBMEIOEeyLTpPguwCCeQ"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/Question1B(i)/Question1B(i).notation#_Kmou4EIOEeyLTpPguwCCeQ"/>
+          </children>
+        </children>
+      </windows>
+    </sashModel>
+  </di:SashWindowsMngr>
+  <architecture:ArchitectureDescriptionPreferences>
+    <viewpointIds>org.eclipse.papyrus.uml.analysis</viewpointIds>
+    <viewpointIds>org.eclipse.papyrus.uml.design</viewpointIds>
+  </architecture:ArchitectureDescriptionPreferences>
+</xmi:XMI>

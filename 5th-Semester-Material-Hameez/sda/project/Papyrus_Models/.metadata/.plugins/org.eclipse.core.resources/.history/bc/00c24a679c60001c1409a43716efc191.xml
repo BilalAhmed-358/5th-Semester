@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmi:id="_kUXm8GCPEeyg3bQCQr_0xg" type="PapyrusUMLDeploymentDiagram" name="Deployment Diagram" measurementUnit="Pixel">
+  <styles xsi:type="notation:StringValueStyle" xmi:id="_kUXm8WCPEeyg3bQCQr_0xg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xsi:type="notation:DiagramStyle" xmi:id="_kUXm8mCPEeyg3bQCQr_0xg"/>
+  <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_kUXm82CPEeyg3bQCQr_0xg" diagramKindId="org.eclipse.papyrus.uml.diagram.deployment">
+    <owner href="FoodOrdering-DeploymentDiagram.uml#_kTAVAGCPEeyg3bQCQr_0xg"/>
+  </styles>
+  <element href="FoodOrdering-DeploymentDiagram.uml#_kTAVAGCPEeyg3bQCQr_0xg"/>
+</notation:Diagram>

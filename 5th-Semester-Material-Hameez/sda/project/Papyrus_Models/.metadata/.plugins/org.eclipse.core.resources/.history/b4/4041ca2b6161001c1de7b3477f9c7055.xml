@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_M3lLUGFeEeyxCrUUT7JOuw" name="OrderManagment-SequenceDiagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_M8ReEGFeEeyxCrUUT7JOuw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_M66MIGFeEeyxCrUUT7JOuw" name="OrderManagement">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_pW0zIGFeEeyxCrUUT7JOuw" name="Customer" coveredBy="_1Gx9sGFfEeyxCrUUT7JOuw _1GseIGFfEeyxCrUUT7JOuw _4PWRIGFfEeyxCrUUT7JOuw _ANNfkWFgEeyxCrUUT7JOuw _1GykwGFfEeyxCrUUT7JOuw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_rugcMGFeEeyxCrUUT7JOuw" name="System"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_LzpzsGFfEeyxCrUUT7JOuw" name="Webserver" coveredBy="_2twikGFfEeyxCrUUT7JOuw _2tv7gGFfEeyxCrUUT7JOuw _4PW4MGFfEeyxCrUUT7JOuw _ANNfkGFgEeyxCrUUT7JOuw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_Pmvq0GFfEeyxCrUUT7JOuw" name="Rider"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_1Gx9sGFfEeyxCrUUT7JOuw" name="ActionExecutionSpecification5Start" covered="_pW0zIGFeEeyxCrUUT7JOuw" execution="_1GseIGFfEeyxCrUUT7JOuw"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_1GseIGFfEeyxCrUUT7JOuw" name="ActionExecutionSpecification5" covered="_pW0zIGFeEeyxCrUUT7JOuw" finish="_1GykwGFfEeyxCrUUT7JOuw" start="_1Gx9sGFfEeyxCrUUT7JOuw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_2twikGFfEeyxCrUUT7JOuw" name="ActionExecutionSpecification8Start" covered="_LzpzsGFfEeyxCrUUT7JOuw" execution="_2tv7gGFfEeyxCrUUT7JOuw"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_2tv7gGFfEeyxCrUUT7JOuw" name="ActionExecutionSpecification8" covered="_LzpzsGFfEeyxCrUUT7JOuw" finish="_ANNfkGFgEeyxCrUUT7JOuw" start="_2twikGFfEeyxCrUUT7JOuw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4PWRIGFfEeyxCrUUT7JOuw" name="Message11SendEvent" covered="_pW0zIGFeEeyxCrUUT7JOuw" message="_4PRYoGFfEeyxCrUUT7JOuw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4PW4MGFfEeyxCrUUT7JOuw" name="Message11ReceiveEvent" covered="_LzpzsGFfEeyxCrUUT7JOuw" message="_4PRYoGFfEeyxCrUUT7JOuw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ANNfkGFgEeyxCrUUT7JOuw" name="Message14SendEvent" covered="_LzpzsGFfEeyxCrUUT7JOuw" message="_ANMRcGFgEeyxCrUUT7JOuw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ANNfkWFgEeyxCrUUT7JOuw" name="Message14ReceiveEvent" covered="_pW0zIGFeEeyxCrUUT7JOuw" message="_ANMRcGFgEeyxCrUUT7JOuw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_1GykwGFfEeyxCrUUT7JOuw" name="ActionExecutionSpecification5Finish" covered="_pW0zIGFeEeyxCrUUT7JOuw" execution="_1GseIGFfEeyxCrUUT7JOuw"/>
+    <message xmi:type="uml:Message" xmi:id="_4PRYoGFfEeyxCrUUT7JOuw" name="RequestLogin()" messageSort="asynchCall" receiveEvent="_4PW4MGFfEeyxCrUUT7JOuw" sendEvent="_4PWRIGFfEeyxCrUUT7JOuw"/>
+    <message xmi:type="uml:Message" xmi:id="_ANMRcGFgEeyxCrUUT7JOuw" name="PromptUsernameAndPassword()" messageSort="asynchCall" receiveEvent="_ANNfkWFgEeyxCrUUT7JOuw" sendEvent="_ANNfkGFgEeyxCrUUT7JOuw"/>
+  </packagedElement>
+</uml:Model>

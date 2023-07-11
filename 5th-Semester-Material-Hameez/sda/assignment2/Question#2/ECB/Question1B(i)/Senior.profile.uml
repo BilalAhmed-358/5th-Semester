@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_e9LP8EJrEeyENoEU_UMOQQ" name="Senior" metaclassReference="_e9MeEUJrEeyENoEU_UMOQQ">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iecXQEJrEeyENoEU_UMOQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_iecXQUJrEeyENoEU_UMOQQ" name="Senior" nsURI="http:///schemas/Senior/_iebwMkJrEeyENoEU_UMOQQ/0" nsPrefix="Senior">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iecXSkJrEeyENoEU_UMOQQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iecXS0JrEeyENoEU_UMOQQ" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iecXTEJrEeyENoEU_UMOQQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iecXTUJrEeyENoEU_UMOQQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iecXTkJrEeyENoEU_UMOQQ" key="Date" value="11/11/2021, 2:16 am"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iecXT0JrEeyENoEU_UMOQQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_iecXQkJrEeyENoEU_UMOQQ" name="_">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iecXQ0JrEeyENoEU_UMOQQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_e9MeEEJrEeyENoEU_UMOQQ">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iecXREJrEeyENoEU_UMOQQ" key="originalName" value=""/>
+        </eAnnotations>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_iecXRUJrEeyENoEU_UMOQQ" name="actor">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iecXRkJrEeyENoEU_UMOQQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_iebJIEJrEeyENoEU_UMOQQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_iecXR0JrEeyENoEU_UMOQQ" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_e9MeEUJrEeyENoEU_UMOQQ">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_e9MeEEJrEeyENoEU_UMOQQ" name=""/>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_iebJIEJrEeyENoEU_UMOQQ" name="actor">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_iebwMUJrEeyENoEU_UMOQQ" name="base_Class" association="_iebJIUJrEeyENoEU_UMOQQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_iebJIUJrEeyENoEU_UMOQQ" name="Class_actor" memberEnd="_iebwMEJrEeyENoEU_UMOQQ _iebwMUJrEeyENoEU_UMOQQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_iebwMEJrEeyENoEU_UMOQQ" name="extension_actor" type="_iebJIEJrEeyENoEU_UMOQQ" aggregation="composite" association="_iebJIUJrEeyENoEU_UMOQQ"/>
+  </packagedElement>
+</uml:Profile>

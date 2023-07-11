@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:Codegen="http://www.eclipse.org/papyrus/Codegen/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_7-_xMGA3EeymismR8OJJPA" name="FoodManagement-ActivityDiagram">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_8Am6wGA3EeymismR8OJJPA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Activity" xmi:id="_7_IUEGA3EeymismR8OJJPA" name="OrderManagement" node="_teW80GA4EeymismR8OJJPA _xdwxoGA4EeymismR8OJJPA _-9u9wGA4EeymismR8OJJPA _KTQrkGA5EeymismR8OJJPA _X-_bwGA5EeymismR8OJJPA _e-BDYGA5EeymismR8OJJPA _0VcegGA6EeymismR8OJJPA _4z4_wGA6EeymismR8OJJPA __JBV0GA6EeymismR8OJJPA _CAD0YGA7EeymismR8OJJPA _G76DUGA7EeymismR8OJJPA _G2ilsGA8EeymismR8OJJPA _TbG5gGA8EeymismR8OJJPA _HiRN0GA9EeymismR8OJJPA _BjvvAGA_EeymismR8OJJPA _N0WlAGA_EeymismR8OJJPA _UHglIGA_EeymismR8OJJPA _tP1UcGA_EeymismR8OJJPA _3nhhAGA_EeymismR8OJJPA _mB-KIGBAEeymismR8OJJPA _GxFEoGBBEeymismR8OJJPA _JAjz8GBBEeymismR8OJJPA _U_7I8GBBEeymismR8OJJPA _FpmHQGCFEey0xOBI7EPLJA" group="_a1kcwGA4EeymismR8OJJPA _doCkYGA4EeymismR8OJJPA _n2eHQGA4EeymismR8OJJPA _TFOs8GA4EeymismR8OJJPA _G2ilsGA8EeymismR8OJJPA">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_52KnAGA4EeymismR8OJJPA" inPartition="_TFOs8GA4EeymismR8OJJPA" target="_xdwxoGA4EeymismR8OJJPA" source="_teW80GA4EeymismR8OJJPA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_OY3PAGA5EeymismR8OJJPA" target="_-9u9wGA4EeymismR8OJJPA" source="_xdwxoGA4EeymismR8OJJPA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_PkbDMGA5EeymismR8OJJPA" target="_KTQrkGA5EeymismR8OJJPA" source="_-9u9wGA4EeymismR8OJJPA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_rk6ScGA5EeymismR8OJJPA" target="_X-_bwGA5EeymismR8OJJPA" source="_KTQrkGA5EeymismR8OJJPA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_tRiMUGA5EeymismR8OJJPA" inPartition="_a1kcwGA4EeymismR8OJJPA" target="_e-BDYGA5EeymismR8OJJPA" source="_X-_bwGA5EeymismR8OJJPA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_yIn3EGA5EeymismR8OJJPA" name="Not Valid" target="_-9u9wGA4EeymismR8OJJPA" source="_e-BDYGA5EeymismR8OJJPA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_SQvNkGA7EeymismR8OJJPA" name="Valid" inPartition="_a1kcwGA4EeymismR8OJJPA" target="_0VcegGA6EeymismR8OJJPA" source="_e-BDYGA5EeymismR8OJJPA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_UsBkQGA7EeymismR8OJJPA" target="_4z4_wGA6EeymismR8OJJPA" source="_0VcegGA6EeymismR8OJJPA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_VucDgGA7EeymismR8OJJPA" target="__JBV0GA6EeymismR8OJJPA" source="_4z4_wGA6EeymismR8OJJPA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_XJ7xIGA7EeymismR8OJJPA" target="_CAD0YGA7EeymismR8OJJPA" source="__JBV0GA6EeymismR8OJJPA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_YWxXsGA7EeymismR8OJJPA" target="_G76DUGA7EeymismR8OJJPA" source="_CAD0YGA7EeymismR8OJJPA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_C93rAGA8EeymismR8OJJPA" target="_N0SQYGA7EeymismR8OJJPA" source="_G76DUGA7EeymismR8OJJPA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_APu0UGA9EeymismR8OJJPA" target="_TbG5gGA8EeymismR8OJJPA" source="_N0SQYGA7EeymismR8OJJPA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_J2FqkGA9EeymismR8OJJPA" inPartition="_a1kcwGA4EeymismR8OJJPA" target="_HiRN0GA9EeymismR8OJJPA" source="_TbG5gGA8EeymismR8OJJPA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_Ybl7YGA9EeymismR8OJJPA" inPartition="_a1kcwGA4EeymismR8OJJPA" target="_0VcegGA6EeymismR8OJJPA" source="_HiRN0GA9EeymismR8OJJPA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_JwE3QGA_EeymismR8OJJPA" target="_BjvvAGA_EeymismR8OJJPA" source="_HiRN0GA9EeymismR8OJJPA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_zIbfgGA_EeymismR8OJJPA" target="_N0WlAGA_EeymismR8OJJPA" source="_BjvvAGA_EeymismR8OJJPA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_0mTLsGA_EeymismR8OJJPA" target="_UHglIGA_EeymismR8OJJPA" source="_N0WlAGA_EeymismR8OJJPA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_5qDZcGA_EeymismR8OJJPA" target="_FpmHQGCFEey0xOBI7EPLJA" source="_UHglIGA_EeymismR8OJJPA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_0jLw0GBAEeymismR8OJJPA" name="already paid by card?" inPartition="_TFOs8GA4EeymismR8OJJPA" target="_tP1UcGA_EeymismR8OJJPA" source="_mB-KIGBAEeymismR8OJJPA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_XSMGgGBBEeymismR8OJJPA" name="Yes" inPartition="_TFOs8GA4EeymismR8OJJPA" target="_U_7I8GBBEeymismR8OJJPA" source="_tP1UcGA_EeymismR8OJJPA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_ZuV_4GBBEeymismR8OJJPA" name="No" inPartition="_TFOs8GA4EeymismR8OJJPA" target="_GxFEoGBBEeymismR8OJJPA" source="_tP1UcGA_EeymismR8OJJPA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_cCFkIGBBEeymismR8OJJPA" target="_JAjz8GBBEeymismR8OJJPA" source="_GxFEoGBBEeymismR8OJJPA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_c-kagGBBEeymismR8OJJPA" target="_U_7I8GBBEeymismR8OJJPA" source="_JAjz8GBBEeymismR8OJJPA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_JCUWkGCFEey0xOBI7EPLJA" target="_3nhhAGA_EeymismR8OJJPA" source="_FpmHQGCFEey0xOBI7EPLJA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_MuE2oGCFEey0xOBI7EPLJA" target="_mB-KIGBAEeymismR8OJJPA" source="_3nhhAGA_EeymismR8OJJPA"/>
+      <structuredNode xmi:type="uml:ExpansionRegion" xmi:id="_G2ilsGA8EeymismR8OJJPA" name="ExpansionRegion29" inPartition="_TFOs8GA4EeymismR8OJJPA">
+        <node xmi:type="uml:OpaqueAction" xmi:id="_N0SQYGA7EeymismR8OJJPA" name="Select Item" incoming="_C93rAGA8EeymismR8OJJPA" outgoing="_APu0UGA9EeymismR8OJJPA"/>
+      </structuredNode>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_TFOs8GA4EeymismR8OJJPA" name="Customer" node="_teW80GA4EeymismR8OJJPA _xdwxoGA4EeymismR8OJJPA _KTQrkGA5EeymismR8OJJPA _4z4_wGA6EeymismR8OJJPA _CAD0YGA7EeymismR8OJJPA _G2ilsGA8EeymismR8OJJPA _BjvvAGA_EeymismR8OJJPA _tP1UcGA_EeymismR8OJJPA _mB-KIGBAEeymismR8OJJPA _GxFEoGBBEeymismR8OJJPA _U_7I8GBBEeymismR8OJJPA" edge="_52KnAGA4EeymismR8OJJPA _0jLw0GBAEeymismR8OJJPA _XSMGgGBBEeymismR8OJJPA _ZuV_4GBBEeymismR8OJJPA"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_a1kcwGA4EeymismR8OJJPA" name="System" node="_X-_bwGA5EeymismR8OJJPA _e-BDYGA5EeymismR8OJJPA _0VcegGA6EeymismR8OJJPA __JBV0GA6EeymismR8OJJPA _G76DUGA7EeymismR8OJJPA _TbG5gGA8EeymismR8OJJPA _HiRN0GA9EeymismR8OJJPA _N0WlAGA_EeymismR8OJJPA _FpmHQGCFEey0xOBI7EPLJA" edge="_tRiMUGA5EeymismR8OJJPA _SQvNkGA7EeymismR8OJJPA _J2FqkGA9EeymismR8OJJPA _Ybl7YGA9EeymismR8OJJPA"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_doCkYGA4EeymismR8OJJPA" name="WebServer" node="_-9u9wGA4EeymismR8OJJPA"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_n2eHQGA4EeymismR8OJJPA" name="Rider" node="_UHglIGA_EeymismR8OJJPA _3nhhAGA_EeymismR8OJJPA _JAjz8GBBEeymismR8OJJPA"/>
+      <node xmi:type="uml:InitialNode" xmi:id="_teW80GA4EeymismR8OJJPA" name="Start" outgoing="_52KnAGA4EeymismR8OJJPA" inPartition="_TFOs8GA4EeymismR8OJJPA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_xdwxoGA4EeymismR8OJJPA" name="Request Login" incoming="_52KnAGA4EeymismR8OJJPA" outgoing="_OY3PAGA5EeymismR8OJJPA" inPartition="_TFOs8GA4EeymismR8OJJPA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_-9u9wGA4EeymismR8OJJPA" name="Prompt username and password" incoming="_OY3PAGA5EeymismR8OJJPA _yIn3EGA5EeymismR8OJJPA" outgoing="_PkbDMGA5EeymismR8OJJPA" inPartition="_doCkYGA4EeymismR8OJJPA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_KTQrkGA5EeymismR8OJJPA" name="Enter Username and password" incoming="_PkbDMGA5EeymismR8OJJPA" outgoing="_rk6ScGA5EeymismR8OJJPA" inPartition="_TFOs8GA4EeymismR8OJJPA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_X-_bwGA5EeymismR8OJJPA" name="Verify Username and password" incoming="_rk6ScGA5EeymismR8OJJPA" outgoing="_tRiMUGA5EeymismR8OJJPA" inPartition="_a1kcwGA4EeymismR8OJJPA"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_e-BDYGA5EeymismR8OJJPA" name="CheckValidity" incoming="_tRiMUGA5EeymismR8OJJPA" outgoing="_yIn3EGA5EeymismR8OJJPA _SQvNkGA7EeymismR8OJJPA" inPartition="_a1kcwGA4EeymismR8OJJPA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_0VcegGA6EeymismR8OJJPA" name="Display Categories" incoming="_SQvNkGA7EeymismR8OJJPA _Ybl7YGA9EeymismR8OJJPA" outgoing="_UsBkQGA7EeymismR8OJJPA" inPartition="_a1kcwGA4EeymismR8OJJPA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_4z4_wGA6EeymismR8OJJPA" name="Select Category" incoming="_UsBkQGA7EeymismR8OJJPA" outgoing="_VucDgGA7EeymismR8OJJPA" inPartition="_TFOs8GA4EeymismR8OJJPA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="__JBV0GA6EeymismR8OJJPA" name="Display Restaurants" incoming="_VucDgGA7EeymismR8OJJPA" outgoing="_XJ7xIGA7EeymismR8OJJPA" inPartition="_a1kcwGA4EeymismR8OJJPA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_CAD0YGA7EeymismR8OJJPA" name="Select Restaurant" incoming="_XJ7xIGA7EeymismR8OJJPA" outgoing="_YWxXsGA7EeymismR8OJJPA" inPartition="_TFOs8GA4EeymismR8OJJPA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_G76DUGA7EeymismR8OJJPA" name="Display Menu" incoming="_YWxXsGA7EeymismR8OJJPA" outgoing="_C93rAGA8EeymismR8OJJPA" inPartition="_a1kcwGA4EeymismR8OJJPA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_TbG5gGA8EeymismR8OJJPA" name="Add Item in Cart" incoming="_APu0UGA9EeymismR8OJJPA" outgoing="_J2FqkGA9EeymismR8OJJPA" inPartition="_a1kcwGA4EeymismR8OJJPA"/>
+      <node xmi:type="uml:ForkNode" xmi:id="_HiRN0GA9EeymismR8OJJPA" incoming="_J2FqkGA9EeymismR8OJJPA" outgoing="_Ybl7YGA9EeymismR8OJJPA _JwE3QGA_EeymismR8OJJPA" inPartition="_a1kcwGA4EeymismR8OJJPA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_BjvvAGA_EeymismR8OJJPA" name="Select Checkout" incoming="_JwE3QGA_EeymismR8OJJPA" outgoing="_zIbfgGA_EeymismR8OJJPA" inPartition="_TFOs8GA4EeymismR8OJJPA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_N0WlAGA_EeymismR8OJJPA" name="Confirm Order" incoming="_zIbfgGA_EeymismR8OJJPA" outgoing="_0mTLsGA_EeymismR8OJJPA" inPartition="_a1kcwGA4EeymismR8OJJPA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_UHglIGA_EeymismR8OJJPA" name="Take Order" incoming="_0mTLsGA_EeymismR8OJJPA" outgoing="_5qDZcGA_EeymismR8OJJPA" inPartition="_n2eHQGA4EeymismR8OJJPA"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_tP1UcGA_EeymismR8OJJPA" incoming="_0jLw0GBAEeymismR8OJJPA" outgoing="_XSMGgGBBEeymismR8OJJPA _ZuV_4GBBEeymismR8OJJPA" inPartition="_TFOs8GA4EeymismR8OJJPA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_3nhhAGA_EeymismR8OJJPA" name="Deliver Order" incoming="_JCUWkGCFEey0xOBI7EPLJA" outgoing="_MuE2oGCFEey0xOBI7EPLJA" inPartition="_n2eHQGA4EeymismR8OJJPA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_mB-KIGBAEeymismR8OJJPA" name="receive order" incoming="_MuE2oGCFEey0xOBI7EPLJA" outgoing="_0jLw0GBAEeymismR8OJJPA" inPartition="_TFOs8GA4EeymismR8OJJPA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_GxFEoGBBEeymismR8OJJPA" name="Pay Cash" incoming="_ZuV_4GBBEeymismR8OJJPA" outgoing="_cCFkIGBBEeymismR8OJJPA" inPartition="_TFOs8GA4EeymismR8OJJPA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_JAjz8GBBEeymismR8OJJPA" name="Receive Payment" incoming="_cCFkIGBBEeymismR8OJJPA" outgoing="_c-kagGBBEeymismR8OJJPA" inPartition="_n2eHQGA4EeymismR8OJJPA"/>
+      <node xmi:type="uml:ActivityFinalNode" xmi:id="_U_7I8GBBEeymismR8OJJPA" name="end" incoming="_XSMGgGBBEeymismR8OJJPA _c-kagGBBEeymismR8OJJPA" inPartition="_TFOs8GA4EeymismR8OJJPA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_FpmHQGCFEey0xOBI7EPLJA" name="Delivery Details" incoming="_5qDZcGA_EeymismR8OJJPA" outgoing="_JCUWkGCFEey0xOBI7EPLJA" inPartition="_a1kcwGA4EeymismR8OJJPA"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_A0jlQGHVEeyd8vS1VXTCvQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_A0rhEGHVEeyd8vS1VXTCvQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/Codegen/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Codegen_PROFILES/Codegen.profile.uml#_fPDsIBa-EearhdjjJ6cVzQ"/>
+    </profileApplication>
+  </uml:Model>
+  <Codegen:GeneratorHint xmi:id="_A4u6oGHVEeyd8vS1VXTCvQ" base_Element="_7-_xMGA3EeymismR8OJJPA" generatorID="Standard Java">
+    <language xmi:type="Codegen:Language" href="pathmap://Codegen_PROFILES/languages.uml#_2Zt6YCjREeayco6FJ_OtTQ"/>
+  </Codegen:GeneratorHint>
+</xmi:XMI>

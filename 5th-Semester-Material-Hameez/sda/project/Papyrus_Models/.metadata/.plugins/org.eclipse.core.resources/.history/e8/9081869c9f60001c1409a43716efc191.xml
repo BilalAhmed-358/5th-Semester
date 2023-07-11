@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_kTAVAGCPEeyg3bQCQr_0xg" name="FoodOrdering-DeploymentDiagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_kVx8MGCPEeyg3bQCQr_0xg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Model" xmi:id="_v_gYYGCPEeyg3bQCQr_0xg" name="Deployment">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_d_p_QGCdEeyg3bQCQr_0xg">
+      <body>       &lt;&lt;JSP>></body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Node" xmi:id="_u5Yx8GCcEeyg3bQCQr_0xg" name="Webserver">
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_2IdAsGCcEeyg3bQCQr_0xg" name="Windows"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_DLVBIGCdEeyg3bQCQr_0xg" name="FoodOrdering" fileName=""/>
+    <packagedElement xmi:type="uml:Device" xmi:id="_po-LwGCdEeyg3bQCQr_0xg" name="Android"/>
+    <packagedElement xmi:type="uml:Device" xmi:id="_s7-NkGCdEeyg3bQCQr_0xg" name="IOS"/>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_vwXAwGCdEeyg3bQCQr_0xg" name="&lt;&lt;HTTPS>>" memberEnd="_vwarIGCdEeyg3bQCQr_0xg _vwdHYGCdEeyg3bQCQr_0xg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vwZdAGCdEeyg3bQCQr_0xg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vwaEEGCdEeyg3bQCQr_0xg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_vwarIGCdEeyg3bQCQr_0xg" name="android" type="_po-LwGCdEeyg3bQCQr_0xg" association="_vwXAwGCdEeyg3bQCQr_0xg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_vwdHYGCdEeyg3bQCQr_0xg" name="webserver" type="_u5Yx8GCcEeyg3bQCQr_0xg" association="_vwXAwGCdEeyg3bQCQr_0xg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_x511wGCdEeyg3bQCQr_0xg" name="&lt;&lt;HTTPS>>" memberEnd="_x53D4WCdEeyg3bQCQr_0xg _x53q8GCdEeyg3bQCQr_0xg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_x52c0GCdEeyg3bQCQr_0xg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_x53D4GCdEeyg3bQCQr_0xg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_x53D4WCdEeyg3bQCQr_0xg" name="ios" type="_s7-NkGCdEeyg3bQCQr_0xg" association="_x511wGCdEeyg3bQCQr_0xg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_x53q8GCdEeyg3bQCQr_0xg" name="webserver" type="_u5Yx8GCcEeyg3bQCQr_0xg" association="_x511wGCdEeyg3bQCQr_0xg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Node" xmi:id="_VmffcGCeEeyg3bQCQr_0xg" name="System">
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_YFOywGCeEeyg3bQCQr_0xg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_jtyKQGCeEeyg3bQCQr_0xg" name="Container">
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_8IQ8IGCeEeyg3bQCQr_0xg" name="Admin"/>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_6KJCkGCeEeyg3bQCQr_0xg" name="Restaurant"/>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_3VUxkGCeEeyg3bQCQr_0xg" name="Customer"/>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_5WEhUGCeEeyg3bQCQr_0xg" name="Rider"/>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="__8KrkGCeEeyg3bQCQr_0xg" name="FoodItems"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

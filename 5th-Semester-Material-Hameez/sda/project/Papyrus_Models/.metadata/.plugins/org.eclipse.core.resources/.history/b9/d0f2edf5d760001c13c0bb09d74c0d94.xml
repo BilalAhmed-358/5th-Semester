@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_UcY0QGDUEeyQEq_dTLm08Q" type="PapyrusUMLSequenceDiagram" name="Sequence Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_UcY0QWDUEeyQEq_dTLm08Q" type="Interaction_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_UcY0QmDUEeyQEq_dTLm08Q" type="Interaction_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_UcY0Q2DUEeyQEq_dTLm08Q" type="Interaction_SubfragmentCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_fqq_sGDWEeyQEq_dTLm08Q" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_fqrmwGDWEeyQEq_dTLm08Q" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:Shape" xmi:id="_Gf4VwGDXEeyQEq_dTLm08Q" type="ActionExecutionSpecification_Shape">
+          <element xmi:type="uml:ActionExecutionSpecification" href="BillingManagement-SequenceDiagram.uml#_Gfq6YGDXEeyQEq_dTLm08Q"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gf480GDXEeyQEq_dTLm08Q" x="60" y="61" width="20" height="421"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="BillingManagement-SequenceDiagram.uml#_fqn8YGDWEeyQEq_dTLm08Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fqq_sWDWEeyQEq_dTLm08Q" x="14" y="10" width="141" height="507"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_hY-7oGDWEeyQEq_dTLm08Q" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_hY-7omDWEeyQEq_dTLm08Q" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:Shape" xmi:id="_ML5dYGDXEeyQEq_dTLm08Q" type="ActionExecutionSpecification_Shape">
+          <element xmi:type="uml:ActionExecutionSpecification" href="BillingManagement-SequenceDiagram.uml#_MLvsYGDXEeyQEq_dTLm08Q"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ML5dYWDXEeyQEq_dTLm08Q" x="60" y="81" width="20" height="420"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="BillingManagement-SequenceDiagram.uml#_hY6qMGDWEeyQEq_dTLm08Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hY-7oWDWEeyQEq_dTLm08Q" x="214" y="10" width="141" height="507"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_jJJRsGDWEeyQEq_dTLm08Q" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_jJJRsmDWEeyQEq_dTLm08Q" type="Lifeline_NameLabel"/>
+        <element xmi:type="uml:Lifeline" href="BillingManagement-SequenceDiagram.uml#_jJFAQGDWEeyQEq_dTLm08Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jJJRsWDWEeyQEq_dTLm08Q" x="434" y="10" width="141" height="507"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_kdSaIGDWEeyQEq_dTLm08Q" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_kdTBMGDWEeyQEq_dTLm08Q" type="Lifeline_NameLabel"/>
+        <element xmi:type="uml:Lifeline" href="BillingManagement-SequenceDiagram.uml#_kdNhoGDWEeyQEq_dTLm08Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kdSaIWDWEeyQEq_dTLm08Q" x="634" y="10" width="141" height="507"/>
+      </children>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UcY0RGDUEeyQEq_dTLm08Q"/>
+    </children>
+    <element xmi:type="uml:Interaction" href="BillingManagement-SequenceDiagram.uml#_UcXmIGDUEeyQEq_dTLm08Q"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UcY0RWDUEeyQEq_dTLm08Q"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_UcY0RmDUEeyQEq_dTLm08Q" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_UcY0R2DUEeyQEq_dTLm08Q"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_UcY0SGDUEeyQEq_dTLm08Q" diagramKindId="org.eclipse.papyrus.uml.diagram.sequence">
+    <owner xmi:type="uml:Model" href="BillingManagement-SequenceDiagram.uml#_UbYHoGDUEeyQEq_dTLm08Q"/>
+  </styles>
+  <element xmi:type="uml:Interaction" href="BillingManagement-SequenceDiagram.uml#_UcXmIGDUEeyQEq_dTLm08Q"/>
+  <edges xmi:type="notation:Connector" xmi:id="_NeBzoGDXEeyQEq_dTLm08Q" type="Message_AsynchEdge" source="_fqq_sGDWEeyQEq_dTLm08Q" target="_hY-7oGDWEeyQEq_dTLm08Q">
+    <children xmi:type="notation:DecorationNode" xmi:id="_NeCasGDXEeyQEq_dTLm08Q" type="Message_AsynchNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_NeCasWDXEeyQEq_dTLm08Q" x="1" y="-13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_NeCasmDXEeyQEq_dTLm08Q" type="Message_AsynchStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_NeCas2DXEeyQEq_dTLm08Q" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_NeBzoWDXEeyQEq_dTLm08Q"/>
+    <element xmi:type="uml:Message" href="BillingManagement-SequenceDiagram.uml#_NadiQGDXEeyQEq_dTLm08Q"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NeBzomDXEeyQEq_dTLm08Q" points="[-10, -8, -210, 40]$[210, -48, 10, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NecqYGDXEeyQEq_dTLm08Q" id="(0.5,0.15976331360946747)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NedRcGDXEeyQEq_dTLm08Q" id="(0.5,0.15976331360946747)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_fcC4YGDXEeyQEq_dTLm08Q" type="Message_AsynchEdge" source="_hY-7oGDWEeyQEq_dTLm08Q" target="_hY-7oGDWEeyQEq_dTLm08Q">
+    <children xmi:type="notation:DecorationNode" xmi:id="_fcC4Y2DXEeyQEq_dTLm08Q" type="Message_AsynchNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fcC4ZGDXEeyQEq_dTLm08Q" y="-65"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_fcC4ZWDXEeyQEq_dTLm08Q" type="Message_AsynchStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fcC4ZmDXEeyQEq_dTLm08Q" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_fcC4YWDXEeyQEq_dTLm08Q"/>
+    <element xmi:type="uml:Message" href="BillingManagement-SequenceDiagram.uml#_fb6VgGDXEeyQEq_dTLm08Q"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fcC4YmDXEeyQEq_dTLm08Q" points="[10, 20, 10, 20]$[10, 20, 10, 20]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fcZdsGDXEeyQEq_dTLm08Q" id="(0.5,0.1992110453648915)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fcaEwGDXEeyQEq_dTLm08Q" id="(0.5,0.23865877712031558)"/>
+  </edges>
+</notation:Diagram>

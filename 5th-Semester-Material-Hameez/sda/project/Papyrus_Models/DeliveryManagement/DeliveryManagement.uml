@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:Codegen="http://www.eclipse.org/papyrus/Codegen/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_al_BoGCFEey0xOBI7EPLJA" name="DeliveryManagement">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_anrqwGCFEey0xOBI7EPLJA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Activity" xmi:id="_amVm8GCFEey0xOBI7EPLJA" name="DeliveryManagement" node="_opLPkGCFEey0xOBI7EPLJA _72jDYGCFEey0xOBI7EPLJA _A4hIcGCGEey0xOBI7EPLJA _I4G1MGCGEey0xOBI7EPLJA _LU-gQGCGEey0xOBI7EPLJA _QuHvMGCGEey0xOBI7EPLJA _TPijEGCGEey0xOBI7EPLJA _VcsXIGCGEey0xOBI7EPLJA _XJOKYGCGEey0xOBI7EPLJA _myj2wGCGEey0xOBI7EPLJA _pHwMgGCGEey0xOBI7EPLJA _431aEGCGEey0xOBI7EPLJA _7LVGsGCGEey0xOBI7EPLJA _I07v8GCHEey0xOBI7EPLJA _UF-mYGCHEey0xOBI7EPLJA" group="_eHJbQGCFEey0xOBI7EPLJA _jMkc8GCFEey0xOBI7EPLJA _lViUkGCFEey0xOBI7EPLJA _hoh3UGCFEey0xOBI7EPLJA">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_bpf3oGCGEey0xOBI7EPLJA" target="_QuHvMGCGEey0xOBI7EPLJA" source="_72jDYGCFEey0xOBI7EPLJA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_ct8XMGCGEey0xOBI7EPLJA" target="_A4hIcGCGEey0xOBI7EPLJA" source="_QuHvMGCGEey0xOBI7EPLJA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_dypVcGCGEey0xOBI7EPLJA" target="_TPijEGCGEey0xOBI7EPLJA" source="_A4hIcGCGEey0xOBI7EPLJA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_engg4GCGEey0xOBI7EPLJA" target="_I4G1MGCGEey0xOBI7EPLJA" source="_TPijEGCGEey0xOBI7EPLJA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_fyXxgGCGEey0xOBI7EPLJA" target="_VcsXIGCGEey0xOBI7EPLJA" source="_I4G1MGCGEey0xOBI7EPLJA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_guFy4GCGEey0xOBI7EPLJA" target="_LU-gQGCGEey0xOBI7EPLJA" source="_VcsXIGCGEey0xOBI7EPLJA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_hkeoUGCGEey0xOBI7EPLJA" target="_XJOKYGCGEey0xOBI7EPLJA" source="_LU-gQGCGEey0xOBI7EPLJA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_sIjEAGCGEey0xOBI7EPLJA" target="_myj2wGCGEey0xOBI7EPLJA" source="_XJOKYGCGEey0xOBI7EPLJA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_s9pgAGCGEey0xOBI7EPLJA" target="_pHwMgGCGEey0xOBI7EPLJA" source="_myj2wGCGEey0xOBI7EPLJA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_A6YUMGCHEey0xOBI7EPLJA" inPartition="_hoh3UGCFEey0xOBI7EPLJA" target="_431aEGCGEey0xOBI7EPLJA" source="_pHwMgGCGEey0xOBI7EPLJA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_B20uUGCHEey0xOBI7EPLJA" target="_7LVGsGCGEey0xOBI7EPLJA" source="_431aEGCGEey0xOBI7EPLJA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_GBc7sGCHEey0xOBI7EPLJA" inPartition="_eHJbQGCFEey0xOBI7EPLJA" target="_72jDYGCFEey0xOBI7EPLJA" source="_opLPkGCFEey0xOBI7EPLJA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_M1NHcGCHEey0xOBI7EPLJA" target="_I07v8GCHEey0xOBI7EPLJA" source="_7LVGsGCGEey0xOBI7EPLJA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_btaR0GCHEey0xOBI7EPLJA" inPartition="_lViUkGCFEey0xOBI7EPLJA" target="_UF-mYGCHEey0xOBI7EPLJA" source="_I07v8GCHEey0xOBI7EPLJA"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_eHJbQGCFEey0xOBI7EPLJA" name="Webserver" node="_opLPkGCFEey0xOBI7EPLJA _72jDYGCFEey0xOBI7EPLJA _A4hIcGCGEey0xOBI7EPLJA _I4G1MGCGEey0xOBI7EPLJA _LU-gQGCGEey0xOBI7EPLJA _myj2wGCGEey0xOBI7EPLJA" edge="_GBc7sGCHEey0xOBI7EPLJA"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_hoh3UGCFEey0xOBI7EPLJA" name="Customer" node="_QuHvMGCGEey0xOBI7EPLJA _TPijEGCGEey0xOBI7EPLJA _VcsXIGCGEey0xOBI7EPLJA _XJOKYGCGEey0xOBI7EPLJA _pHwMgGCGEey0xOBI7EPLJA _431aEGCGEey0xOBI7EPLJA" edge="_A6YUMGCHEey0xOBI7EPLJA"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_jMkc8GCFEey0xOBI7EPLJA" name="System" node="_7LVGsGCGEey0xOBI7EPLJA"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_lViUkGCFEey0xOBI7EPLJA" name="Rider" node="_I07v8GCHEey0xOBI7EPLJA _UF-mYGCHEey0xOBI7EPLJA" edge="_btaR0GCHEey0xOBI7EPLJA"/>
+      <node xmi:type="uml:InitialNode" xmi:id="_opLPkGCFEey0xOBI7EPLJA" name="start" outgoing="_GBc7sGCHEey0xOBI7EPLJA" inPartition="_eHJbQGCFEey0xOBI7EPLJA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_72jDYGCFEey0xOBI7EPLJA" name="Prompt Username" incoming="_GBc7sGCHEey0xOBI7EPLJA" outgoing="_bpf3oGCGEey0xOBI7EPLJA" inPartition="_eHJbQGCFEey0xOBI7EPLJA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_A4hIcGCGEey0xOBI7EPLJA" name="Prompt ContactNo" incoming="_ct8XMGCGEey0xOBI7EPLJA" outgoing="_dypVcGCGEey0xOBI7EPLJA" inPartition="_eHJbQGCFEey0xOBI7EPLJA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_I4G1MGCGEey0xOBI7EPLJA" name="Prompt Address" incoming="_engg4GCGEey0xOBI7EPLJA" outgoing="_fyXxgGCGEey0xOBI7EPLJA" inPartition="_eHJbQGCFEey0xOBI7EPLJA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_LU-gQGCGEey0xOBI7EPLJA" name="Prompt City and Postcode" incoming="_guFy4GCGEey0xOBI7EPLJA" outgoing="_hkeoUGCGEey0xOBI7EPLJA" inPartition="_eHJbQGCFEey0xOBI7EPLJA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_QuHvMGCGEey0xOBI7EPLJA" name="Enter Username" incoming="_bpf3oGCGEey0xOBI7EPLJA" outgoing="_ct8XMGCGEey0xOBI7EPLJA" inPartition="_hoh3UGCFEey0xOBI7EPLJA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_TPijEGCGEey0xOBI7EPLJA" name="Enter ContactNo" incoming="_dypVcGCGEey0xOBI7EPLJA" outgoing="_engg4GCGEey0xOBI7EPLJA" inPartition="_hoh3UGCFEey0xOBI7EPLJA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_VcsXIGCGEey0xOBI7EPLJA" name="Enter Address" incoming="_fyXxgGCGEey0xOBI7EPLJA" outgoing="_guFy4GCGEey0xOBI7EPLJA" inPartition="_hoh3UGCFEey0xOBI7EPLJA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_XJOKYGCGEey0xOBI7EPLJA" name="Enter City and Postcode" incoming="_hkeoUGCGEey0xOBI7EPLJA" outgoing="_sIjEAGCGEey0xOBI7EPLJA" inPartition="_hoh3UGCFEey0xOBI7EPLJA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_myj2wGCGEey0xOBI7EPLJA" name="Prompt PaymentMethod" incoming="_sIjEAGCGEey0xOBI7EPLJA" outgoing="_s9pgAGCGEey0xOBI7EPLJA" inPartition="_eHJbQGCFEey0xOBI7EPLJA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_pHwMgGCGEey0xOBI7EPLJA" name="Select PaymentMethod" incoming="_s9pgAGCGEey0xOBI7EPLJA" outgoing="_A6YUMGCHEey0xOBI7EPLJA" inPartition="_hoh3UGCFEey0xOBI7EPLJA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_431aEGCGEey0xOBI7EPLJA" name="Proceed to checkout" incoming="_A6YUMGCHEey0xOBI7EPLJA" outgoing="_B20uUGCHEey0xOBI7EPLJA" inPartition="_hoh3UGCFEey0xOBI7EPLJA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_7LVGsGCGEey0xOBI7EPLJA" name="Store Customer delivery details" incoming="_B20uUGCHEey0xOBI7EPLJA" outgoing="_M1NHcGCHEey0xOBI7EPLJA" inPartition="_jMkc8GCFEey0xOBI7EPLJA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_I07v8GCHEey0xOBI7EPLJA" name="Take Customer Delivery Details" incoming="_M1NHcGCHEey0xOBI7EPLJA" outgoing="_btaR0GCHEey0xOBI7EPLJA" inPartition="_lViUkGCFEey0xOBI7EPLJA"/>
+      <node xmi:type="uml:ActivityFinalNode" xmi:id="_UF-mYGCHEey0xOBI7EPLJA" name="End" incoming="_btaR0GCHEey0xOBI7EPLJA" inPartition="_lViUkGCFEey0xOBI7EPLJA"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bPLNcGHWEeyd8vS1VXTCvQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bPL0gGHWEeyd8vS1VXTCvQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/Codegen/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Codegen_PROFILES/Codegen.profile.uml#_fPDsIBa-EearhdjjJ6cVzQ"/>
+    </profileApplication>
+  </uml:Model>
+  <Codegen:GeneratorHint xmi:id="_bQrCQGHWEeyd8vS1VXTCvQ" base_Element="_al_BoGCFEey0xOBI7EPLJA" generatorID="Standard Java">
+    <language xmi:type="Codegen:Language" href="pathmap://Codegen_PROFILES/languages.uml#_2Zt6YCjREeayco6FJ_OtTQ"/>
+  </Codegen:GeneratorHint>
+</xmi:XMI>

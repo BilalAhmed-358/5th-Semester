@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_uMFXIGCIEey-6Kwhy9Dvaw" name="BillingManagement">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_uO1JIGCIEey-6Kwhy9Dvaw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_uNd3MGCIEey-6Kwhy9Dvaw" name="BillingManagement" node="_vijlYGCJEey-6Kwhy9Dvaw _7sADcGCJEey-6Kwhy9Dvaw _B6m6wGCKEey-6Kwhy9Dvaw _Js5LUGCKEey-6Kwhy9Dvaw _MKX6YGCKEey-6Kwhy9Dvaw _ax16EGCKEey-6Kwhy9Dvaw _fDlcEGCKEey-6Kwhy9Dvaw _j_Z10GCKEey-6Kwhy9Dvaw _neWo8GCKEey-6Kwhy9Dvaw _z4DJgGCKEey-6Kwhy9Dvaw _2C7FoGCKEey-6Kwhy9Dvaw _55WkoGCKEey-6Kwhy9Dvaw _-e-E4GCKEey-6Kwhy9Dvaw" group="_l5DUgGCJEey-6Kwhy9Dvaw _oAydEGCJEey-6Kwhy9Dvaw _qW28kGCJEey-6Kwhy9Dvaw _tiS90GCJEey-6Kwhy9Dvaw">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_OJR3EGCKEey-6Kwhy9Dvaw" inPartition="_l5DUgGCJEey-6Kwhy9Dvaw" target="_7sADcGCJEey-6Kwhy9Dvaw" source="_vijlYGCJEey-6Kwhy9Dvaw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ThDNAGCKEey-6Kwhy9Dvaw" inPartition="_l5DUgGCJEey-6Kwhy9Dvaw" target="_B6m6wGCKEey-6Kwhy9Dvaw" source="_7sADcGCJEey-6Kwhy9Dvaw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_UiGaUGCKEey-6Kwhy9Dvaw" name="Yes" target="_Js5LUGCKEey-6Kwhy9Dvaw" source="_B6m6wGCKEey-6Kwhy9Dvaw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_X19-0GCKEey-6Kwhy9Dvaw" target="_MKX6YGCKEey-6Kwhy9Dvaw" source="_Js5LUGCKEey-6Kwhy9Dvaw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_l5DUgGCJEey-6Kwhy9Dvaw" name="Customer" node="_vijlYGCJEey-6Kwhy9Dvaw _7sADcGCJEey-6Kwhy9Dvaw _B6m6wGCKEey-6Kwhy9Dvaw _MKX6YGCKEey-6Kwhy9Dvaw _z4DJgGCKEey-6Kwhy9Dvaw _2C7FoGCKEey-6Kwhy9Dvaw _55WkoGCKEey-6Kwhy9Dvaw _-e-E4GCKEey-6Kwhy9Dvaw" edge="_OJR3EGCKEey-6Kwhy9Dvaw _ThDNAGCKEey-6Kwhy9Dvaw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_oAydEGCJEey-6Kwhy9Dvaw" name="Webserver" node="_Js5LUGCKEey-6Kwhy9Dvaw _ax16EGCKEey-6Kwhy9Dvaw _fDlcEGCKEey-6Kwhy9Dvaw _j_Z10GCKEey-6Kwhy9Dvaw _neWo8GCKEey-6Kwhy9Dvaw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_qW28kGCJEey-6Kwhy9Dvaw" name="System"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_tiS90GCJEey-6Kwhy9Dvaw" name="Bank"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_vijlYGCJEey-6Kwhy9Dvaw" name="start" outgoing="_OJR3EGCKEey-6Kwhy9Dvaw" inPartition="_l5DUgGCJEey-6Kwhy9Dvaw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7sADcGCJEey-6Kwhy9Dvaw" name="Choose PaymentMethod" incoming="_OJR3EGCKEey-6Kwhy9Dvaw" outgoing="_ThDNAGCKEey-6Kwhy9Dvaw" inPartition="_l5DUgGCJEey-6Kwhy9Dvaw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_B6m6wGCKEey-6Kwhy9Dvaw" name="Pay by card?" incoming="_ThDNAGCKEey-6Kwhy9Dvaw" outgoing="_UiGaUGCKEey-6Kwhy9Dvaw" inPartition="_l5DUgGCJEey-6Kwhy9Dvaw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Js5LUGCKEey-6Kwhy9Dvaw" name="Prompt Card" incoming="_UiGaUGCKEey-6Kwhy9Dvaw" outgoing="_X19-0GCKEey-6Kwhy9Dvaw" inPartition="_oAydEGCJEey-6Kwhy9Dvaw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_MKX6YGCKEey-6Kwhy9Dvaw" name="Select Card" incoming="_X19-0GCKEey-6Kwhy9Dvaw" inPartition="_l5DUgGCJEey-6Kwhy9Dvaw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ax16EGCKEey-6Kwhy9Dvaw" name="Prompt Name on Card" inPartition="_oAydEGCJEey-6Kwhy9Dvaw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_fDlcEGCKEey-6Kwhy9Dvaw" name="Prompt CardNumber" inPartition="_oAydEGCJEey-6Kwhy9Dvaw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_j_Z10GCKEey-6Kwhy9Dvaw" name="Prompt Expiration" inPartition="_oAydEGCJEey-6Kwhy9Dvaw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_neWo8GCKEey-6Kwhy9Dvaw" name="Prompt CVV" inPartition="_oAydEGCJEey-6Kwhy9Dvaw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_z4DJgGCKEey-6Kwhy9Dvaw" name="Enter Name" inPartition="_l5DUgGCJEey-6Kwhy9Dvaw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_2C7FoGCKEey-6Kwhy9Dvaw" name="Enter CardNumber" inPartition="_l5DUgGCJEey-6Kwhy9Dvaw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_55WkoGCKEey-6Kwhy9Dvaw" name="Enter Expiration Date" inPartition="_l5DUgGCJEey-6Kwhy9Dvaw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_-e-E4GCKEey-6Kwhy9Dvaw" name="Enter CVV" inPartition="_l5DUgGCJEey-6Kwhy9Dvaw"/>
+  </packagedElement>
+</uml:Model>

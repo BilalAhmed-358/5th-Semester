@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_kTAVAGCPEeyg3bQCQr_0xg" name="FoodOrdering-DeploymentDiagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_kVx8MGCPEeyg3bQCQr_0xg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Model" xmi:id="_v_gYYGCPEeyg3bQCQr_0xg" name="Deployment">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_d_p_QGCdEeyg3bQCQr_0xg">
+      <body>       &lt;&lt;JSP>></body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Node" xmi:id="_u5Yx8GCcEeyg3bQCQr_0xg" name="Webserver">
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_2IdAsGCcEeyg3bQCQr_0xg" name="Windows"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_DLVBIGCdEeyg3bQCQr_0xg" name="FoodOrdering" fileName=""/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_RvAvYGDREeyQEq_dTLm08Q" name="DeliveryManagement-SequenceDiagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_RyfhMGDREeyQEq_dTLm08Q">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_Rwy4EGDREeyQEq_dTLm08Q" name="DeliveryManagement">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_oUE3wGDREeyQEq_dTLm08Q" name="Webserver"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_tf4OQGDREeyQEq_dTLm08Q" name="Customer"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_vR1UEGDREeyQEq_dTLm08Q" name="System"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_2jPsMGDREeyQEq_dTLm08Q" name="Rider"/>
+  </packagedElement>
+</uml:Model>

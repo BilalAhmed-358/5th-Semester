@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_kUXm8GCPEeyg3bQCQr_0xg" type="PapyrusUMLDeploymentDiagram" name="Deployment Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_v_hmgGCPEeyg3bQCQr_0xg" type="Model_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_v_hmgmCPEeyg3bQCQr_0xg" type="Model_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_v_hmg2CPEeyg3bQCQr_0xg" type="Model_PackagedElementCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_u5eRgGCcEeyg3bQCQr_0xg" type="Node_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_u5eRgmCcEeyg3bQCQr_0xg" type="Node_NameLabel_CN"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_u5e4kGCcEeyg3bQCQr_0xg" type="Node_NestedNodeCompartment_CN">
+          <children xmi:type="notation:Shape" xmi:id="_2IgrEGCcEeyg3bQCQr_0xg" type="ExecutionEnvironment_Shape_CCN">
+            <children xmi:type="notation:DecorationNode" xmi:id="_2IgrEmCcEeyg3bQCQr_0xg" type="ExecutionEnvironment_NameLabel_CCN"/>
+            <element xmi:type="uml:ExecutionEnvironment" href="FoodOrdering-DeploymentDiagram.uml#_2IdAsGCcEeyg3bQCQr_0xg"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2IgrEWCcEeyg3bQCQr_0xg" x="15" y="13" width="261" height="241"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_u5e4kWCcEeyg3bQCQr_0xg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u5e4kmCcEeyg3bQCQr_0xg"/>
+        </children>
+        <element xmi:type="uml:Node" href="FoodOrdering-DeploymentDiagram.uml#_u5Yx8GCcEeyg3bQCQr_0xg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u5eRgWCcEeyg3bQCQr_0xg" x="34" y="8" width="321" height="321"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_DLZSkGCdEeyg3bQCQr_0xg" type="Artifact_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_DLZSkmCdEeyg3bQCQr_0xg" type="Artifact_NameLabel_CN"/>
+        <element xmi:type="uml:Artifact" href="FoodOrdering-DeploymentDiagram.uml#_DLVBIGCdEeyg3bQCQr_0xg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DLZSkWCdEeyg3bQCQr_0xg" x="74" y="148" width="221" height="141"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_d_uQsGCdEeyg3bQCQr_0xg" type="Comment_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_d_uQsmCdEeyg3bQCQr_0xg" type="Comment_BodyLabel_CN"/>
+        <element xmi:type="uml:Comment" href="FoodOrdering-DeploymentDiagram.uml#_d_p_QGCdEeyg3bQCQr_0xg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d_uQsWCdEeyg3bQCQr_0xg" x="134" y="248" width="121" height="21"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_v_hmhGCPEeyg3bQCQr_0xg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v_hmhWCPEeyg3bQCQr_0xg"/>
+    </children>
+    <element xmi:type="uml:Model" href="FoodOrdering-DeploymentDiagram.uml#_v_gYYGCPEeyg3bQCQr_0xg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v_hmgWCPEeyg3bQCQr_0xg" x="60" y="40" width="1061" height="461"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_kUXm8WCPEeyg3bQCQr_0xg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_kUXm8mCPEeyg3bQCQr_0xg"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_kUXm82CPEeyg3bQCQr_0xg" diagramKindId="org.eclipse.papyrus.uml.diagram.deployment">
+    <owner xmi:type="uml:Model" href="FoodOrdering-DeploymentDiagram.uml#_kTAVAGCPEeyg3bQCQr_0xg"/>
+  </styles>
+  <element xmi:type="uml:Model" href="FoodOrdering-DeploymentDiagram.uml#_kTAVAGCPEeyg3bQCQr_0xg"/>
+</notation:Diagram>

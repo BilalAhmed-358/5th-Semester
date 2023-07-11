@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmi:id="_UcY0QGDUEeyQEq_dTLm08Q" type="PapyrusUMLSequenceDiagram" name="Sequence Diagram" measurementUnit="Pixel">
+  <children xsi:type="notation:Shape" xmi:id="_UcY0QWDUEeyQEq_dTLm08Q" type="Interaction_Shape">
+    <children xsi:type="notation:DecorationNode" xmi:id="_UcY0QmDUEeyQEq_dTLm08Q" type="Interaction_NameLabel"/>
+    <children xsi:type="notation:BasicCompartment" xmi:id="_UcY0Q2DUEeyQEq_dTLm08Q" type="Interaction_SubfragmentCompartment">
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_UcY0RGDUEeyQEq_dTLm08Q"/>
+    </children>
+    <element href="BillingManagement-SequenceDiagram.uml#_UcXmIGDUEeyQEq_dTLm08Q"/>
+    <layoutConstraint xsi:type="notation:Bounds" xmi:id="_UcY0RWDUEeyQEq_dTLm08Q"/>
+  </children>
+  <styles xsi:type="notation:StringValueStyle" xmi:id="_UcY0RmDUEeyQEq_dTLm08Q" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xsi:type="notation:DiagramStyle" xmi:id="_UcY0R2DUEeyQEq_dTLm08Q"/>
+  <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_UcY0SGDUEeyQEq_dTLm08Q" diagramKindId="org.eclipse.papyrus.uml.diagram.sequence">
+    <owner href="BillingManagement-SequenceDiagram.uml#_UbYHoGDUEeyQEq_dTLm08Q"/>
+  </styles>
+  <element href="BillingManagement-SequenceDiagram.uml#_UcXmIGDUEeyQEq_dTLm08Q"/>
+</notation:Diagram>

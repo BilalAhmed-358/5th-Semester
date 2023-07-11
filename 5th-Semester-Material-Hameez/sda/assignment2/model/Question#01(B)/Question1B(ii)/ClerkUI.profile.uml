@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Cs-1UEKuEeynBe-SkFUDLw" name="ClerkUI" metaclassReference="_CtEU4UKuEeynBe-SkFUDLw">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CtE780KuEeynBe-SkFUDLw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_CtE79EKuEeynBe-SkFUDLw" name="ClerkUI" nsURI="http:///schemas/ClerkUI/_CtE78kKuEeynBe-SkFUDLw/0" nsPrefix="ClerkUI">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CtE7-kKuEeynBe-SkFUDLw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CtE7-0KuEeynBe-SkFUDLw" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CtE7_EKuEeynBe-SkFUDLw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CtE7_UKuEeynBe-SkFUDLw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CtE7_kKuEeynBe-SkFUDLw" key="Date" value="11/11/2021, 10:13 am"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CtE7_0KuEeynBe-SkFUDLw" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_CtE79UKuEeynBe-SkFUDLw" name="boundary">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CtE79kKuEeynBe-SkFUDLw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_CtEU4EKuEeynBe-SkFUDLw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_CtE790KuEeynBe-SkFUDLw" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_CtEU4UKuEeynBe-SkFUDLw">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_CtEU4EKuEeynBe-SkFUDLw" name="boundary">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_CtE78UKuEeynBe-SkFUDLw" name="base_Class" association="_CtEU4kKuEeynBe-SkFUDLw">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_CtEU4kKuEeynBe-SkFUDLw" name="Class_boundary" memberEnd="_CtE78EKuEeynBe-SkFUDLw _CtE78UKuEeynBe-SkFUDLw">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_CtE78EKuEeynBe-SkFUDLw" name="extension_boundary" type="_CtEU4EKuEeynBe-SkFUDLw" aggregation="composite" association="_CtEU4kKuEeynBe-SkFUDLw"/>
+  </packagedElement>
+</uml:Profile>

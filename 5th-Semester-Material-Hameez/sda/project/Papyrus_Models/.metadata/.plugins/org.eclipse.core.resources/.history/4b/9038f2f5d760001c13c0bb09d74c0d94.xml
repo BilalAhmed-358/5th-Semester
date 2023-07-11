@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_UbYHoGDUEeyQEq_dTLm08Q" name="BillingManagement-SequenceDiagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_UdXEoGDUEeyQEq_dTLm08Q">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_UcXmIGDUEeyQEq_dTLm08Q" name="BillingManagement-SequenceDiagram">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_fqn8YGDWEeyQEq_dTLm08Q" name="Customer" coveredBy="_NadiQWDXEeyQEq_dTLm08Q _GfsIgGDXEeyQEq_dTLm08Q _Gfq6YGDXEeyQEq_dTLm08Q"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_hY6qMGDWEeyQEq_dTLm08Q" name="WebServer" coveredBy="_MLw6gGDXEeyQEq_dTLm08Q _MLvsYGDXEeyQEq_dTLm08Q _NaeJUGDXEeyQEq_dTLm08Q _fb68kGDXEeyQEq_dTLm08Q _fb7joGDXEeyQEq_dTLm08Q _MLxhkGDXEeyQEq_dTLm08Q"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_jJFAQGDWEeyQEq_dTLm08Q" name="System"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_kdNhoGDWEeyQEq_dTLm08Q" name="Bank"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NadiQWDXEeyQEq_dTLm08Q" name="Message11SendEvent" covered="_fqn8YGDWEeyQEq_dTLm08Q" message="_NadiQGDXEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_Gfq6YGDXEeyQEq_dTLm08Q" name="ActionExecutionSpecification5" covered="_fqn8YGDWEeyQEq_dTLm08Q" finish="_GfsIgGDXEeyQEq_dTLm08Q" start="_NadiQWDXEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_MLw6gGDXEeyQEq_dTLm08Q" name="ActionExecutionSpecification8Start" covered="_hY6qMGDWEeyQEq_dTLm08Q" execution="_MLvsYGDXEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_MLvsYGDXEeyQEq_dTLm08Q" name="ActionExecutionSpecification8" covered="_hY6qMGDWEeyQEq_dTLm08Q" finish="_MLxhkGDXEeyQEq_dTLm08Q" start="_MLw6gGDXEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NaeJUGDXEeyQEq_dTLm08Q" name="Message11ReceiveEvent" covered="_hY6qMGDWEeyQEq_dTLm08Q" message="_NadiQGDXEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_fb68kGDXEeyQEq_dTLm08Q" name="Message13SendEvent" covered="_hY6qMGDWEeyQEq_dTLm08Q" message="_fb6VgGDXEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_fb7joGDXEeyQEq_dTLm08Q" name="Message13ReceiveEvent" covered="_hY6qMGDWEeyQEq_dTLm08Q" message="_fb6VgGDXEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_GfsIgGDXEeyQEq_dTLm08Q" name="ActionExecutionSpecification5Finish" covered="_fqn8YGDWEeyQEq_dTLm08Q" execution="_Gfq6YGDXEeyQEq_dTLm08Q"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_MLxhkGDXEeyQEq_dTLm08Q" name="ActionExecutionSpecification8Finish" covered="_hY6qMGDWEeyQEq_dTLm08Q" execution="_MLvsYGDXEeyQEq_dTLm08Q"/>
+    <message xmi:type="uml:Message" xmi:id="_NadiQGDXEeyQEq_dTLm08Q" name="ChoosePaymentMethod()" messageSort="asynchCall" receiveEvent="_NaeJUGDXEeyQEq_dTLm08Q" sendEvent="_NadiQWDXEeyQEq_dTLm08Q"/>
+    <message xmi:type="uml:Message" xmi:id="_fb6VgGDXEeyQEq_dTLm08Q" name="If_PayByCard()" messageSort="asynchCall" receiveEvent="_fb7joGDXEeyQEq_dTLm08Q" sendEvent="_fb68kGDXEeyQEq_dTLm08Q"/>
+  </packagedElement>
+</uml:Model>
